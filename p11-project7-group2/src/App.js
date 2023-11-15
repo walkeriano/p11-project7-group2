@@ -1,11 +1,14 @@
 
 import './App.css';
+import { Route,Routes } from "react-router-dom";
+import  {SearchBar}  from './components/SearchBar';
 
 function App() {
   return (
     <div className="App">
-      <header>  
-      </header>
+      <Routes>
+        <Route element={<SearchBar />} />
+      </Routes>
     </div>
   );
 }
