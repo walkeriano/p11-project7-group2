@@ -1,0 +1,58 @@
+.banner{
+    background-image: url(../../assets/img/banner.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.logotipo{
+    display: flex;
+    justify-content: start;
+    padding: 136px 128px;
+}
+
+.slogan{
+    font-family: 'Nunito', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: #4E4E4E;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 132px;
+}
+
+span{
+    color: #F9772E;
+}
+
+.socialNetworks{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 154px;
+
+}
+
+.button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #F9772E;
+    margin-left: 132px;
+    margin-right: 34px;
+    padding: 11px;
+    background: none;
+    border: #F9772E 6px solid;
+    border-radius: 50px;
+}
+
+.socialApp{
+    margin: 0 6px;
+}
+
+.degradado{
+    background: linear-gradient(to top, rgb(136, 46, 46), rgba(255, 255, 255, 0));
+
+
+}
