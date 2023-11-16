@@ -1,0 +1,275 @@
+{
+    "recetas": [
+      {
+        "id": 1,
+        "nombre": "Lasaña de Carne",
+        "imagen": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp",
+        "categoria": "Plato Principal",
+        "dificultad": "Media",
+        "tiempo": "2 horas",
+        "porciones": 6,
+        
+        "ingredientes": [
+          "500g de carne molida de res",
+          "1 cebolla, picada",
+          "2 dientes de ajo, picados",
+          "800g de tomate triturado en lata",
+          "2 tazas de salsa de tomate",
+          "1/2 taza de vino tinto",
+          "2 cucharaditas de azúcar",
+          "1 cucharadita de orégano seco",
+          "1 cucharadita de albahaca seca",
+          "Sal y pimienta al gusto",
+          "12 láminas de lasaña precocida",
+          "4 tazas de queso ricotta",
+          "2 tazas de queso mozzarella rallado",
+          "1 taza de queso parmesano rallado"
+        ],
+        "instrucciones": [
+          "1. Precalienta el horno a 180°C.",
+          "2. En una sartén grande, cocina la carne molida hasta que se dore. Agrega la cebolla y el ajo y cocina hasta que estén tiernos.",
+          "3. Añade el tomate triturado, la salsa de tomate, el vino tinto, el azúcar, el orégano, la albahaca, la sal y la pimienta. Cocina a fuego lento durante 30 minutos.",
+          "4. En una fuente para horno, coloca una capa de láminas de lasaña precocida, seguida de una capa de la mezcla de carne y una capa de queso ricotta. Repite este proceso hasta que todos los ingredientes estén utilizados, terminando con una capa de queso mozzarella y queso parmesano.",
+          "5. Cubre con papel de aluminio y hornea durante 25 minutos. Luego, retira el papel de aluminio y hornea por 10 minutos adicionales, o hasta que el queso esté dorado y burbujeante.",
+          "6. Deja reposar durante 10 minutos antes de cortar y servir. ¡Disfruta tu deliciosa lasaña de carne!"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Pollo al Horno con Limón y Romero",
+        "imagen": "https://www.demoslavueltaaldia.com/sites/default/files/pollo-asado-patatas-limon-romero.jpg",
+        "categoria": "Plato Principal",
+        "dificultad": "Fácil",
+        "tiempo": "1 hora",
+        "porciones": 4,
+        "ingredientes": [
+          "4 muslos de pollo",
+          "1 limón, cortado en rodajas",
+          "3 ramitas de romero fresco",
+          "2 cucharadas de aceite de oliva",
+          "Sal y pimienta al gusto",
+          "1 taza de caldo de pollo"
+        ],
+        "instrucciones": [
+          "1. Precalienta el horno a 200°C.",
+          "2. Coloca los muslos de pollo en una fuente para horno.",
+          "3. Distribuye las rodajas de limón y las ramitas de romero sobre el pollo.",
+          "4. Rocía con aceite de oliva y sazona con sal y pimienta al gusto.",
+          "5. Vierte el caldo de pollo en la fuente.",
+          "6. Hornea durante 40-45 minutos o hasta que el pollo esté dorado y bien cocido."
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Ensalada Griega",
+        "imagen": "https://www.pequerecetas.com/wp-content/uploads/2022/07/ensalada-griega-aceitunas-kalamata.jpg",
+        "categoria": "Ensalada",
+        "dificultad": "Fácil",
+        "tiempo": "20 minutos",
+        "porciones": 2,
+        "ingredientes": [
+          "1 pepino, cortado en rodajas",
+          "2 tomates, cortados en cubos",
+          "1/2 cebolla roja, en rodajas finas",
+          "200g de queso feta, desmenuzado",
+          "Aceitunas kalamata al gusto",
+          "Aceite de oliva y orégano para aderezar"
+        ],
+        "instrucciones": [
+          "1. En un tazón grande, mezcla el pepino, los tomates, la cebolla, el queso feta y las aceitunas.",
+          "2. Adereza con aceite de oliva y espolvorea con orégano al gusto.",
+          "3. Revuelve bien y sirve inmediatamente como una deliciosa ensalada griega."
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Sopa de Champiñones",
+        "imagen": "https://t2.uc.ltmcdn.com/es/posts/3/4/3/como_hacer_crema_de_champinones_29343_600.webp",
+        "categoria": "Entrada",
+        "dificultad": "Intermedia",
+        "tiempo": "45 minutos",
+        "porciones": 6,
+        "ingredientes": [
+          "500g de champiñones, cortados en rodajas",
+          "1 cebolla, picada",
+          "2 dientes de ajo, picados",
+          "1 papa, pelada y cortada en cubos",
+          "1 litro de caldo de verduras",
+          "1 taza de leche",
+          "2 cucharadas de mantequilla",
+          "Sal y pimienta al gusto",
+          "Cebollín fresco para decorar"
+        ],
+        "instrucciones": [
+          "1. En una olla grande, derrite la mantequilla y saltea la cebolla y el ajo hasta que estén dorados.",
+          "2. Agrega los champiñones y cocina hasta que estén tiernos.",
+          "3. Añade la papa, el caldo de verduras, la leche, la sal y la pimienta. Cocina a fuego lento durante 30 minutos.",
+          "4. Usa una licuadora para hacer puré la sopa hasta obtener una textura suave.",
+          "5. Sirve caliente, decorado con cebollín fresco."
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Arroz con Pollo",
+        "imagen": "https://elcomercio.pe/resizer/qQ3uCYmRJ9ciPtP-3UAO5X7gJ0Q=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/4U44QM3EVBG67MOGFRSPOWDB2Q.jpg",
+        "categoria": "Plato Principal",
+        "dificultad": "Fácil",
+        "tiempo": "40 minutos",
+        "porciones": 4,
+        "ingredientes": [
+          "2 tazas de arroz",
+          "4 muslos de pollo",
+          "1 cebolla, picada",
+          "2 zanahorias, en rodajas",
+          "1 pimiento rojo, picado",
+          "4 tazas de caldo de pollo",
+          "1 lata de tomate triturado",
+          "1 cucharadita de azafrán",
+          "Aceitunas verdes al gusto",
+          "Sal y pimienta al gusto"
+        ],
+        "instrucciones": [
+          "1. En una olla grande, cocina los muslos de pollo hasta que estén dorados. Retira y reserva.",
+          "2. En la misma olla, saltea la cebolla, zanahorias y pimiento hasta que estén tiernos.",
+          "3. Agrega el arroz y cocina por unos minutos. Añade el caldo de pollo, tomate triturado, azafrán, sal y pimienta.",
+          "4. Coloca los muslos de pollo sobre el arroz y lleva a ebullición. Reduce el fuego, tapa y cocina a fuego lento hasta que el arroz esté tierno.",
+          "5. Adorna con aceitunas verdes antes de servir."
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Ensalada de Aguacate y Mango",
+        "imagen": "https://lacocinadefrabisa.lavozdegalicia.es/wp-content/uploads/2015/07/ensalada-aguacate-mango-frabisa-1-1.jpg",
+        "categoria": "Ensalada",
+        "dificultad": "Fácil",
+        "tiempo": "15 minutos",
+        "porciones": 2,
+        "ingredientes": [
+          "2 tazas de hojas verdes mixtas",
+          "1 aguacate, cortado en cubos",
+          "1 mango, pelado y cortado en tiras",
+          "1/4 taza de nueces",
+          "Queso feta desmenuzado al gusto",
+          "Aderezo balsámico"
+        ],
+        "instrucciones": [
+          "1. En un tazón grande, mezcla las hojas verdes, aguacate, mango, nueces y queso feta.",
+          "2. Riega con aderezo balsámico al gusto y revuelve suavemente.",
+          "3. Sirve inmediatamente como una refrescante ensalada de aguacate y mango."
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Spaghetti Carbonara",
+        "imagen": "https://i.blogs.es/8819e1/carbonara-rec/1366_2000.jpg",
+        "categoria": "Plato Principal",
+        "dificultad": "Intermedia",
+        "tiempo": "25 minutos",
+        "porciones": 4,
+        "ingredientes": [
+          "400g de spaghetti",
+          "200g de panceta, cortada en trozos",
+          "3 yemas de huevo",
+          "1 taza de queso parmesano rallado",
+          "Pimienta negra al gusto",
+          "Aceite de oliva"
+        ],
+        "instrucciones": [
+          "1. Cocina el spaghetti en agua con sal hasta que esté al dente. Reserva una taza de agua de la cocción.",
+          "2. En una sartén, dora la panceta en un poco de aceite de oliva.",
+          "3. En un tazón aparte, mezcla las yemas de huevo, queso parmesano y pimienta.",
+          "4. Agrega el spaghetti a la sartén con la panceta y mezcla bien. Retira del fuego.",
+          "5. Vierte la mezcla de huevo y queso sobre el spaghetti, revolviendo rápidamente para evitar que los huevos se cocinen demasiado.",
+          "6. Agrega un poco de agua de la cocción del spaghetti si es necesario para obtener una salsa cremosa. ¡Sirve caliente!"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Salmón al Horno con Hierbas",
+        "imagen": "https://placeralplato.com/files/2018/03/14ROASTEDSALMON-articleLarge.jpg",
+        "categoria": "Plato Principal",
+        "dificultad": "Fácil",
+        "tiempo": "20 minutos",
+        "porciones": 2,
+        "ingredientes": [
+          "2 filetes de salmón",
+          "1 limón, en rodajas",
+          "Tomillo fresco",
+          "Romero fresco",
+          "Aceite de oliva",
+          "Sal y pimienta al gusto"
+        ],
+        "instrucciones": [
+          "1. Precalienta el horno a 200°C.",
+          "2. Coloca los filetes de salmón en una bandeja para horno.",
+          "3. Coloca rodajas de limón, tomillo y romero sobre el salmón.",
+          "4. Rocía con aceite de oliva y sazona con sal y pimienta al gusto.",
+          "5. Hornea durante 15-18 minutos o hasta que el salmón esté cocido."
+        ]
+    },
+    {
+        "id": 9,
+        "nombre": "Tacos Vegetarianos de Portobello",
+        "imagen": "https://aprendiendoasermadre.com/wp-content/uploads/2020/06/tacos_veganos-800x445.jpg",
+        "categoria": "Plato Principal",
+        "dificultad": "Fácil",
+        "tiempo": "30 minutos",
+        "porciones": 4,
+        "ingredientes": [
+          "8 tortillas de maíz",
+          "4 portobellos, limpios y en rodajas",
+          "1 pimiento rojo, cortado en tiras",
+          "1 cebolla, en rodajas",
+          "2 dientes de ajo, picados",
+          "Aceite de oliva",
+          "Zumo de 1 limón",
+          "1 cucharadita de comino",
+          "Sal y pimienta al gusto",
+          "Aguacate y cilantro para acompañar"
+        ],
+        "instrucciones": [
+          "1. En una sartén grande, saltea el ajo en aceite de oliva hasta que esté fragante.",
+          "2. Agrega las rodajas de portobello, pimiento rojo y cebolla. Cocina hasta que las verduras estén tiernas.",
+          "3. Exprime el zumo de limón sobre las verduras y espolvorea con comino, sal y pimienta al gusto.",
+          "4. Calienta las tortillas de maíz y rellénalas con la mezcla de portobello. Acompaña con aguacate y cilantro."
+        ]
+      },
+      {
+        "id": 10,
+        "nombre": "Pastel de Chocolate y Frambuesas",
+        "imagen": "https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_ruj2gf670d_img-3724-1024x683.jpg.webp",
+        "categoria": "Postre",
+        "dificultad": "Intermedia",
+        "tiempo": "1 hora",
+        "porciones": 8,
+        "ingredientes": [
+          "2 tazas de harina de trigo",
+          "1 taza de cacao en polvo",
+          "1 cucharadita de levadura en polvo",
+          "1/2 cucharadita de sal",
+          "1 taza de mantequilla derretida",
+          "2 tazas de azúcar",
+          "4 huevos",
+          "1 cucharadita de extracto de vainilla",
+          "1 taza de leche",
+          "2 tazas de frambuesas frescas",
+          "Azúcar glas para decorar"
+        ],
+        "instrucciones": [
+          "1. Precalienta el horno a 180°C. Engrasa y enharina un molde para pastel.",
+          "2. En un tazón grande, tamiza la harina, cacao en polvo, levadura en polvo y sal.",
+          "3. En otro recipiente, bate la mantequilla derretida con el azúcar hasta obtener una mezcla suave.",
+          "4. Agrega los huevos uno por uno, batiendo bien después de cada adición. Incorpora el extracto de vainilla.",
+          "5. Añade la mezcla de ingredientes secos alternando con la leche. Mezcla hasta obtener una masa homogénea.",
+          "6. Vierte la mitad de la masa en el molde, coloca una capa de frambuesas y cubre con el resto de la masa.",
+          "7. Hornea por 40-45 minutos o hasta que al insertar un palillo, este salga limpio. Deja enfriar antes de decorar con azúcar glas."
+        ]
+    }
+]
+}
+
+
+    
+    
+
+      
