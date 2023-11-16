@@ -1,7 +1,10 @@
 import React from 'react'
+import ListRecipes from '../../components/ListRecipes/ListRecipes'
 
 export default function Home() {
   return (
-    <div>Hello world</div>
+    <section>
+      <ListRecipes/>
+    </section>
   )
 }
