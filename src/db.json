@@ -8,7 +8,6 @@
       "dificultad": "Media",
       "tiempo": "2 horas",
       "porciones": 6,
-
       "ingredientes": [
         "500g de carne molida de res",
         "1 cebolla, picada",
@@ -264,6 +263,24 @@
         "6. Vierte la mitad de la masa en el molde, coloca una capa de frambuesas y cubre con el resto de la masa.",
         "7. Hornea por 40-45 minutos o hasta que al insertar un palillo, este salga limpio. Deja enfriar antes de decorar con azúcar glas."
       ]
+    }
+  ],
+  "categorias": [
+    {
+      "nombre": "Entrantes",
+      "imagen": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp"
+    },
+    {
+      "nombre": "Platos",
+      "imagen": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp"
+    },
+    {
+      "nombre": "Postres",
+      "imagen": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp"
+    },
+    {
+      "nombre": "Bebidas",
+      "imagen": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp"
     }
   ]
 }
