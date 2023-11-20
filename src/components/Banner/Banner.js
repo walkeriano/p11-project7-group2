@@ -3,7 +3,6 @@ import facebook from '../../assets/img/facebook.svg';
 import tiktok from '../../assets/img/tiktok.svg';
 import instagram from '../../assets/img/instagram.svg';
 import banner from '../../assets/img/banner.jpg';
-
 import './Banner.css';
 
 export default function Logotipo() {

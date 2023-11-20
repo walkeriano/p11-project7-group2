@@ -1,0 +1,26 @@
+.cont-header{
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header{
+    width: 25%;
+}
+
+.user-content{
+    background-color: grey;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-user{
+    width: 40px;
+    height: 40px;
+    background-color:blue;
+    border-radius: 50%;
+}
