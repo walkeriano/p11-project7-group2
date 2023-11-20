@@ -263,6 +263,324 @@
         "6. Vierte la mitad de la masa en el molde, coloca una capa de frambuesas y cubre con el resto de la masa.",
         "7. Hornea por 40-45 minutos o hasta que al insertar un palillo, este salga limpio. Deja enfriar antes de decorar con azúcar glas."
       ]
+    },
+    {
+      "id": 11,
+      "nombre": "Tiramisú",
+      "imagen": "https://s1.abcstatics.com/media/bienestar/2021/04/06/tarta-tiramisu-kOfD--1248x698@abc.jpg",
+      "categoria": "Postre",
+      "dificultad": "Intermedia",
+      "tiempo": "4 horas",
+      "porciones": 8,
+      "ingredientes": [
+        "6 yemas de huevo",
+        "3/4 taza de azúcar",
+        "1 taza de café fuerte, enfriado",
+        "1/4 taza de licor de café",
+        "1 1/2 tazas de queso mascarpone",
+        "1 taza de crema para batir",
+        "30-40 bizcochos de soletilla",
+        "Cacao en polvo para espolvorear"
+      ],
+      "instrucciones": [
+        "1. En un tazón, bate las yemas con el azúcar hasta obtener una mezcla cremosa.",
+        "2. Agrega el queso mascarpone y mezcla bien.",
+        "3. En otro recipiente, bate la crema para batir hasta formar picos suaves.",
+        "4. Incorpora la crema batida a la mezcla de yemas y queso mascarpone con movimientos suaves y envolventes.",
+        "5. En un plato hondo, mezcla el café con el licor de café.",
+        "6. Remoja los bizcochos de soletilla en la mezcla de café y licor, y colócalos en el fondo de un molde para postres.",
+        "7. Vierte la mitad de la mezcla de mascarpone sobre los bizcochos.",
+        "8. Agrega otra capa de bizcochos remojados y cubre con el resto de la mezcla de mascarpone.",
+        "9. Refrigera por al menos 4 horas antes de espolvorear con cacao en polvo y servir."
+      ]
+    },
+    {
+      "id": 12,
+      "nombre": "Mousse de Chocolate",
+      "imagen": "https://s3.abcstatics.com/media/gurmesevilla/2016/02/como-hacer-mousse-chocolate-1.jpg",
+      "categoria": "Postre",
+      "dificultad": "Fácil",
+      "tiempo": "2 horas",
+      "porciones": 6,
+      "ingredientes": [
+        "200g de chocolate oscuro, derretido",
+        "3 huevos",
+        "1/4 taza de azúcar",
+        "1 cucharadita de extracto de vainilla",
+        "1 taza de crema para batir",
+        "Chips de chocolate y menta para decorar"
+      ],
+      "instrucciones": [
+        "1. Derrite el chocolate oscuro y deja enfriar a temperatura ambiente.",
+        "2. Separa las claras de las yemas de huevo.",
+        "3. En un tazón, bate las yemas con el azúcar hasta obtener una mezcla espumosa. Agrega el chocolate derretido y la vainilla.",
+        "4. Bate las claras de huevo a punto de nieve y mezcla con la preparación de chocolate.",
+        "5. En otro recipiente, bate la crema para batir hasta formar picos suaves y agrégala a la mezcla de chocolate con movimientos envolventes.",
+        "6. Vierte la mousse en copas individuales y refrigera por al menos 2 horas.",
+        "7. Decora con chips de chocolate y hojas de menta antes de servir."
+      ]
+    },
+    {
+      "id": 13,
+      "nombre": "Cheesecake de Fresa",
+      "imagen": "https://www.recetasnestle.com.ec/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/7f9ebeaceea909a80306da27f0495c59.webp?itok=jvnFYyGL",
+      "categoria": "Postre",
+      "dificultad": "Intermedia",
+      "tiempo": "4 horas",
+      "porciones": 10,
+      "ingredientes": [
+        "2 tazas de galletas trituradas",
+        "1/2 taza de mantequilla derretida",
+        "4 paquetes (32 oz) de queso crema, a temperatura ambiente",
+        "1 1/4 tazas de azúcar",
+        "4 huevos",
+        "1 taza de crema agria",
+        "1 cucharadita de extracto de vainilla",
+        "1/4 taza de harina",
+        "1 taza de puré de fresas",
+        "Fresas frescas para decorar"
+      ],
+      "instrucciones": [
+        "1. Precalienta el horno a 180°C. Engrasa un molde para cheesecake.",
+        "2. Mezcla las galletas trituradas con la mantequilla derretida y presiona la mezcla en el fondo del molde.",
+        "3. En un tazón grande, bate el queso crema con el azúcar hasta obtener una mezcla suave.",
+        "4. Agrega los huevos uno por uno, batiendo bien después de cada adición. Incorpora la crema agria, vainilla y harina.",
+        "5. Agrega el puré de fresas y mezcla hasta que esté bien combinado.",
+        "6. Vierte la mezcla sobre la base de galletas y hornea por aproximadamente 1 hora o hasta que el centro esté firme.",
+        "7. Deja enfriar a temperatura ambiente y refrigera por al menos 3 horas antes de decorar con fresas frescas."
+      ]
+    },
+    {
+      "id": 14,
+      "nombre": "Helado de Vainilla con Galletas",
+      "imagen": "https://www.misthermorecetas.com/wp-content/uploads/2015/07/helado_vainilla_cookies.jpg",
+      "categoria": "Postre",
+      "dificultad": "Fácil",
+      "tiempo": "6 horas",
+      "porciones": 8,
+      "ingredientes": [
+        "2 tazas de crema para batir",
+        "1 taza de leche condensada",
+        "2 cucharaditas de extracto de vainilla",
+        "Galletas de chocolate, trituradas"
+      ],
+      "instrucciones": [
+        "1. En un tazón, bate la crema para batir hasta formar picos suaves.",
+        "2. Agrega la leche condensada y el extracto de vainilla. Mezcla suavemente hasta obtener una mezcla homogénea.",
+        "3. Vierte la mezcla en un recipiente para congelar y esparce las galletas trituradas por encima.",
+        "4. Congela por al menos 6 horas o hasta que esté firme.",
+        "5. Sirve bolas de helado y decora con más galletas si lo deseas."
+      ]
+    },
+    {
+      "id": 15,
+      "nombre": "Dip de Espinacas y Queso",
+      "imagen": "https://irecetasfaciles.com/wp-content/uploads/2019/06/dip-de-espinacas.jpg",
+      "categoria": "Entrante",
+      "dificultad": "Fácil",
+      "tiempo": "30 minutos",
+      "porciones": 8,
+      "ingredientes": [
+        "1 paquete (300g) de espinacas congeladas, descongeladas y escurridas",
+        "1 taza de queso crema",
+        "1 taza de mayonesa",
+        "1 taza de queso parmesano rallado",
+        "1 taza de queso mozzarella rallado",
+        "1 lata (227g) de corazones de alcachofa, escurridos y picados",
+        "1 diente de ajo, picado",
+        "Pimienta negra al gusto",
+        "Pan de pita o galletas para acompañar"
+      ],
+      "instrucciones": [
+        "1. Precalienta el horno a 180°C.",
+        "2. En un tazón grande, mezcla las espinacas, queso crema, mayonesa, queso parmesano, queso mozzarella, alcachofas y ajo.",
+        "3. Agrega pimienta negra al gusto y mezcla bien.",
+        "4. Transfiere la mezcla a un molde para horno y hornea por 20-25 minutos o hasta que esté burbujeante y dorado.",
+        "5. Sirve el dip de espinacas y queso con pan de pita o galletas."
+      ]
+    },
+    {
+      "id": 16,
+      "nombre": "Ceviche de Camarones",
+      "imagen": "https://imag.bonviveur.com/ceviche-de-camaron.webp",
+      "categoria": "Entrante",
+      "dificultad": "Fácil",
+      "tiempo": "25 minutos",
+      "porciones": 6,
+      "ingredientes": [
+        "500g de camarones, pelados y cocidos",
+        "1 pepino, pelado y picado",
+        "1 mango, pelado y picado",
+        "1 aguacate, picado",
+        "1/2 cebolla morada, picada",
+        "Cilantro fresco, picado",
+        "Jugo de 4 limones",
+        "Jugo de 2 naranjas",
+        "Sal y pimienta al gusto",
+        "Tostadas de maíz para acompañar"
+      ],
+      "instrucciones": [
+        "1. En un tazón grande, combina los camarones, pepino, mango, aguacate, cebolla morada y cilantro.",
+        "2. Agrega el jugo de limón y naranja. Mezcla bien.",
+        "3. Sazona con sal y pimienta al gusto.",
+        "4. Refrigera por al menos 15 minutos antes de servir.",
+        "5. Sirve el ceviche de camarones con tostadas de maíz."
+      ]
+    },
+    {
+      "id": 17,
+      "nombre": "Nachos con Queso y Guacamole",
+      "imagen": "https://jetextramar.com/wp-content/uploads/2021/07/empresa-de-alimentos-receta-de-guacamole.jpg",
+      "categoria": "Entrante",
+      "dificultad": "Fácil",
+      "tiempo": "20 minutos",
+      "porciones": 4,
+      "ingredientes": [
+        "1 bolsa de nachos",
+        "2 tazas de queso cheddar rallado",
+        "1 taza de guacamole",
+        "1/2 taza de crema agria",
+        "Tomates cherry, cortados por la mitad",
+        "Cilantro fresco, picado",
+        "Aceitunas negras, rodajas"
+      ],
+      "instrucciones": [
+        "1. Precalienta el horno a 180°C.",
+        "2. Coloca los nachos en una bandeja para horno.",
+        "3. Espolvorea el queso cheddar rallado sobre los nachos.",
+        "4. Hornea hasta que el queso esté completamente derretido.",
+        "5. Retira del horno y agrega guacamole, crema agria, tomates cherry, cilantro fresco y aceitunas negras por encima.",
+        "6. Sirve los nachos con queso y guacamole de inmediato."
+      ]
+    },
+    {
+      "id": 18,
+      "nombre": "Rollitos de Hojaldre con Queso de Cabra",
+      "imagen": "https://i.pinimg.com/564x/33/d2/a1/33d2a1d7a7f5b163663825cac72c26c0.jpg",
+      "categoria": "Entrante",
+      "dificultad": "Intermedia",
+      "tiempo": "35 minutos",
+      "porciones": 8,
+      "ingredientes": [
+        "1 lámina de hojaldre",
+        "200g de queso de cabra",
+        "Miel para decorar",
+        "Tomillo fresco",
+        "Nueces, picadas"
+      ],
+      "instrucciones": [
+        "1. Precalienta el horno a 200°C.",
+        "2. Extiende la lámina de hojaldre sobre una superficie plana.",
+        "3. Corta la lámina en cuadrados más pequeños.",
+        "4. Coloca un trozo de queso de cabra en el centro de cada cuadrado.",
+        "5. Doble los extremos del hojaldre hacia el centro, formando un paquete.",
+        "6. Hornea los rollitos en el horno precalentado hasta que estén dorados y crujientes.",
+        "7. Decora con miel, tomillo fresco y nueces antes de servir."
+      ]
+    },
+    {
+      "id": 19,
+      "nombre": "Hamburguesa Clásica con Queso",
+      "imagen":"https://scontent-bcn1-1.xx.fbcdn.net/v/t1.6435-9/117632046_106514774499449_463047321325485810_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c2f564&_nc_ohc=WrEh4Xw9Ju4AX-iAfFT&_nc_ht=scontent-bcn1-1.xx&oh=00_AfCPeKqVt1K3Rt9VpMAbOYmTKcuJD5dujrNGBO44ggYI4Q&oe=657D8B56",
+      "categoria": "Comida Americana",
+      "dificultad": "Fácil",
+      "tiempo": "30 minutos",
+      "porciones": 4,
+      "ingredientes": [
+        "500g de carne molida de res",
+        "Sal y pimienta al gusto",
+        "4 panes de hamburguesa",
+        "4 lonchas de queso cheddar",
+        "Lechuga, tomate, cebolla y pepinillos para acompañar",
+        "Salsas opcionales: kétchup, mostaza, mayonesa"
+      ],
+      "instrucciones": [
+        "1. Divide la carne molida en 4 porciones y forma hamburguesas. Sazona con sal y pimienta al gusto.",
+        "2. Cocina las hamburguesas en una parrilla o sartén caliente hasta que estén a tu punto de cocción deseado.",
+        "3. Coloca una loncha de queso cheddar sobre cada hamburguesa y deja que se derrita.",
+        "4. Tuesta ligeramente los panes de hamburguesa en la parrilla.",
+        "5. Arma las hamburguesas colocando las hamburguesas con queso en los panes y agregando lechuga, tomate, cebolla y pepinillos al gusto.",
+        "6. Sirve con salsas opcionales y disfruta de una hamburguesa clásica americana."
+      ]
+    },
+    {
+      "id": 20,
+      "nombre": "Alitas de Pollo Buffalo",
+      "imagen":"https://s1.eestatic.com/2023/07/26/cocinillas/recetas/carne/781932221_234970579_1706x960.jpg",
+      "categoria": "Comida Americana",
+      "dificultad": "Intermedia",
+      "tiempo": "1 hora",
+      "porciones": 6,
+      "ingredientes": [
+        "24 alitas de pollo",
+        "Sal y pimienta al gusto",
+        "Aceite vegetal para freír",
+        "1 taza de salsa picante tipo Buffalo",
+        "1/2 taza de mantequilla derretida",
+        "Apio y aderezo de queso azul para acompañar"
+      ],
+      "instrucciones": [
+        "1. Precalienta el horno a 200°C.",
+        "2. Sazona las alitas de pollo con sal y pimienta al gusto.",
+        "3. Coloca las alitas en una bandeja para horno y hornea hasta que estén doradas y crujientes.",
+        "4. Mientras se hornean las alitas, mezcla la salsa picante con la mantequilla derretida.",
+        "5. Fríe las alitas horneadas en aceite caliente hasta que estén doradas.",
+        "6. Sumerge las alitas en la mezcla de salsa picante y mantequilla.",
+        "7. Sirve las alitas de pollo Buffalo con apio y aderezo de queso azul."
+      ]
+    },
+    {
+      "id": 21,
+      "nombre": "Macarrones con Queso",
+      "imagen":"https://www.hogarmania.com/archivos/202001/karl6500-macarrones-con-queso-xl-848x477x80xX.jpg",
+      "categoria": "Comida Americana",
+      "dificultad": "Fácil",
+      "tiempo": "25 minutos",
+      "porciones": 4,
+      "ingredientes": [
+        "250g de macarrones",
+        "2 tazas de queso cheddar rallado",
+        "1 taza de queso mozzarella rallado",
+        "1/2 taza de queso parmesano rallado",
+        "2 tazas de leche",
+        "1/4 taza de mantequilla",
+        "1/4 taza de harina",
+        "Sal y pimienta al gusto",
+        "Pan rallado para gratinar"
+      ],
+      "instrucciones": [
+        "1. Cocina los macarrones según las instrucciones del paquete. Escúrrelos y reserva.",
+        "2. En una cacerola, derrite la mantequilla a fuego medio. Agrega la harina y cocina por unos minutos.",
+        "3. Vierte lentamente la leche, revolviendo constantemente para evitar grumos. Cocina hasta que la mezcla espese.",
+        "4. Agrega los quesos cheddar, mozzarella y parmesano. Mezcla hasta que se derritan y la salsa quede suave.",
+        "5. Incorpora los macarrones cocidos a la mezcla de queso y revuelve bien.",
+        "6. Transfiere la mezcla a una fuente para horno, espolvorea con pan rallado y gratina en el horno hasta que esté dorado."
+      ]
+    },
+    {
+      "id": 22,
+      "nombre": "Costillas a la Barbacoa",
+      "imagen": "https://www.annarecetasfaciles.com/files/costilla-de-cerdo-en-salsa-barbacoa-casera-815x458.jpg",
+      "categoria": "Comida Americana",
+      "dificultad": "Intermedia",
+      "tiempo": "3 horas",
+      "porciones": 4,
+      "ingredientes": [
+        "2 racks de costillas de cerdo",
+        "Sal y pimienta al gusto",
+        "Especias para barbacoa",
+        "Salsa barbacoa",
+        "Papel de aluminio"
+      ],
+      "instrucciones": [
+        "1. Precalienta el horno a 150°C.",
+        "2. Sazona las costillas con sal, pimienta y especias para barbacoa al gusto.",
+        "3. Envuelve cada rack de costillas en papel de aluminio y colócalos en una bandeja para horno.",
+        "4. Hornea las costillas por aproximadamente 2.5 horas o hasta que estén tiernas.",
+        "5. Retira las costillas del papel de aluminio y barnízalas con salsa barbacoa.",
+        "6. Asa las costillas en una parrilla caliente durante unos minutos para que se caramelice la salsa.",
+        "7. Sirve las costillas a la barbacoa con más salsa y disfruta."
+      ]
     }
   ],
   "categorias": [
