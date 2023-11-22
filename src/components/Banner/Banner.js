@@ -26,8 +26,8 @@ export default function Logotipo() {
           </aside>
         </div>
       </div>
-      <img className="imagen" src={banner} alt="" />
       <div className="degradado"></div>
+      <img className="img-banner" src={banner} alt="" />
     </section>
   );
 }
