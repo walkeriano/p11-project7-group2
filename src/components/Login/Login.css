@@ -1,5 +1,48 @@
-.loginDiv {
+.cont-form {
     width: 100%;
-    height: auto;
-    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.cont-form label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp-credential {
+    width: 50%;
+    height: 48px;
+    padding: 0 16px;
+    outline: none;
+    border: 3px solid #88A86F;
+    color: #558332;
+    border-radius: 32px;
+    font-size: 1.2rem;
+}
+
+.submit-btn {
+    justify-content: center;
+    padding: 10px 20px;
+    border: 3px solid #558332;
+    color: #558332;
+    font-weight: 700;
+    background-color: #ffffff;
+    border-radius: 32px;
+}
+
+.submit-btn:hover {
+    background-color: #558332;
+    color: #ffffff;
+    border: 3px solid #558332;
+    
+}
+
+.inp-credential::placeholder {
+    color: #88A86F;
+    font-size: 1.0rem;
 }
