@@ -9,10 +9,10 @@ export default function Menu() {
   return (
     <section className='contMenu'>
       <div className='Menu'>
+          <img src={home} alt="Botón de home" />
+          <img src={search} alt="Botón de Search" />
           <img src={add} alt="Botón de Add" />
           <img src={profile} alt="Botón de profile" />
-          <img src={search} alt="Botón de Search" />
-          <img src={home} alt="Botón de home" />
       </div>
     </section>
   )
