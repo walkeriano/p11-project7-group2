@@ -16,6 +16,8 @@ export default function Router() {
 
       <Route path="/detalles-recetas/:id" element={<InfoRecipes/>} />
 
+     
+
     </Routes>
   );
 }

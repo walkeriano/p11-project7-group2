@@ -1,26 +1,32 @@
-.cont-header{
-    border: 1px solid green;
+.cont-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo-header{
-    width: 25%;
+.logo-header {
+    margin-top: 69px;
+    margin-left: 128px;
+    width: 266px;
+    height: 119.39px;
 }
 
-.user-content{
-    background-color: grey;
-    height: 40px;
+.user-content {
+    margin-top: 99px;
+    margin-right: 177px;
+    background-color: rgb(206, 203, 203);
+    width: 232px;
+    height: 64px;
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.img-user{
-    width: 40px;
-    height: 40px;
-    background-color:blue;
+.img-user {
+
+    width: 60px;
+    height: 60px;
+    margin-right: 100px;
     border-radius: 50%;
 }
