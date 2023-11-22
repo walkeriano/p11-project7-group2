@@ -1,0 +1,239 @@
+.cont-info-general {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-detail-recipe {
+  width: 85%;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-img-receta {
+  width: 40%;
+  height: 100%;
+}
+
+.cont-img-receta img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.cont-info-receta {
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cat-rec {
+  font-size: 1.1rem;
+  color: #616161;
+  letter-spacing: 1px;
+}
+
+.title-rec {
+  font-size: 2rem;
+  color: #616161;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  width: 75%;
+  letter-spacing: 1px;
+}
+
+.des-rec {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  width: 65%;
+  color: #9c9c9c;
+  line-height: 1.1;
+}
+
+.ingredients {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.ingredients h4 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #616161;
+  letter-spacing: 1px;
+}
+
+.ingredients li {
+  width: 60%;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #9c9c9c;
+}
+
+.cont-stadistics {
+  height: 130px;
+  width: 70%;
+  margin-bottom: 100px;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-stadistics article {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-stadistics article:nth-child(2) {
+  border-right: 4px solid #dbdbdb;
+  border-left: 4px solid #dbdbdb;
+}
+
+.cont-stadistics article h5 {
+  color: #f8772f;
+  font-size: 3.7rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.cont-stadistics article p {
+  font-size: 1.2rem;
+  color: #616161;
+  margin-top: 15px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.cont-stadistics .info-porciones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-porciones span {
+  font-size: 2.7rem;
+  color: #f8772f;
+  margin-top: -25px;
+  font-weight: bold;
+}
+
+.info-tiempo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.info-tiempo span {
+  font-size: 1.5rem;
+  color: #f8772f;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.cont-preparation {
+  width: 100%;
+  position: relative;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0px;
+  
+}
+
+.info-preparation {
+  width: 70%;
+  height: 500px;
+  background-color: white;
+  border: 3px solid rgb(228, 228, 228);
+  z-index: 1;
+  border-radius: 0px 80px 0px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.bg-texture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.info-preparation img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 60px 0px 60px;
+}
+
+.cont-info-preparation {
+  width: 55%;
+  height: 95%;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cont-info-preparation h4 {
+  font-size: 1.8rem;
+  color: #f8772f;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.cont-info-preparation li {
+  line-height: 1.2;
+  margin-bottom: 10px;
+  width: 95%;
+  font-size: 0.9rem;
+  color: #616161;
+  list-style: none;
+}
+
+.cont-info-preparation li::before {
+  content: "• ";
+  color: #f8772f;
+  margin-left: -17px;
+  margin-right: 5px;
+  font-size: 1.1rem;
+}
+
+.degrad {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    background:linear-gradient(white, rgba(255, 255, 255, 0));
+    z-index: 1;
+}
+
+.degrad-two {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    background:linear-gradient(rgba(255, 255, 255, 0), white);
+    z-index: 1;
+}

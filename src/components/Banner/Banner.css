@@ -17,19 +17,20 @@
 }
 
 .logotipo{
-    display: flex;
-    justify-content: start;
+    width: 70%;
 }
 
 .slogan{
     font-family: 'Nunito', sans-serif;
-    font-size: 4rem;
+    font-size: 3.0rem;
     font-weight: bold;
     color: #4E4E4E;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: 95%;
+    line-height: 1.1;
+    letter-spacing: 1px;
 }
 
 span{
@@ -44,36 +45,50 @@ span{
 }
 
 .button{
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    color: #FF5C00;
-    background: none;
-    border: #FF5C00 0.5rem solid;
+    font-family: Nunito;
+    font-size: 1.1rem;
+    background-color: #FF5C00;
+    border: #FF5C00 3px solid;
     border-radius: 4rem;
-    padding: 1.2rem;
+    padding: 0px 25px;
     margin-right: 1.5rem;
+    height: 50px;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:transparent;
+    color: #FF5C00;
+    font-weight: bold;
+}
+
+.socialNetworks aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
 .socialApp{
-    margin: 0 0.5rem;
-
+    width: 40px;
 }
 
 .degradado{
     background: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0));
     position: absolute;
-    height: 100vh;  
+    height: 150px;  
     width: 100%;   
     bottom: 0; 
 }
 
 .info{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
     flex-direction: column;
     height: 100%;
-    margin-left: 5%;
     z-index: 1;
+    margin-left: 5%;
 }
