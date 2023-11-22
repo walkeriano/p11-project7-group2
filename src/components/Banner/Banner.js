@@ -13,7 +13,7 @@ export default function Logotipo() {
           <img className='logotipo' src={logotipo} alt="Chef yourself" />
           <p className='slogan'>Explora, comparte<span> y disfruta</span></p>
           <div className='socialNetworks'>
-            <button className='button'>Iniciar Sesión</button>
+            <button className='buttonBanner'>Iniciar Sesión</button>
             <aside>
               <img className='socialApp' src={facebook} alt="Logotipo Facebook" />
               <img className='socialApp' src={tiktok} alt="Logotipo Tik Tok" />
@@ -21,7 +21,7 @@ export default function Logotipo() {
             </aside>
           </div>
         </div>
-        <img className='imagen' src={banner} alt="" />
+        <img className='imgBanner' src={banner} alt="" />
         <div className='degradado'></div>
       </div>
     </div>
