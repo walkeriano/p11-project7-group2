@@ -5,7 +5,7 @@ import './Categorie.css'
 
 export default function Categorie({ id, tittle, img }) {
   return (
-    <Link to={`/tipo-receta/${id}`}>
+    <Link className="link" to={`/tipo-receta/${id}`}>
            
       <article className='types'>
           <div className='sectionType'>
@@ -13,8 +13,6 @@ export default function Categorie({ id, tittle, img }) {
             <Button className='color' text={tittle}/>
           </div>
       </article>
-      
-      
     </Link>
   );
 }

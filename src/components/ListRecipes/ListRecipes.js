@@ -13,9 +13,9 @@ export default function ListRecipes() {
     <div>
       <h3 className="subTitle">Recetas Disponibles</h3>
       {data && (
-        <div>
+        <div className="cardRecipe"> 
           {data.map((receta) => (
-            <div className="listCard">
+            <div>
             <Recipe
               key={receta.id}
               id={receta.id}
