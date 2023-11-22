@@ -1,26 +1,24 @@
-.cont-header {
+.cont-header{
+    width: 85%;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo-header {
-    margin-top: 69px;
-    margin-left: 128px;
-    width: 266px;
-    height: 119.39px;
+.logo-header{
+    width: 14%;
+    max-width: 160px;
 }
 
-.user-content {
-    margin-top: 99px;
-    margin-right: 177px;
-    background-color: rgb(206, 203, 203);
-    width: 232px;
-    height: 64px;
+.user-content{
+    background-color: rgb(197, 197, 197);
+    height: 40px;
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 20px;
 }
 
 .img-user {
@@ -29,4 +27,9 @@
     height: 60px;
     margin-right: 100px;
     border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-content p{
+    color: #3C3C3C;
 }

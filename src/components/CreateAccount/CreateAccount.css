@@ -1,0 +1,90 @@
+.body-sesion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.create-account {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.cont-form-create {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.cont-form-create label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-form-create label input {
+    width: 100%;
+}
+
+.login-photo {
+    gap: 25px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    border: 2px solid gray;
+}
+
+.notification {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    height: 40px;
+    padding: 0 20px;
+    background-color: rgb(199, 199, 199);
+}
+
+.notification span {
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    transform: rotate(45deg);
+    top: -10px;
+    width: 20px;
+    height: 20px;
+}
+
+.notification p {
+    font-size: 0.9rem;
+}
+
+.image-on {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.image-of {
+    width: 30%;
+}

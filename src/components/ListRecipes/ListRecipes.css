@@ -1,0 +1,18 @@
+.subTitle{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #4E4E4E;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2% 5.4%;
+}
+
+.cardRecipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4%;
+    position: absolute;
+}
