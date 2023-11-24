@@ -2,7 +2,7 @@ import HeaderLogin from "../../components/HeaderLogin/HeaderLogin";
 import UserCard from "../../components/UserCard/UserCard";
 import "./ProfilePage.css";
 import iconstexture from "../../assets/img/icons-texture.png";
-import UserAdvice from "../../components/UserAdvice/UserAdvice";
+import AddRecipeForm from "../../components/FormAddRecipe/AddRecipeForm"; 
 
 export default function ProfilePage() {
   return (
@@ -16,7 +16,7 @@ export default function ProfilePage() {
           <img className="texturafondo" src={iconstexture} alt="texturafondo" />
         </div>
       </div>
-      <UserAdvice />
+      <AddRecipeForm />
     </section>
   );
 }

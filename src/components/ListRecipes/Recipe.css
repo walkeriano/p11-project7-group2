@@ -56,7 +56,7 @@
 .card-info-user {
   width: 55%;
   height: 30px;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.342);
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -82,4 +82,5 @@
 
 .cat-card {
   font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.712);
 }

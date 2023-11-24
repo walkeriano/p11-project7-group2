@@ -1,9 +1,10 @@
 .recipe-form {
-    width: 100%;
+    width: 75%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .recipe-container {
@@ -94,7 +95,6 @@
     font-size: 3vw;
     color: #F6722B;
     padding-top: 16px;
-    border-top: 4px solid #aeaeae5c;
 }
 
 
