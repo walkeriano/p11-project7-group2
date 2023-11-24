@@ -12,14 +12,9 @@ export default function Router() {
   return (
     <Routes>
       <Route path="/" element={<Home/>} />
-
       <Route path="/profile-page" element={<ProfilePage/>} />
-
       <Route path="/acces" element={<Acces/>} />
       <Route path="/detalles-recetas/:id" element={<InfoRecipes/>} />
-
-     
-
     </Routes>
   );
 }

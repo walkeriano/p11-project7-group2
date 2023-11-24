@@ -4,14 +4,20 @@ import tiktok from "../../assets/img/tiktok.svg";
 import instagram from "../../assets/img/instagram.svg";
 import banner from "../../assets/img/banner.jpg";
 import "./Banner.css";
+import Menu from "../Menu/Menu";
 
 export default function Logotipo() {
   return (
     <section className="bodyheader">
-      <div className="info">
+      <div className="cont-head">
         <img className="logotipo" src={logotipo} alt="Chef yourself" />
+        <Menu />
+      </div>
+      <div className="info">
         <p className="slogan">
-          Explora,<br/>comparte<span>y disfruta</span>
+          Explora,
+          <br />
+          comparte<span>y disfruta</span>
         </p>
         <div className="socialNetworks">
           <button className="button">Iniciar Sesión</button>
@@ -26,7 +32,6 @@ export default function Logotipo() {
           </aside>
         </div>
       </div>
-      <div className="degradado"></div>
       <img className="img-banner" src={banner} alt="" />
     </section>
   );
