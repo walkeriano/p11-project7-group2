@@ -7,7 +7,6 @@ import ProfilePage from "./pages/Profile/ProfilePage";
 import InfoRecipes from "./pages/InfoRecipes/InfoRecipesPage";
 import Acces from "./pages/Acces/AccesPage";
 
-
 export default function Router() {
   return (
     <Routes>
