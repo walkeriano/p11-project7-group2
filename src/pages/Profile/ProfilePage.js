@@ -2,6 +2,7 @@ import fotoportada from '../../assets/img/fotoportada.png';
 import fotoperfil from '../../assets/img/fotoperfil.png';
 import HeaderLogin from '../../components/HeaderLogin/HeaderLogin';
 import recetaimg from '../../assets/img/recetaimg.png';
+import AddRecipeForm from '../../components/FormAddRecipe/AddRecipeForm';
 
 import './ProfilePage.css';
 
@@ -27,6 +28,7 @@ export default function ProfilePage() {
       <img src={recetaimg}  alt="fotoreceta" />
       <img src={recetaimg}  alt="fotoreceta" />
       </div>
+      <AddRecipeForm />
 
 
     </section>
