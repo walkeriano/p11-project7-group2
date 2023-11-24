@@ -6,6 +6,19 @@
     height: 100vh;
 }
 
+.section-div a img{
+    position: absolute;
+    z-index: 30;
+    right: 64px;
+    top: 64px;
+    transition: .3s all ease;
+}
+
+.section-div a img:hover {
+    scale: 1.2;
+    transform: rotate(360deg);
+}
+
 .background-image {
     display: flex;
     justify-content: flex-start;

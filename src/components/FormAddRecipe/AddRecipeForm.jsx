@@ -5,7 +5,7 @@ export default function AddRecipeForm() {
     return (
         <section className="recipe-form">
             <div className="recipe-container">
-                <p className="title">Selecciona el tipo de receta que quieres crear</p>
+                <p className="title-form">Selecciona el tipo de receta que quieres crear</p>
                 <div className="recipe-categories">
                     <input type="radio" name="categorie" id="platos" /><label className="platos" htmlFor="platos">Platos</label>
                     <input type="radio" name="categorie" id="entrantes" /><label className="entrantes" htmlFor="entrantes">Entrantes</label>
@@ -13,7 +13,7 @@ export default function AddRecipeForm() {
                     <input type="radio" name="categorie" id="bebidas" /><label className="bebidas" htmlFor="bebidas">Bebidas</label>
                 </div>
                 <section>
-                    <p className="title">Ingresa los siguientes datos</p>
+                    <p className="title-form">Ingresa los siguientes datos</p>
                     <div className="recipe-photo-name-container">
                         <div className="recipe-photo">
                             <img src={recipePhoto} alt="add a recipe photo" />
@@ -23,7 +23,7 @@ export default function AddRecipeForm() {
                             <textarea placeholder=" Agrega una descripcion " name="" id="" cols="50" rows="10"></textarea>
                         </div>
                     </div>
-                    <p className="title">Añade los ingredientes</p>
+                    <p className="title-form">Añade los ingredientes</p>
                     <div></div>
 
                 </section>
