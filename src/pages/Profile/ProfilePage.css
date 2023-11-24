@@ -1,58 +1,51 @@
+
 .profilepage {
-    margin: 2%;
-}
-
-.fotoportada {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 90px;
+    width: 100%;
 }
 
-.portada {
-    width: 1340px;
-    height: 385px;
+.profile-content {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
     position: relative;
 }
 
-.foto {
-    width: 350px;
-    height: 350px;
+.bg-profile-page{
     position: absolute;
+    width: 100%;
+    height: 65vh;
+}
+
+.texturafondo {
     display: flex;
     justify-content: center;
-    top: 50%;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.username {
-    font-family: 'Nunito', sans-serif;
-    display: flex;
-    justify-content: center;
-    font-size: 200%;
-    margin-top: 10%;
+.degrado-perfil-page {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    background: linear-gradient(white, rgba(255, 255, 255, 0));
+    z-index: 0;
 }
 
-.email {
-    font-family: 'Nunito', sans-serif;
-    display: flex;
-    justify-content: center;
-    font-size: 200%;
-    margin-bottom: 5%;
-    color: rgb(0, 128, 255);
+.degrado-perfil-page-bottom {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    background: linear-gradient(rgba(255, 255, 255, 0), white );
+    z-index: 0;
 }
 
-.misrecetas {
-    font-family: 'Nunito', sans-serif;
-    font-size: 250%;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 141px;
-}
-
-.recetaimg {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 15%;
-}

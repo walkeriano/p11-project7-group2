@@ -1,60 +1,133 @@
 import "../CreateAccount/CreateAccount.css";
 import photoIcon from "../../assets/img/photoIcon.png";
 import { useState } from "react";
+import axios from "axios";
+import { useNavigate } from "react-router";
+
 
 export default function CreateAccount() {
-    const [perfilphoto, setPerfilphoto] = useState(null);
-    const handleimage = (e) => {
-        const file = e.target.files[0];
-        if (file) {
-            const reader = new FileReader();
-            reader.onloadend = () => {
-                setPerfilphoto(reader.result);
-            };
-            reader.readAsDataURL(file);
-        } else {
-            setPerfilphoto(null);
-        }
+  const [perfilphoto, setPerfilphoto] = useState(null);
+  const [profile, setProfile] = useState({
+    id: null,
+    name: "",
+    email: "",
+    password: "",
+  });
 
-    };
+  const navigate = useNavigate()
 
-    return (
-        <section className="body-sesion">
-            <section className="create-account">
-                <div className="login-photo">
-                    <div
-                        className="photo-circle"
-                        onClick={() => document.querySelector(".input-image").click()}
-                    >
-                        <input className="input-image" hidden onChange={handleimage} name="perfilphoto" id="profile" type="file" accept="image/png" />
+  const submitForm = async() => {
+    try{
+        const response = await axios.post("http://localhost:5000/users", profile);
+        setProfile({
+            id: null,
+            name: "",
+            email: "",
+            password: "",
+        })
+        navigate("/profile-page");
+    } catch(err){
+        console.log("error");
+    }
+  };
 
-                        {perfilphoto ? (
-                            <img className="image-on" src={perfilphoto} alt="perfil photo" />
-                        ) : (
-                            <img className="image-of" src={photoIcon} alt="photo icon" />
-                        )}
-                    </div>
-                    <div className="notification">
-                        <span></span>
-                        <p>Adjuntar Imagen</p>
-                    </div>
-                </div>
-                <div className="cont-form-create">
-                    <label htmlFor="nombre">
-                        <input placeholder="Nombre" id="nombre" className="inp-credential" name="nombre" type="text" />
-                    </label>
-                    <label htmlFor="email">
-                        <input placeholder="Correo" id="email" className="inp-credential" name="email" type="email" />
-                    </label>
-                    <label htmlFor="password">
-                        <input placeholder="Crear contraseña" id="password" className="inp-credential" name="password" type="password" />
-                    </label>
-                </div>
-            </section>
-            <div>
-                <p><a href=""></a></p>
-                <button className="submit-btn" name="submit" type="submit" >CREAR CUENTA</button>
-            </div>
-        </section>
-    );
+  const handleimage = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setPerfilphoto(reader.result);
+      };
+      reader.readAsDataURL(file);
+    } else {
+      setPerfilphoto(null);
+    }
+  };
+
+  return (
+    <section className="body-sesion">
+      <section className="create-account">
+        <div className="login-photo">
+          <div
+            className="photo-circle"
+            onClick={() => document.querySelector(".input-image").click()}
+          >
+            <input
+              className="input-image"
+              hidden
+              onChange={handleimage}
+              name="perfilphoto"
+              id="profile"
+              type="file"
+              accept="image/png"
+            />
+            {perfilphoto ? (
+              <img className="image-on" src={perfilphoto} alt="perfil photo" />
+            ) : (
+              <img className="image-of" src={photoIcon} alt="photo icon" />
+            )}
+          </div>
+          <div className="notification">
+            <span></span>
+            <p>Adjuntar Imagen</p>
+          </div>
+        </div>
+        <div className="cont-form-create">
+          <label htmlFor="name">
+            <input
+              placeholder="Nombre"
+              id="name"
+              className="inp-credential"
+              name="name"
+              type="text"
+              value={profile.name}
+              onChange={(e) => {
+                setProfile((prevState) => {
+                  return { ...prevState, name: e.target.value };
+                });
+              }}
+            />
+          </label>
+          <label htmlFor="email">
+            <input
+              placeholder="Email"
+              id="email"
+              className="inp-credential"
+              name="email"
+              type="email"
+              value={profile.email}
+              onChange={(e) => {
+                setProfile((prevState) => {
+                  return { ...prevState, email: e.target.value };
+                });
+              }}
+            />
+          </label>
+          <label htmlFor="password">
+            <input
+              placeholder="Crear contraseña"
+              id="password"
+              className="inp-credential"
+              name="password"
+              type="password"
+              value={profile.password}
+              onChange={(e) => {
+                setProfile((prevState) => {
+                  return { ...prevState, password: e.target.value };
+                });
+              }}
+            />
+          </label>
+        </div>
+      </section>
+      <div>
+        <p>
+          <a href=""></a>
+        </p>
+        <button onClick={submitForm} className="submit-btn" name="submit" type="submit">
+          CREAR CUENTA
+        </button>
+      </div>
+    </section>
+  );
 }
