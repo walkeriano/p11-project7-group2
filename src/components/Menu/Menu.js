@@ -13,7 +13,7 @@ export default function Menu() {
       <Link to="/" className="link-menu">
         <img src={search} alt="Botón de Search" />
       </Link>
-      <Link to="/" className="link-menu">
+      <Link to="/acces-sesion" className="link-menu">
         <img src={profile} alt="Botón de profile" />
       </Link>
     </div>
