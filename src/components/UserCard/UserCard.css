@@ -1,0 +1,115 @@
+.cont-usercard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+
+}
+
+
+
+.rectanguloblanco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 73px;
+    border: 5px solid #d9d9d9;
+    width: 1144px;
+    height: 360px;
+    z-index: 1;
+
+
+}
+
+.img-perfil-page {
+    border-radius: 500px;
+    border: 3px solid transparent;
+    width: 335px;
+    height: 335px;
+    position: relative;
+    top: -50px;
+
+}
+
+.info-perfil-page {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+.datos-perfil-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.datos-perfil-page h4 {
+    color: #f8772f;
+    font-size: 2.1rem;
+
+}
+
+.datos-perfil-page p {
+    color: #767676;
+    text-align: left;
+    font-size: 1.5rem;
+
+}
+
+
+.degrad2 {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    background: linear-gradient(white, rgba(255, 255, 255, 0));
+    z-index: 3;
+}
+
+
+.botones-perfil-page {
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+
+}
+
+.boton-perfil-naranja {
+    background: #f8772f;
+    border-radius: 70px;
+    width: 396px;
+    height: 109px;
+    position: relative;
+    border: none;
+    font-size: 2.1rem;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.boton-perfil-gris {
+    background: #d9d9d9;
+    border-radius: 70px;
+    width: 396px;
+    height: 109px;
+    position: relative;
+    border: none;
+    font-size: 2.1rem;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
