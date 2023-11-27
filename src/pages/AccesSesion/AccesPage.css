@@ -6,7 +6,7 @@
     height: 100vh;
 }
 
-.section-div a img{
+.section-div a img {
     position: absolute;
     z-index: 30;
     right: 64px;
@@ -16,7 +16,7 @@
 
 .section-div a img:hover {
     scale: 1.2;
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
 }
 
 .background-image {
@@ -53,7 +53,7 @@
     z-index: 10;
     width: 70%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #fff;
     border-bottom-left-radius: 80px;
 }
 
@@ -62,8 +62,8 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    width: 50%;
-    height: 30px;
+    min-width: 50%;
+    height: 40px;
     font-weight: 700;
     border: 3px solid #558332;
     background-color: #558332;
@@ -85,13 +85,35 @@
     font-size: 0.8rem;
     letter-spacing: 1px;
     line-height: 50%;
+    padding: 0 8px;
+    white-space: nowrap;
+    transition: transform 0.5s ease;
 }
 
-.iniciar-sesion-btn-on:active {
-    background-color: #62963a;
+.iniciar-sesion-btn-on:hover {
+    animation: shakeAnimation 0.5s ease-in-out;
 }
 
-.iniciar-sesion-btn-of{
+@keyframes shakeAnimation {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    20%,
+    50%,
+    80% {
+        transform: translateX(-10px);
+    }
+
+    40%,
+    60% {
+        transform: translateX(10px);
+    }
+}
+
+.iniciar-sesion-btn-of {
     width: 50%;
     height: 100%;
     display: flex;
@@ -106,6 +128,8 @@
     font-size: 0.8rem;
     letter-spacing: 1px;
     line-height: 50%;
+    padding: 0 8px;
+    white-space: nowrap;
 }
 
 .crear-cuenta-btn-on {
@@ -122,6 +146,9 @@
     font-size: 0.8rem;
     letter-spacing: 1px;
     line-height: 50%;
+    padding: 0 8px;
+    white-space: nowrap;
+    transition: transform 0.5s ease;
 }
 
 .crear-cuenta-btn-of {
@@ -139,10 +166,31 @@
     font-size: 0.8rem;
     letter-spacing: 1px;
     line-height: 50%;
+    padding: 0 8px;
+    white-space: nowrap;
 }
 
-.crear-cuenta-btn-on:active {
-    background-color: #62963a;
+.crear-cuenta-btn-on:hover {
+    animation: shakeAnimation 0.5s ease-in-out;
+}
+
+@keyframes shakeAnimation {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    20%,
+    50%,
+    80% {
+        transform: translateX(-10px);
+    }
+
+    40%,
+    60% {
+        transform: translateX(10px);
+    }
 }
 
 .logo-login {
