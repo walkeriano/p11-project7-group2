@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import ListRecipes from '../../components/ListRecipes/ListRecipes'
-import Banner from '../../components/Banner/Banner'
+import Banner from '../../components/BannerHome/Banner'
 import ListCategories from '../../components/ListCategories/ListCategories'
+import Footer from '../../components/Footer/Footer'
 
 export default function Home() {
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Banner />    
       <ListCategories />
       <ListRecipes />
+      <Footer />
     </section>
   )
 }

@@ -1,18 +1,26 @@
-.subTitle{
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-    color: #4E4E4E;
+
+.cont-recipes{
+    margin-top: 100px;
+    width: 100%;
     display: flex;
-    justify-content: flex-start;
-    margin: 2% 5.4%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
-.cardRecipe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 4%;
-    position: absolute;
+.sub-title{
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #4E4E4E;
 }
+
+.card-recipe{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+

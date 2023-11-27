@@ -1,21 +1,22 @@
-import HeaderLogin from '../../components/HeaderLogin/HeaderLogin';
-import UserCard from '../../components/UserCard/UserCard';
-import './ProfilePage.css';
-import iconstexture from '../../assets/img/icons-texture.png';
-import UserAdvice from '../../components/UserAdvice/UserAdvice';
+import HeaderLogin from "../../components/HeaderLogin/HeaderLogin";
+import UserCard from "../../components/UserCard/UserCard";
+import "./ProfilePage.css";
+import iconstexture from "../../assets/img/icons-texture.png";
+import AddRecipeForm from "../../components/FormAddRecipe/AddRecipeForm"; 
 
 export default function ProfilePage() {
   return (
-
-    <section className='profilepage'>
-    <HeaderLogin />
-      <div className='profile-content'>
+    <section className="profilepage">
+      <HeaderLogin />
+      <div className="profile-content">
         <UserCard />
-        <span className="degrad2"></span>
-        <img className='texturafondo' src={iconstexture} alt="texturafondo" />
+        <div className="bg-profile-page">
+          <span className="degrado-perfil-page"></span>
+          <span className="degrado-perfil-page-bottom"></span>
+          <img className="texturafondo" src={iconstexture} alt="texturafondo" />
+        </div>
       </div>
-      <UserAdvice />
+      <AddRecipeForm />
     </section>
-
   );
 }

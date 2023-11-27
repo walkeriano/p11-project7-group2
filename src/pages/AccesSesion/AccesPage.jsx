@@ -4,11 +4,13 @@ import CreateAccount from "../../components/CreateAccount/CreateAccount";
 import { useState } from "react";
 import iconpath from "../../assets/img/iconspath.png";
 import logotipo from '../../assets/img/logotipoVerde.svg';
+import goBack from "../../assets/img/goBack.svg"
 
 export default function Acces() {
   const [sesion, setSesion] = useState(true);
   return (
     <section className="section-div">
+      <a href="/"><img src={goBack} alt="Go back icon" /></a>
       <div className="background-image">
         <div className="small-green-div">
         </div>

@@ -4,13 +4,13 @@
       "id": 1,
       "nombre": "Lasaña de Carne",
       "imagen": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp",
-      "categoria": "Plato Principal",
+      "categoria": "Platos",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 6,
       "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "500g de carne molida de res",
         "1 cebolla, picada",
@@ -31,19 +31,28 @@
         "En una fuente para horno, coloca una capa de láminas de lasaña precocida, seguida de una capa de la mezcla de carne y una capa de queso ricotta. Repite este proceso hasta que todos los ingredientes estén utilizados, terminando con una capa de queso mozzarella y queso parmesano.",
         "Cubre con papel de aluminio y hornea durante 25 minutos. Luego, retira el papel de aluminio y hornea por 10 minutos adicionales, o hasta que el queso esté dorado y burbujeante.",
         "Deja reposar durante 10 minutos antes de cortar y servir. ¡Disfruta tu deliciosa lasaña de carne!"
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 2,
       "nombre": "Pollo al Horno con Limón y Romero",
       "imagen": "https://www.demoslavueltaaldia.com/sites/default/files/pollo-asado-patatas-limon-romero.jpg",
-      "categoria": "Plato Principal",
+      "categoria": "Platos",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 4,
       "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "4 muslos de pollo",
         "1 limón, cortado en rodajas",
@@ -59,19 +68,28 @@
         "Rocía con aceite de oliva y sazona con sal y pimienta al gusto.",
         "Vierte el caldo de pollo en la fuente.",
         "Hornea durante 40-45 minutos o hasta que el pollo esté dorado y bien cocido."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 3,
       "nombre": "Ensalada Griega",
       "imagen": "https://www.pequerecetas.com/wp-content/uploads/2022/07/ensalada-griega-aceitunas-kalamata.jpg",
-      "categoria": "Ensalada",
+      "categoria": "Entrantes",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 2,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "1 pepino, cortado en rodajas",
         "2 tomates, cortados en cubos",
@@ -84,19 +102,28 @@
         "1. En un tazón grande, mezcla el pepino, los tomates, la cebolla, el queso feta y las aceitunas.",
         "2. Adereza con aceite de oliva y espolvorea con orégano al gusto.",
         "3. Revuelve bien y sirve inmediatamente como una deliciosa ensalada griega."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 4,
       "nombre": "Sopa de Champiñones",
       "imagen": "https://t2.uc.ltmcdn.com/es/posts/3/4/3/como_hacer_crema_de_champinones_29343_600.webp",
-      "categoria": "Entrada",
+      "categoria": "Entrantes",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 6,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "500g de champiñones, cortados en rodajas",
         "1 cebolla, picada",
@@ -114,19 +141,28 @@
         "3. Añade la papa, el caldo de verduras, la leche, la sal y la pimienta. Cocina a fuego lento durante 30 minutos.",
         "4. Usa una licuadora para hacer puré la sopa hasta obtener una textura suave.",
         "5. Sirve caliente, decorado con cebollín fresco."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 5,
       "nombre": "Arroz con Pollo",
       "imagen": "https://elcomercio.pe/resizer/qQ3uCYmRJ9ciPtP-3UAO5X7gJ0Q=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/4U44QM3EVBG67MOGFRSPOWDB2Q.jpg",
-      "categoria": "Plato Principal",
+      "categoria": "Platos",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 4,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "2 tazas de arroz",
         "4 muslos de pollo",
@@ -145,19 +181,28 @@
         "3. Agrega el arroz y cocina por unos minutos. Añade el caldo de pollo, tomate triturado, azafrán, sal y pimienta.",
         "4. Coloca los muslos de pollo sobre el arroz y lleva a ebullición. Reduce el fuego, tapa y cocina a fuego lento hasta que el arroz esté tierno.",
         "5. Adorna con aceitunas verdes antes de servir."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 6,
       "nombre": "Ensalada de Aguacate y Mango",
       "imagen": "https://lacocinadefrabisa.lavozdegalicia.es/wp-content/uploads/2015/07/ensalada-aguacate-mango-frabisa-1-1.jpg",
-      "categoria": "Ensalada",
+      "categoria": "Entrantes",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 2,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "2 tazas de hojas verdes mixtas",
         "1 aguacate, cortado en cubos",
@@ -170,19 +215,28 @@
         "1. En un tazón grande, mezcla las hojas verdes, aguacate, mango, nueces y queso feta.",
         "2. Riega con aderezo balsámico al gusto y revuelve suavemente.",
         "3. Sirve inmediatamente como una refrescante ensalada de aguacate y mango."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 7,
       "nombre": "Spaghetti Carbonara",
       "imagen": "https://i.blogs.es/8819e1/carbonara-rec/1366_2000.jpg",
-      "categoria": "Plato Principal",
+      "categoria": "Platos",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 4,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "400g de spaghetti",
         "200g de panceta, cortada en trozos",
@@ -198,19 +252,28 @@
         "4. Agrega el spaghetti a la sartén con la panceta y mezcla bien. Retira del fuego.",
         "5. Vierte la mezcla de huevo y queso sobre el spaghetti, revolviendo rápidamente para evitar que los huevos se cocinen demasiado.",
         "6. Agrega un poco de agua de la cocción del spaghetti si es necesario para obtener una salsa cremosa. ¡Sirve caliente!"
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 8,
       "nombre": "Salmón al Horno con Hierbas",
       "imagen": "https://placeralplato.com/files/2018/03/14ROASTEDSALMON-articleLarge.jpg",
-      "categoria": "Plato Principal",
+      "categoria": "Platos",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 2,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "2 filetes de salmón",
         "1 limón, en rodajas",
@@ -225,19 +288,28 @@
         "3. Coloca rodajas de limón, tomillo y romero sobre el salmón.",
         "4. Rocía con aceite de oliva y sazona con sal y pimienta al gusto.",
         "5. Hornea durante 15-18 minutos o hasta que el salmón esté cocido."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 9,
       "nombre": "Tacos Vegetarianos de Portobello",
       "imagen": "https://aprendiendoasermadre.com/wp-content/uploads/2020/06/tacos_veganos-800x445.jpg",
-      "categoria": "Plato Principal",
+      "categoria": "Platos",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 4,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "8 tortillas de maíz",
         "4 portobellos, limpios y en rodajas",
@@ -255,19 +327,28 @@
         "2. Agrega las rodajas de portobello, pimiento rojo y cebolla. Cocina hasta que las verduras estén tiernas.",
         "3. Exprime el zumo de limón sobre las verduras y espolvorea con comino, sal y pimienta al gusto.",
         "4. Calienta las tortillas de maíz y rellénalas con la mezcla de portobello. Acompaña con aguacate y cilantro."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 10,
       "nombre": "Pastel de Chocolate y Frambuesas",
       "imagen": "https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_ruj2gf670d_img-3724-1024x683.jpg.webp",
-      "categoria": "Postre",
+      "categoria": "Postres",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 8,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "2 tazas de harina de trigo",
         "1 taza de cacao en polvo",
@@ -289,19 +370,28 @@
         "5. Añade la mezcla de ingredientes secos alternando con la leche. Mezcla hasta obtener una masa homogénea.",
         "6. Vierte la mitad de la masa en el molde, coloca una capa de frambuesas y cubre con el resto de la masa.",
         "7. Hornea por 40-45 minutos o hasta que al insertar un palillo, este salga limpio. Deja enfriar antes de decorar con azúcar glas."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 11,
       "nombre": "Tiramisú",
       "imagen": "https://s1.abcstatics.com/media/bienestar/2021/04/06/tarta-tiramisu-kOfD--1248x698@abc.jpg",
-      "categoria": "Postre",
+      "categoria": "Postres",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 8,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "6 yemas de huevo",
         "3/4 taza de azúcar",
@@ -322,19 +412,28 @@
         "7. Vierte la mitad de la mezcla de mascarpone sobre los bizcochos.",
         "8. Agrega otra capa de bizcochos remojados y cubre con el resto de la mezcla de mascarpone.",
         "9. Refrigera por al menos 4 horas antes de espolvorear con cacao en polvo y servir."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 12,
       "nombre": "Mousse de Chocolate",
       "imagen": "https://s3.abcstatics.com/media/gurmesevilla/2016/02/como-hacer-mousse-chocolate-1.jpg",
-      "categoria": "Postre",
+      "categoria": "Postres",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 6,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "200g de chocolate oscuro, derretido",
         "3 huevos",
@@ -351,19 +450,28 @@
         "5. En otro recipiente, bate la crema para batir hasta formar picos suaves y agrégala a la mezcla de chocolate con movimientos envolventes.",
         "6. Vierte la mousse en copas individuales y refrigera por al menos 2 horas.",
         "7. Decora con chips de chocolate y hojas de menta antes de servir."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 13,
       "nombre": "Cheesecake de Fresa",
       "imagen": "https://www.recetasnestle.com.ec/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/7f9ebeaceea909a80306da27f0495c59.webp?itok=jvnFYyGL",
-      "categoria": "Postre",
+      "categoria": "Postres",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 10,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "2 tazas de galletas trituradas",
         "1/2 taza de mantequilla derretida",
@@ -384,19 +492,28 @@
         "5. Agrega el puré de fresas y mezcla hasta que esté bien combinado.",
         "6. Vierte la mezcla sobre la base de galletas y hornea por aproximadamente 1 hora o hasta que el centro esté firme.",
         "7. Deja enfriar a temperatura ambiente y refrigera por al menos 3 horas antes de decorar con fresas frescas."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 14,
       "nombre": "Helado de Vainilla con Galletas",
       "imagen": "https://www.misthermorecetas.com/wp-content/uploads/2015/07/helado_vainilla_cookies.jpg",
-      "categoria": "Postre",
+      "categoria": "Postres",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 8,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "2 tazas de crema para batir",
         "1 taza de leche condensada",
@@ -409,19 +526,28 @@
         "3. Vierte la mezcla en un recipiente para congelar y esparce las galletas trituradas por encima.",
         "4. Congela por al menos 6 horas o hasta que esté firme.",
         "5. Sirve bolas de helado y decora con más galletas si lo deseas."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 15,
       "nombre": "Dip de Espinacas y Queso",
       "imagen": "https://irecetasfaciles.com/wp-content/uploads/2019/06/dip-de-espinacas.jpg",
-      "categoria": "Entrante",
+      "categoria": "Entrantes",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 8,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "1 paquete (300g) de espinacas congeladas, descongeladas y escurridas",
         "1 taza de queso crema",
@@ -439,19 +565,28 @@
         "3. Agrega pimienta negra al gusto y mezcla bien.",
         "4. Transfiere la mezcla a un molde para horno y hornea por 20-25 minutos o hasta que esté burbujeante y dorado.",
         "5. Sirve el dip de espinacas y queso con pan de pita o galletas."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 16,
       "nombre": "Ceviche de Camarones",
       "imagen": "https://imag.bonviveur.com/ceviche-de-camaron.webp",
-      "categoria": "Entrante",
+      "categoria": "Entrantes",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 6,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "500g de camarones, pelados y cocidos",
         "1 pepino, pelado y picado",
@@ -470,19 +605,28 @@
         "3. Sazona con sal y pimienta al gusto.",
         "4. Refrigera por al menos 15 minutos antes de servir.",
         "5. Sirve el ceviche de camarones con tostadas de maíz."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 17,
       "nombre": "Nachos con Queso y Guacamole",
       "imagen": "https://jetextramar.com/wp-content/uploads/2021/07/empresa-de-alimentos-receta-de-guacamole.jpg",
-      "categoria": "Entrante",
+      "categoria": "Entrantes",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 4,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "1 bolsa de nachos",
         "2 tazas de queso cheddar rallado",
@@ -499,19 +643,28 @@
         "4. Hornea hasta que el queso esté completamente derretido.",
         "5. Retira del horno y agrega guacamole, crema agria, tomates cherry, cilantro fresco y aceitunas negras por encima.",
         "6. Sirve los nachos con queso y guacamole de inmediato."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 18,
       "nombre": "Rollitos de Hojaldre con Queso de Cabra",
       "imagen": "https://i.pinimg.com/564x/33/d2/a1/33d2a1d7a7f5b163663825cac72c26c0.jpg",
-      "categoria": "Entrante",
+      "categoria": "Entrantes",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 8,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "1 lámina de hojaldre",
         "200g de queso de cabra",
@@ -527,19 +680,28 @@
         "5. Doble los extremos del hojaldre hacia el centro, formando un paquete.",
         "6. Hornea los rollitos en el horno precalentado hasta que estén dorados y crujientes.",
         "7. Decora con miel, tomillo fresco y nueces antes de servir."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 19,
       "nombre": "Hamburguesa Clásica con Queso",
-      "imagen":"https://scontent-bcn1-1.xx.fbcdn.net/v/t1.6435-9/117632046_106514774499449_463047321325485810_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c2f564&_nc_ohc=WrEh4Xw9Ju4AX-iAfFT&_nc_ht=scontent-bcn1-1.xx&oh=00_AfCPeKqVt1K3Rt9VpMAbOYmTKcuJD5dujrNGBO44ggYI4Q&oe=657D8B56",
-      "categoria": "Comida Americana",
+      "imagen": "https://scontent-bcn1-1.xx.fbcdn.net/v/t1.6435-9/117632046_106514774499449_463047321325485810_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=c2f564&_nc_ohc=WrEh4Xw9Ju4AX-iAfFT&_nc_ht=scontent-bcn1-1.xx&oh=00_AfCPeKqVt1K3Rt9VpMAbOYmTKcuJD5dujrNGBO44ggYI4Q&oe=657D8B56",
+      "categoria": "Platos",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 4,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "500g de carne molida de res",
         "Sal y pimienta al gusto",
@@ -555,19 +717,28 @@
         "4. Tuesta ligeramente los panes de hamburguesa en la parrilla.",
         "5. Arma las hamburguesas colocando las hamburguesas con queso en los panes y agregando lechuga, tomate, cebolla y pepinillos al gusto.",
         "6. Sirve con salsas opcionales y disfruta de una hamburguesa clásica americana."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 20,
       "nombre": "Alitas de Pollo Buffalo",
-      "imagen":"https://s1.eestatic.com/2023/07/26/cocinillas/recetas/carne/781932221_234970579_1706x960.jpg",
-      "categoria": "Comida Americana",
+      "imagen": "https://s1.eestatic.com/2023/07/26/cocinillas/recetas/carne/781932221_234970579_1706x960.jpg",
+      "categoria": "Platos",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 6,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "24 alitas de pollo",
         "Sal y pimienta al gusto",
@@ -584,19 +755,28 @@
         "5. Fríe las alitas horneadas en aceite caliente hasta que estén doradas.",
         "6. Sumerge las alitas en la mezcla de salsa picante y mantequilla.",
         "7. Sirve las alitas de pollo Buffalo con apio y aderezo de queso azul."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 21,
       "nombre": "Macarrones con Queso",
-      "imagen":"https://www.hogarmania.com/archivos/202001/karl6500-macarrones-con-queso-xl-848x477x80xX.jpg",
-      "categoria": "Comida Americana",
+      "imagen": "https://www.hogarmania.com/archivos/202001/karl6500-macarrones-con-queso-xl-848x477x80xX.jpg",
+      "categoria": "Platos",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 4,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "250g de macarrones",
         "2 tazas de queso cheddar rallado",
@@ -615,19 +795,28 @@
         "4. Agrega los quesos cheddar, mozzarella y parmesano. Mezcla hasta que se derritan y la salsa quede suave.",
         "5. Incorpora los macarrones cocidos a la mezcla de queso y revuelve bien.",
         "6. Transfiere la mezcla a una fuente para horno, espolvorea con pan rallado y gratina en el horno hasta que esté dorado."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     },
     {
       "id": 22,
       "nombre": "Costillas a la Barbacoa",
       "imagen": "https://www.annarecetasfaciles.com/files/costilla-de-cerdo-en-salsa-barbacoa-casera-815x458.jpg",
-      "categoria": "Comida Americana",
+      "categoria": "Platos",
       "dificultad": "0/10",
       "tiempo": 2,
       "duracion": "horas",
       "porciones": 4,
-      "descripcion":"Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
-      "imagenPreparacion":"https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
+      "descripcion": "Deliciosos spaghettis ideales para una cena familiar acompañado de una ensalada y un buen vino, que aproveche!",
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "2 racks de costillas de cerdo",
         "Sal y pimienta al gusto",
@@ -643,25 +832,106 @@
         "5. Retira las costillas del papel de aluminio y barnízalas con salsa barbacoa.",
         "6. Asa las costillas en una parrilla caliente durante unos minutos para que se caramelice la salsa.",
         "7. Sirve las costillas a la barbacoa con más salsa y disfruta."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
       ]
     }
   ],
-  "categorias": [
+  "users": [
     {
-      "nombre": "Entrantes",
-      "imagen": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp"
+      "id": 1,
+      "name": "testuser",
+      "email": "testuser@gmail.com",
+      "profile": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp",
+      "password": "1234567"
     },
     {
-      "nombre": "Platos",
-      "imagen": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp"
+      "id": 2,
+      "name": "testuser2",
+      "email": "testuser2@gmail.com",
+      "profile": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp",
+      "password": "1234567"
     },
     {
-      "nombre": "Postres",
-      "imagen": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp"
+      "id": 3,
+      "name": "nuevo usuario",
+      "email": "testuser3@gmail.com",
+      "profile": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp",
+      "password": "1234567"
     },
     {
-      "nombre": "Bebidas",
-      "imagen": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp"
+      "id": 4,
+      "name": "nuevo usuario4",
+      "email": "testuser4@gmail.com",
+      "profile": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp",
+      "password": "1234567"
+    },
+    {
+      "id": 5,
+      "name": "gary",
+      "email": "gary@gmail.com",
+      "password": "1234567"
+    },
+    {
+      "name": "jorge",
+      "email": "jorge",
+      "password": "12321",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "andres",
+      "email": "andres",
+      "password": "13123"
+    },
+    {
+      "id": 8,
+      "name": "andres",
+      "email": "andres",
+      "password": "1312321"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "email": null,
+      "password": null
+    },
+    {
+      "id": 10,
+      "name": "jorge",
+      "email": "jorge",
+      "password": "12312"
+    },
+    {
+      "id": 11,
+      "name": "andres",
+      "email": "adsa",
+      "password": "dsadsa"
+    },
+    {
+      "id": 12,
+      "name": "gary",
+      "email": "gary@m.com",
+      "password": "123321"
+    },
+    {
+      "id": 13,
+      "name": "alexander",
+      "email": "alexander@m.com",
+      "password": "123456"
+    },
+    {
+      "id": 14,
+      "name": "jorge",
+      "email": "jorge",
+      "password": "123123"
     }
   ]
 }

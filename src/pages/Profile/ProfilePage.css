@@ -5,7 +5,6 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    
 }
 
 .profile-content {
@@ -15,17 +14,38 @@
     align-items: center;
     width: 100%;
     position: relative;
-    
+}
+
+.bg-profile-page{
+    position: absolute;
+    width: 100%;
+    height: 65vh;
 }
 
 .texturafondo {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.degrado-perfil-page {
     position: absolute;
     width: 100%;
-    height: 105vh;
-    object-fit: cover;
+    height: 80px;
     top: 0px;
+    background: linear-gradient(white, rgba(255, 255, 255, 0));
+    z-index: 0;
+}
+
+.degrado-perfil-page-bottom {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    background: linear-gradient(rgba(255, 255, 255, 0), white );
+    z-index: 0;
 }
 

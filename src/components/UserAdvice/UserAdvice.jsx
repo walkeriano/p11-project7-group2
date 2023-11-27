@@ -1,7 +1,7 @@
 import "./UserAdvice.css";
 
-
 export default function UserAdvice() {
+
     return (
 
         <section className='cont-useradvice'>

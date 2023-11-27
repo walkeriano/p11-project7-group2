@@ -8,14 +8,14 @@
 
 .cont-detail-recipe {
   width: 85%;
-  height: 65vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .cont-img-receta {
-  width: 40%;
+  width: 50%;
   height: 100%;
 }
 
@@ -23,11 +23,11 @@
   width: 90%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .cont-info-receta {
-  width: 60%;
+  width: 50%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -84,7 +84,7 @@
 .cont-stadistics {
   height: 130px;
   width: 70%;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
   margin-top: 120px;
   display: flex;
   align-items: center;
@@ -155,7 +155,6 @@
   align-items: center;
   justify-content: center;
   padding: 150px 0px;
-  
 }
 
 .info-preparation {

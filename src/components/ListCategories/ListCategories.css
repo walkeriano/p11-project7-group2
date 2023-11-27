@@ -1,28 +1,117 @@
+.cont-list-categories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top:100px;
+}
+
+
 .title{
-    font-family: 'Nunito', sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
     color: #4E4E4E;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3% 0;
 }
 
-.types{
+.cont-cats{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    height: 250px;
+    gap: 50px;
 }
 
 .sectionType{
+    height: 100%;
+    width: 20%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;    
-    gap: 2rem;
     text-decoration: none;
-
 }
+
+.sectionType .imgType{
+    width: 70%;
+}
+
+.imgType-two{
+    width:96%;
+}
+
+.btn-entrantes{
+    margin-top: 20px;
+    font-size:1.0rem;
+    padding: 7px 20px;
+    background: #558332;
+    color: white;
+    border: 3px solid #558332;
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+
+.btn-platos{
+    margin-top: 20px;
+    font-size:1.0rem;
+    padding: 7px 20px;
+    background: #F6722B;
+    color: white;
+    border: 3px solid #F6722B;
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+
+.btn-postres{
+    margin-top: 20px;
+    font-size:1.0rem;
+    padding: 7px 20px;
+    background: #f7c200;
+    color: white;
+    border: 3px solid #f7c200;
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+
+.btn-bebidas{
+    margin-top: 20px;
+    font-size:1.0rem;
+    padding: 7px 20px;
+    background: #42CAFF;
+    color: white;
+    border: 3px solid #42CAFF;
+    border-radius: 50px;
+    letter-spacing: 1px;
+}
+
+.sectionType:hover{
+    .btn-entrantes{
+        background:transparent;
+        color: #558332;
+        font-weight: bold;
+    }
+    .btn-platos{
+        background:transparent;
+        color: #F6722B;
+        font-weight: bold;
+    }
+    .btn-postres{
+        background:transparent;
+        color: #f7c200;
+        font-weight: bold;
+    }
+    .btn-bebidas{
+        background:transparent;
+        color: #42CAFF;
+        font-weight: bold;
+    }
+}
+
+
 
