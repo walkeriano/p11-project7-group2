@@ -7,6 +7,8 @@ import { useNavigate } from "react-router";
 
 export default function CreateAccount() {
   const [perfilphoto, setPerfilphoto] = useState(null);
+  const [imageSelected, setImageSelected] = useState(false);
+
   const [profile, setProfile] = useState({
     id: null,
     name: "",
@@ -16,18 +18,23 @@ export default function CreateAccount() {
 
   const navigate = useNavigate()
 
-  const submitForm = async() => {
-    try{
-        const response = await axios.post("http://localhost:5000/users", profile);
-        setProfile({
-            id: null,
-            name: "",
-            email: "",
-            password: "",
-        })
-        navigate("/profile-page");
-    } catch(err){
-        console.log("error");
+  const submitForm = async () => {
+    try { 
+      if (!profile.name || !profile.email || !profile.password || !perfilphoto) {
+        console.log("Todos los campos deben estar completos");
+        return;
+      }
+      const response = await axios.post("http://localhost:5000/users", profile);
+      setProfile({
+        id: null,
+        name: "",
+        email: "",
+        password: "",
+      })
+      setPerfilphoto(null);
+      navigate("/profile-page");
+    } catch (err) {
+      console.log("error");
     }
   };
 
@@ -37,10 +44,12 @@ export default function CreateAccount() {
       const reader = new FileReader();
       reader.onloadend = () => {
         setPerfilphoto(reader.result);
+        setImageSelected(true);
       };
       reader.readAsDataURL(file);
     } else {
       setPerfilphoto(null);
+      setImageSelected(false);
     }
   };
 
@@ -67,10 +76,17 @@ export default function CreateAccount() {
               <img className="image-of" src={photoIcon} alt="photo icon" />
             )}
           </div>
-          <div className="notification">
-            <span></span>
-            <p>Adjuntar Imagen</p>
-          </div>
+          {imageSelected ? (
+            <div className="notification-true">
+              <span></span>
+              <p>Bien hecho!</p>
+            </div>
+          ) : (
+            <div className="notification-false">
+              <span></span>
+              <p>Adjuntar Imagen</p>
+            </div>
+          )}
         </div>
         <div className="cont-form-create">
           <label htmlFor="name">
@@ -86,6 +102,7 @@ export default function CreateAccount() {
                   return { ...prevState, name: e.target.value };
                 });
               }}
+              required
             />
           </label>
           <label htmlFor="email">
@@ -101,6 +118,7 @@ export default function CreateAccount() {
                   return { ...prevState, email: e.target.value };
                 });
               }}
+              required
             />
           </label>
           <label htmlFor="password">
@@ -116,6 +134,8 @@ export default function CreateAccount() {
                   return { ...prevState, password: e.target.value };
                 });
               }}
+              required
+              minLength="6"
             />
           </label>
         </div>

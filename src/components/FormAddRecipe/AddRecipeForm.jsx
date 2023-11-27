@@ -1,5 +1,6 @@
 import "./AddRecipeForm.css";
 import recipePhoto from "../../assets/img/recipePhoto.png"
+import AddAndRemoveIngredients from "../AddAndRemoveIngredients/AddAndRemoveIngredients"
 
 export default function AddRecipeForm() {
     return (
@@ -24,7 +25,45 @@ export default function AddRecipeForm() {
                         </div>
                     </div>
                     <p className="title-form">Añade los ingredientes</p>
-                    <div></div>
+                    <AddAndRemoveIngredients />
+                    <p className="title-form">Instrucción para la preparación</p>
+                    <section className="recipe-steps">
+                        <textarea placeholder="Describe la preparación, paso por paso..." name="" id="" cols="50" rows="10"></textarea>
+                    </section>
+                    <p className="title-form">Escoge el valor que corresponda</p>
+                    <section className="set-difficulty-portion-time">
+                        <div className="set-difficulty">
+                            <label htmlFor="difficulty">
+                                <input type="number" id="difficulty" name="difficulty" min="1" max="10" defaultValue="1" /> <span>/ 10</span>
+                            </label>
+                            <p className="p-set-style">DIFICULTAD</p>
+                            <div className="plus-minus-btn">
+                                <span>+</span>
+                                <span>-</span>
+                            </div>
+                        </div>
+                        <div className="set-portion">
+                            <label htmlFor="portion">
+                                <input type="number" id="portion" name="portion" min="1" max="10" defaultValue="1" /> <span>/ 10</span>
+                            </label>
+                            <p className="p-set-style">PORCIONES</p>
+                            <div className="plus-minus-btn">
+                                <span>+</span>
+                                <span>-</span>
+                            </div>
+                        </div>
+                        <div className="set-time">
+                            <label htmlFor="time">
+                                <input type="time" id="time" name="time" min="0" max="12" step="60" />
+                            </label>
+                            <p className="p-set-style">TIEMPO</p>
+                            <div className="plus-minus-btn">
+                                <span>+</span>
+                                <span>-</span>
+                            </div>
+                        </div>
+                        
+                    </section>
 
                 </section>
             </div>
