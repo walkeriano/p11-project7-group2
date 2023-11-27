@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.recipe-categories{
+.recipe-categories {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -31,70 +31,75 @@
     font-weight: 700;
     color: #AEAEAE;
     background: #fff;
-    border: 4px solid #AEAEAE;
+    border: 3px solid #AEAEAE;
     border-radius: 25px;
     transition: .3s all ease;
     user-select: none;
     letter-spacing: 2px;
+    margin-bottom: 32px;
+    cursor: pointer;
 }
 
 .recipe-categories input[type="radio"] {
-    display:none;
+    display: none;
 }
 
-.recipe-categories input[type="radio"]:checked + .entrantes {
-    border: 4px solid #558332;
+.recipe-categories input[type="radio"]:checked+.entrantes {
+    border: 3px solid #558332;
     background: #558332;
     color: #fff;
 }
 
 .entrantes:hover {
-    border: 4px solid #558332;
+    border: 3px solid #558332;
     color: #558332;
+    scale: 1.2;
 }
 
-.recipe-categories input[type="radio"]:checked + .platos {
-    border: 4px solid #F6722B;
+.recipe-categories input[type="radio"]:checked+.platos {
+    border: 3px solid #F6722B;
     background: #F6722B;
     color: #fff;
 }
 
 .platos:hover {
-    border: 4px solid #F6722B;
+    border: 3px solid #F6722B;
     color: #F6722B;
+    scale: 1.2;
 }
 
-.recipe-categories input[type="radio"]:checked + .postres {
-    border: 4px solid #F1C731;
+.recipe-categories input[type="radio"]:checked+.postres {
+    border: 3px solid #F1C731;
     background: #F1C731;
     color: #fff;
 }
 
 .postres:hover {
-    border: 4px solid #F1C731;
+    border: 3px solid #F1C731;
     color: #F1C731;
+    scale: 1.2;
 }
 
-.recipe-categories input[type="radio"]:checked + .bebidas {
-    border: 4px solid #42CAFF;
+.recipe-categories input[type="radio"]:checked+.bebidas {
+    border: 3px solid #42CAFF;
     background: #42CAFF;
     color: #fff;
 }
 
 .bebidas:hover {
-    border: 4px solid #42CAFF;
+    border: 3px solid #42CAFF;
     color: #42CAFF;
+    scale: 1.2;
 }
 
 .title-form {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 64px 0;
+    margin-bottom: 64px;
     font-weight: 500;
     font-size: 3vw;
     color: #F6722B;
-    padding-top: 16px;
 }
 
 
@@ -102,6 +107,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 .recipe-photo {
@@ -131,10 +137,10 @@
     font-size: 100%;
     color: #AEAEAE;
     background: #fff;
-    border: 4px solid #AEAEAE;
+    border: 3px solid #AEAEAE;
     border-radius: 32px;
     padding: 0 16px;
-    outline-color: #F6722B;
+    outline: none;
 }
 
 textarea {
@@ -143,6 +149,105 @@ textarea {
     padding: 16px;
     font-size: 100%;
     border-radius: 32px;
-    border: 4px solid #AEAEAE;
-    outline-color: #F6722B;
+    color: #AEAEAE;
+    background: #fff;
+    border: 3px solid #AEAEAE;
+    outline: none;
+}
+
+textarea:focus,
+.recipe-name-container input:focus {
+    border: 3px solid #F6722B;
+    outline: none;
+}
+
+.recipe-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.set-difficulty-portion-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 32px;
+}
+
+.set-difficulty,
+.set-portion,
+.set-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 30vh;
+    border: 3px solid #AEAEAE;
+    border-radius: 32px;
+    gap: 32px;
+    position: relative;
+    font-weight: 700;
+}
+
+.set-difficulty input,
+.set-portion input,
+.set-time input,
+.set-difficulty label,
+.set-portion label,
+.set-time label {
+    outline: none;
+    border: none;
+    color: #F6722B;
+    font-weight: 700;
+    font-size: 3rem;
+    background: transparent;
+}
+
+.set-difficulty:hover,
+.set-portion:hover,
+.set-time:hover {
+    border: 3px solid #F6722B;
+    outline: none;
+    transition: .3s all ease;
+}
+
+.plus-minus-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    bottom: -20px;
+    background-color: #F6722B;
+    border-radius: 32px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.plus-minus-btn span {
+    padding: 0 16%;
+    color: #fff;
+    font-size: 32px;
+}
+
+.plus-minus-btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 2px;
+    background-color: #fff;
+}
+
+.set-difficulty:hover .plus-minus-btn,
+.set-portion:hover .plus-minus-btn,
+.set-time:hover .plus-minus-btn {
+    scale: 1.060;
 }

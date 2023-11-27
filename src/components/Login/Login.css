@@ -19,10 +19,18 @@
     height: 48px;
     padding: 0 16px;
     outline: none;
-    border: 3px solid #88A86F;
+    border: 3px solid #AEAEAE;
     color: #558332;
     border-radius: 32px;
     font-size: 1.2rem;
+}
+
+.inp-credential:valid {
+    border: 3px solid #558332;
+}
+
+.inp-credential:focus:invalid {
+    border: 3px solid red;
 }
 
 .submit-btn {
@@ -39,10 +47,9 @@
     background-color: #558332;
     color: #ffffff;
     border: 3px solid #558332;
-    
 }
 
 .inp-credential::placeholder {
-    color: #88A86F;
+    color: #558332;
     font-size: 1.0rem;
 }

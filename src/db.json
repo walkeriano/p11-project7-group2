@@ -935,9 +935,39 @@
     },
     {
       "id": 15,
+<<<<<<< HEAD
       "name": "akex",
       "email": "awk@gmail.com",
       "password": "1231"
+=======
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": 16,
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": 17,
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": 18,
+      "name": "gegege",
+      "email": "less.broken.hearts@outlook.com",
+      "password": "jhsdjhjdhsj"
+    },
+    {
+      "id": 19,
+      "name": "Andres Ovidio Ocampo Puente",
+      "email": "less.broken.hearts@outlook.com",
+      "password": "hfghfghfh"
+>>>>>>> 60c679803e64545dd8fea844ae721eaede1d8e0f
     }
   ]
 }

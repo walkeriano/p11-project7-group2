@@ -64,6 +64,11 @@
   gap: 6px;
 }
 
+.card-info-user:hover {
+  background-color: #ffffff2c;
+  border: 1px solid #fff;
+}
+
 .card-perfil-user {
   height: 30px;
   width: 30px;
