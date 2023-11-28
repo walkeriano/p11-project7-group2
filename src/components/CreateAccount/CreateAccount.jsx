@@ -4,7 +4,6 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router";
 
-
 export default function CreateAccount() {
   const [perfilphoto, setPerfilphoto] = useState(null);
   const [imageSelected, setImageSelected] = useState(false);
@@ -54,7 +53,7 @@ export default function CreateAccount() {
   };
 
   return (
-    <section className="body-sesion">
+    <form className="body-sesion" onSubmit={submitForm}>
       <section className="create-account">
         <div className="login-photo">
           <div
@@ -144,10 +143,10 @@ export default function CreateAccount() {
         <p>
           <a href=""></a>
         </p>
-        <button onClick={submitForm} className="submit-btn" name="submit" type="submit">
+        <button className="submit-btn" name="submit" type="submit">
           CREAR CUENTA
         </button>
       </div>
-    </section>
+    </form>
   );
 }

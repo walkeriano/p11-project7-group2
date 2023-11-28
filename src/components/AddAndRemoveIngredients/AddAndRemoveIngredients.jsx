@@ -22,6 +22,7 @@ const AddAndRemoveIngredients = () => {
 
     return (
         <div className='add-remove-ingredients'>
+            <div className='add-remove-container'>
             <input
                 placeholder='Añade un ingrediente'
                 type="text"
@@ -29,9 +30,10 @@ const AddAndRemoveIngredients = () => {
                 onChange={(e) => setInputValue(e.target.value)}
             />
             <button className='add-btn' onClick={addElement}>
-                Agregar
+                AGREGAR
                 <img src={plusicon} alt="+ Icon" />
             </button>
+            </div>
             <ol >
                 {elements.map((element, index) => (
                     <li key={index}>
