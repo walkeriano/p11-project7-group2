@@ -960,6 +960,20 @@
         "dsadsa"
       ],
       "instrucciones": "dsadsadsadas"
+    },
+    {
+      "id": 32,
+      "nombre": "",
+      "descripcion": "",
+      "categoria": "",
+      "dificultad": 1,
+      "tiempo": "00:00",
+      "porciones": 1,
+      "ingredientes": [
+        "dsadsa",
+        "dsadsa"
+      ],
+      "instrucciones": ""
     }
   ],
   "users": [

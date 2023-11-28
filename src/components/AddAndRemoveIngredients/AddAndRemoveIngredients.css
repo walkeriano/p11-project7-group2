@@ -4,19 +4,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
 
 .add-remove-container {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .add-remove-ingredients input {
     width: 50%;
-    height: 48px;
-    padding: 0 16px;
+    height: 60px;
+    padding-left:16px;
     border-width: 3px 0px 3px 3px;
     border-style: solid;
     border-color: #949494;
@@ -26,10 +26,13 @@
     background: #fff;
     outline: none;
     margin-bottom: 32px;
+    color: #F6722B;
+    font-size: 1.0rem;
 }
 
 ::placeholder {
     font-size: 1.0rem;
+    color: #949494;
 }
 
 .add-remove-ingredients input:focus {
@@ -39,7 +42,7 @@
     outline: none;
 }
 
-.add-remove-ingredients input:focus+.add-btn {
+.add-remove-ingredients input:focus + .add-btn {
     border: 3px solid #F6722B;
     background-color: #F6722B;
 }
@@ -47,21 +50,21 @@
 
 .add-btn {
     width: auto;
-    height: 48px;
+    height: 60px;
     padding: 0 16px;
     border-radius: 32px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
-    border: 3px solid #aeaeae;
+    border: 3px solid #949494;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 32px;
-    color: #fff;
+    gap: 15px;
+    color: white;
     font-weight: 700;
     letter-spacing: 2px;
     font-size: 100%;
-    background: #aeaeae;
+    background: #949494;
     cursor: pointer;
     margin-bottom: 32px;
 }
@@ -76,11 +79,7 @@
 }
 
 .add-remove-ingredients ol {
-    display: inline-block;
     width: 50%;
-    height: auto;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 .add-remove-ingredients ol li {
@@ -92,9 +91,9 @@
     padding: 0 16px;
     border-radius: 32px;
     background: #fff;
-    border: 3px solid #AEAEAE;
+    border: 3px solid #949494;
     outline: none;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
     color: #949494;
     font-weight: 600;
     letter-spacing: 1px;
@@ -102,6 +101,7 @@
 
 .add-remove-ingredients ol li:hover {
     border: 3px solid #F6722B;
+    color: #F6722B;
     transition: .3s all ease;
     
 }
@@ -116,7 +116,11 @@
     background: none;
 }
 
+.remove-btn img{
+    width:25px;
+}
+
 .add-remove-ingredients ol li:hover img {
-    scale: 1.2;
+    scale: 1.1;
     transition: .3s all ease;
 }

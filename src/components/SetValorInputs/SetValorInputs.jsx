@@ -47,7 +47,7 @@ const SetDifficulty = ({
   };
 
   return (
-    <section className="set-difficulty-portion-time">
+    <section className="cont-details-recipe">
       <div className="set-difficulty">
         <label htmlFor="difficulty">
           <input
@@ -59,9 +59,9 @@ const SetDifficulty = ({
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
           />
-          <span>/ 10</span>
+          <span>/10</span>
         </label>
-        <p className="p-set-style">DIFICULTAD</p>
+        <p className="p-set-style">Dificultad</p>
         <div className="plus-minus-btn">
           <span onClick={handleDecrement}>-</span>
           <span onClick={handleIncrement}>+</span>
@@ -80,7 +80,7 @@ const SetDifficulty = ({
           />
           <span>+</span>
         </label>
-        <p className="p-set-style">PORCIONES</p>
+        <p className="p-set-style">Porciones</p>
         <div className="plus-minus-btn">
           <span onClick={handlePortionDecrement}>-</span>
           <span onClick={handlePortionIncrement}>+</span>
@@ -96,7 +96,7 @@ const SetDifficulty = ({
             onChange={(e) => setTimeValue(e.target.value)}
           />
         </label>
-        <p className="p-set-style">TIEMPO</p>
+        <p className="p-set-style">Tiempo</p>
         <div className="plus-minus-btn">
           <span onClick={handleTimeDecrement}>-</span>
           <span onClick={handleTimeIncrement}>+</span>
