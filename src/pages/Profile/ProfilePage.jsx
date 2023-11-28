@@ -3,7 +3,9 @@ import "./ProfilePage.css";
 import iconstexture from "../../assets/img/icons-texture.png";
 import AddRecipeForm from "../../components/FormAddRecipe/AddRecipeForm";
 import UserCard from "../../components/UserCard/UserCard";
+import Footer from "../../components/Footer/Footer";
 import { useState } from "react";
+
 
 
 export default function ProfilePage() {
@@ -19,7 +21,6 @@ export default function ProfilePage() {
       <HeaderLogin />
       <div className="profile-content">
         <UserCard togglePerfil={togglePerfil} verMisRecetas={verMisRecetas} />
-
         <div className="bg-profile-page">
           <span className="degrado-perfil-page"></span>
           <span className="degrado-perfil-page-bottom"></span>
@@ -27,6 +28,7 @@ export default function ProfilePage() {
         </div>
       </div>
       {verMisRecetas ? <div>miau</div> : <AddRecipeForm />}
+    <Footer/>
     </section>
   );
 }

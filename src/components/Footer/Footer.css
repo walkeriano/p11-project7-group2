@@ -1,20 +1,20 @@
 .backgroundFooter{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: 5%;
+    
 }
 
 .footerPage{
+    width: 100%;
+    height:300px;
     background-image: url('../../assets/img/patron.svg');
     background-color: #E8E8E8;
-    flex-wrap: wrap;
-    flex-direction: column;
-    border-top-right-radius: 13%;
-    padding: 5% 0;
-    width: 100%;
+    margin-top: 80px;
 }
 
 .fila1{
@@ -22,44 +22,65 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 1%;
+    
 }
 
 .footerFondo{
     width: 100%;
     position: absolute;
     z-index: 1;
+    
 }
 
 .logotipoFooter{
     width: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
 }
 
 .socialAppFooter{
     width: 20%;
     margin: 0 0.8rem;
+    
 }
 
 .infoLocal{
     font-family: 'Nunito', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    margin: 5% 18%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
 }
 
 .infoFooter{
-    margin: 1% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    color: #4E4E4E;
+    
 }
+
+.infoFooter span {
+    color:#4E4E4E;
+}
+
+
+
 
 .copyright{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Nunito', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1 rem;
     font-weight: bold;
-    color: #FF5C00;
+    color: #4E4E4E;
+    
 }
+
