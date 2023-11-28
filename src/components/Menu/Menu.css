@@ -1,7 +1,7 @@
 .menu {
   background-color: rgba(255, 94, 0, 0.7);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
   width: 20%;
   max-width: 240px;
@@ -9,6 +9,8 @@
   border-radius: 60px;
   border: 2px solid rgb(255, 94, 0);
   backdrop-filter: blur(10px);
+  padding: 5px;
+  gap:11%;
 }
 
 .menu .link-menu {
@@ -22,9 +24,40 @@
   height: 25px;
 }
 
+.perfil-menu-user {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  height: 100%;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.perfil-menu-user img {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.perfil-menu-user p {
+  width: 65%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-left: 5px;
+  color: #4e4e4e;
+  text-transform: capitalize;
+  font-size:0.9rem;
+  letter-spacing:1px;
+}
+
 .section-search {
   height: 100vh;
   width: 30%;
+  max-width: 470px;
   background-color: rgba(255, 94, 0, 0.829);
   position: fixed;
   top: 0px;
@@ -65,8 +98,8 @@
   cursor: pointer;
 }
 
-.close-btn-menu:hover{
-   transform: scale(1.1);
+.close-btn-menu:hover {
+  transform: scale(1.1);
 }
 
 .icon-cheff {
@@ -108,6 +141,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  background-color: white;
 }
 
 .cont-label button img {
@@ -146,7 +180,7 @@
 
 .cards-search {
   width: 100%;
-  height: 90px;
+  min-height: 90px;
   background-color: white;
   border-radius: 17px;
   display: flex;
@@ -154,13 +188,13 @@
   justify-content: center;
   padding: 7px;
   gap: 12px;
+  text-decoration: none;
 }
 
 .cards-search img {
   width: 35%;
   height: 100%;
   object-fit: cover;
-  background-color: red;
   border-radius: 20px;
 }
 
@@ -184,4 +218,24 @@
 .cont-info-card-search p {
   font-size: 0.9rem;
   color: #4e4e4e;
+}
+
+.message-search {
+  margin-top: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 80%;
+  line-height: 1.3;
+  border: 1px solid white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.message-search p {
+  width: 80%;
+  font-size: 1rem;
+  color: white;
 }

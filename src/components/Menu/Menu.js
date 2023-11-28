@@ -7,13 +7,32 @@ import { useState } from "react";
 import iCheff from "../../assets/img/iconCY.svg";
 import searchIcon from "../../assets/img/orangeSearch.svg";
 
+
 export default function Menu() {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")));
-  const [searchView, setSearchView] = useState(false);
+  const [stateMenu, setStateMenu] = useState(false);
+  const [searchResults, setSearchResults] = useState([]);
+  const [searchValue, setSearchValue] = useState("");
+
+  const searchRecipes = async () => {
+    if (searchValue.trim() === "") {
+      console.log("Ingresa tu búsqueda aquí");
+      setSearchResults([]);
+      return;
+    }
+    try {
+      const resp = await fetch(`http://localhost:5000/recetas?nombre_like=${searchValue}`);
+      const data = await resp.json();
+      setSearchResults(data || []);
+    } catch (error) {
+      console.error("Error al realizar la búsqueda:", error);
+    }
+  };
+
 
   return (
     <>
-      {searchView ? (
+      {stateMenu ? (
         <div className="section-search">
           <section className="cont-info-search">
             <img className="icon-cheff" src={iCheff} alt="icon-cheff" />
@@ -22,26 +41,41 @@ export default function Menu() {
                 id="search"
                 name="search"
                 type="search"
-                placeholder="Ingresa tu busqueda"
+                placeholder="Escribe aquí..."
+                value={searchValue}
+                onChange={(e) => {
+                  setSearchValue(e.target.value);
+                  if (e.target.value.trim() === "") {
+                    setSearchResults([]);
+                  }
+                }}
               />
-              <button>
+              <button onClick={searchRecipes}>
                 <img src={searchIcon} alt="icon-search" />
               </button>
             </label>
             <p className="result-title">Resultados:</p>
           </section>
           <section className="cont-slide-cards">
-            <div className="cards-search">
-              <img src={profile} alt="" />
-              <div className="cont-info-card-search">
-                <h4>Spaghetiis a la huancanica</h4>
-                <p>Entrantes</p>
-              </div>
+          {searchResults.length > 0 ? (
+            searchResults.map((result) => (
+              <Link to={`/detalles-recetas/${result.id}`} className="cards-search" key={result.id}>
+                <img src={result.imagen} alt="imagen-perfil-receta" />
+                <div className="cont-info-card-search">
+                  <h4>{result.nombre}</h4>
+                  <p>{result.categoria}</p>
+                </div>
+              </Link>
+            ))
+          ) : (
+            <div className="message-search">
+              <p>Encuentra las recetas que más te gusten</p>
             </div>
+          )}
           </section>
           <button
             className="close-btn-menu"
-            onClick={() => setSearchView(false)}
+            onClick={() => setStateMenu(false)}
           >
             x
           </button>
@@ -51,11 +85,11 @@ export default function Menu() {
           <Link to="/" className="link-menu">
             <img src={home} alt="Botón de home" />
           </Link>
-          <button onClick={() => setSearchView(true)} className="link-menu">
+          <button onClick={() => setStateMenu(true)} className="link-menu">
             <img src={search} alt="Botón de Search" />
           </button>
           {user?.name != null || undefined ? (
-            <Link to="/profile-page" className="link-menu">
+            <Link to="/profile-page" className="perfil-menu-user">
               <img src={user?.profile} alt="Botón de profile" />
               <p>{user?.name}</p>
             </Link>
