@@ -13,7 +13,6 @@
 .card-info {
   width: 90%;
   height: 90px;
-  z-index: 1;
   color: white;
   backdrop-filter: blur(10px);
   position: absolute;
@@ -62,11 +61,13 @@
   align-items: center;
   justify-content: flex-start;
   gap: 6px;
+  transition: all 0.5s ease;
 }
 
 .card-info-user:hover {
   background-color: #ffffff2c;
   border: 1px solid #fff;
+  scale: 1.2;
 }
 
 .card-perfil-user {
