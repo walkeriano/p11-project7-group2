@@ -1,8 +1,13 @@
-import React, { useState } from 'react';
+import React from "react";
 
-const SetDifficulty = () => {
-  const [inputValue, setInputValue] = useState(1);
-
+const SetDifficulty = ({
+  inputValue,
+  setInputValue,
+  portionValue,
+  setPortionValue,
+  timeValue,
+  setTimeValue,
+}) => {
   const handleIncrement = () => {
     const newValue = Math.min(inputValue + 1, 10);
     setInputValue(newValue);
@@ -13,8 +18,6 @@ const SetDifficulty = () => {
     setInputValue(newValue);
   };
 
-  const [portionValue, setPortionValue] = useState(1);
-
   const handlePortionIncrement = () => {
     const newValue = Math.min(portionValue + 1, 10);
     setPortionValue(newValue);
@@ -24,8 +27,6 @@ const SetDifficulty = () => {
     const newValue = Math.max(portionValue - 1, 1);
     setPortionValue(newValue);
   };
-
-  const [timeValue, setTimeValue] = useState("00:00");
 
   const handleTimeIncrement = () => {
     const currentTime = new Date(`2000-01-01T${timeValue}`);
@@ -53,7 +54,8 @@ const SetDifficulty = () => {
             type="number"
             id="difficulty"
             name="difficulty"
-            min="1" max="10"
+            min="1"
+            max="10"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
           />
@@ -71,7 +73,8 @@ const SetDifficulty = () => {
             type="number"
             id="portion"
             name="portion"
-            min="1" max="10"
+            min="1"
+            max="10"
             value={portionValue}
             onChange={(e) => setPortionValue(e.target.value)}
           />
@@ -102,6 +105,5 @@ const SetDifficulty = () => {
     </section>
   );
 };
-
 
 export default SetDifficulty;

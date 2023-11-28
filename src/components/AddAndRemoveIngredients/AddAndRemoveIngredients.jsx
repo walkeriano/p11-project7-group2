@@ -29,13 +29,13 @@ const AddAndRemoveIngredients = ({elements, setElements}) => {
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
             />
-            <button className='add-btn' onClick={addElement}>
+            <button className='add-btn' type='button' onClick={addElement}>
                 AGREGAR
                 <img src={plusicon} alt="+ Icon" />
             </button>
             </div>
             <ol >
-                {elements.map((element, index) => (
+                {elements?.map((element, index) => (
                     <li key={index}>
                         {element}
                         <button className='remove-btn' onClick={() => removeElement(index)}>
