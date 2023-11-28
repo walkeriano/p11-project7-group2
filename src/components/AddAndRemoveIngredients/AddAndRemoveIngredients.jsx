@@ -3,8 +3,8 @@ import x from "../../assets/img/x.svg";
 import "../AddAndRemoveIngredients/AddAndRemoveIngredients.css";
 import plusicon from "../../assets/img/+.svg"
 
-const AddAndRemoveIngredients = () => {
-    const [elements, setElements] = useState([]);
+const AddAndRemoveIngredients = ({elements, setElements}) => {
+   
     const [inputValue, setInputValue] = useState('');
 
     const addElement = () => {

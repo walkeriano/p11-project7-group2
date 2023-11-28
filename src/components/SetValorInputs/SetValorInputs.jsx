@@ -25,25 +25,25 @@ const SetDifficulty = () => {
     setPortionValue(newValue);
   };
 
-    const [timeValue, setTimeValue] = useState("00:00");
-  
-    const handleTimeIncrement = () => {
-      const currentTime = new Date(`2000-01-01T${timeValue}`);
-      const newTime = new Date(currentTime.getTime() + 15 * 60000);
-      const formattedTime = formatTime(newTime);
-      setTimeValue(formattedTime);
-    };
-  
-    const handleTimeDecrement = () => {
-      const currentTime = new Date(`2000-01-01T${timeValue}`);
-      const newTime = new Date(currentTime.getTime() - 15 * 60000);
-      const formattedTime = formatTime(newTime);
-      setTimeValue(formattedTime);
-    };
-  
-    const formatTime = (date) => {
-      return date.toTimeString().slice(0, 5);
-    };
+  const [timeValue, setTimeValue] = useState("00:00");
+
+  const handleTimeIncrement = () => {
+    const currentTime = new Date(`2000-01-01T${timeValue}`);
+    const newTime = new Date(currentTime.getTime() + 15 * 60000);
+    const formattedTime = formatTime(newTime);
+    setTimeValue(formattedTime);
+  };
+
+  const handleTimeDecrement = () => {
+    const currentTime = new Date(`2000-01-01T${timeValue}`);
+    const newTime = new Date(currentTime.getTime() - 15 * 60000);
+    const formattedTime = formatTime(newTime);
+    setTimeValue(formattedTime);
+  };
+
+  const formatTime = (date) => {
+    return date.toTimeString().slice(0, 5);
+  };
 
   return (
     <section className="set-difficulty-portion-time">
@@ -85,12 +85,12 @@ const SetDifficulty = () => {
       </div>
       <div className="set-time">
         <label htmlFor="time">
-          <input 
-          type="time" 
-          id="time" 
-          name="time" 
-          value={timeValue}
-          onChange={(e) => setTimeValue(e.target.value)}
+          <input
+            type="time"
+            id="time"
+            name="time"
+            value={timeValue}
+            onChange={(e) => setTimeValue(e.target.value)}
           />
         </label>
         <p className="p-set-style">TIEMPO</p>
