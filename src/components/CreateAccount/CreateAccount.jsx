@@ -15,11 +15,16 @@ export default function CreateAccount() {
     password: "",
   });
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const submitForm = async () => {
-    try { 
-      if (!profile.name || !profile.email || !profile.password || !perfilphoto) {
+    try {
+      if (
+        !profile.name ||
+        !profile.email ||
+        !profile.password ||
+        !perfilphoto
+      ) {
         console.log("Todos los campos deben estar completos");
         return;
       }
@@ -29,7 +34,7 @@ export default function CreateAccount() {
         name: "",
         email: "",
         password: "",
-      })
+      });
       setPerfilphoto(null);
       navigate("/profile-page");
     } catch (err) {
@@ -78,7 +83,7 @@ export default function CreateAccount() {
           {imageSelected ? (
             <div className="notification-true">
               <span></span>
-              <p>Bien hecho!</p>
+              <p>¡Bien hecho!</p>
             </div>
           ) : (
             <div className="notification-false">
@@ -139,14 +144,15 @@ export default function CreateAccount() {
           </label>
         </div>
       </section>
-      <div>
-        <p>
-          <a href=""></a>
-        </p>
-        <button className="submit-btn" name="submit" type="submit">
-          CREAR CUENTA
-        </button>
-      </div>
+
+      <button
+        onClick={submitForm}
+        className="submit-btn"
+        name="submit"
+        type="submit"
+      >
+        Registrar
+      </button>
     </form>
   );
 }

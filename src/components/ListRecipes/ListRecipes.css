@@ -1,6 +1,6 @@
 
 .cont-recipes{
-    margin-top: 100px;
+    margin-top: 80px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -10,9 +10,9 @@
 }
 
 .sub-title{
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #4E4E4E;
 }
 
@@ -24,3 +24,27 @@
     justify-content: center;
 }
 
+.recipe-count{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.cont-info-results{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 7px;
+}
+
+.cont-info-results p{
+    font-size: 1.0rem;
+    color: #4E4E4E;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.cont-info-results img{
+    width: 17px;
+}
