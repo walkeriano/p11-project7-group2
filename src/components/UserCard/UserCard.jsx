@@ -4,15 +4,19 @@ import gorrito from "../../assets/img/gorrito.svg";
 import añadir from "../../assets/img/añadir.svg";
 
 export default function UserCard() {
+
+  const user = JSON.parse(localStorage.getItem("user"));
+  console.log(user);
+
   return (
     <section className="cont-usercard">
       <div className="rectanguloblanco">
         <div className="info-perfil-page">
           <div className="datos-perfil-page">
-            <h4>Hey, Jorge Lara!</h4>
-            <p>jorge.lara.la@gmail.com</p>
+            <h4>Hey, {user?.name}!</h4>
+            <p>{user?.email}</p>
           </div>
-          <img className="img-perfil-page" src={saltbae} />
+          <img className="img-perfil-page" src={user?.profile} />
         </div>
         <div className="botones-perfil-page">
           <button className="boton-perfil-naranja">
