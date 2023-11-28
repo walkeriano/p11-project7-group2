@@ -8,6 +8,8 @@ import goBack from "../../assets/img/goBack.svg"
 
 export default function Acces() {
   const [sesion, setSesion] = useState(true);
+
+  
   return (
     <section className="section-div">
       <a href="/"><img src={goBack} alt="Go back icon" /></a>

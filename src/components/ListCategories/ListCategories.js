@@ -1,36 +1,67 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import "./ListCategories.css";
-import { Link } from "react-router-dom";
 import catOne from "../../assets/img/cat-one.png";
 import catTwo from "../../assets/img/cat-two.png";
 import catTre from "../../assets/img/cat-tre.png";
 import catFor from "../../assets/img/cat-for.png";
 
-export default function ListCategories() {
+export default function ListCategories({ onCategoryClick }) {
+  const [selectedCategory, setSelectedCategory] = useState(null);
+
+  const handleCategoryClick = (category) => {
+    setSelectedCategory(category);
+    onCategoryClick(category); // Llamar a la función proporcionada por Home
+  };
+
   return (
     <section className="cont-list-categories">
       <h2 className="title">¿Qué cocinaremos hoy?</h2>
       <div className="cont-cats">
-        <Link className="sectionType" to="/">
+        <button
+          className={`sectionType ${
+            selectedCategory === "Entrantes" ? "selected-entrantes" : ""
+          }`}
+          onClick={() => handleCategoryClick("Entrantes")}
+        >
           <img
             className="imgType"
             src={catOne}
             alt="Portada de los entrantes"
           />
-          <button className="btn-entrantes" >Entrantes</button>
-        </Link>
-        <Link className="sectionType" to="/">
-          <img className="imgType-two" src={catTwo} alt="Portada de los platos" />
-          <button className="btn-platos">Platos</button>
-        </Link>
-        <Link className="sectionType" to="/">
+          <p className="btn-entrantes">Entrantes</p>
+        </button>
+        <button
+          className={`sectionType ${
+            selectedCategory === "Platos" ? "selected-platos" : ""
+          }`}
+          onClick={() => handleCategoryClick("Platos")}
+        >
+          <img
+            className="imgType-two"
+            src={catTwo}
+            alt="Portada de los platos"
+          />
+          <p className="btn-platos">Platos</p>
+        </button>
+        <button
+          className={`sectionType ${
+            selectedCategory === "Postres" ? "selected-postres" : ""
+          }`}
+          onClick={() => handleCategoryClick("Postres")}
+        >
           <img className="imgType" src={catTre} alt="Portada de los postres" />
-          <button className="btn-postres">Postres</button>
-        </Link>
-        <Link className="sectionType" to="/">
+          <p className="btn-postres">Postres</p>
+        </button>
+        <button
+          className={`sectionType ${
+            selectedCategory === "Bebidas" ? "selected-bebidas" : ""
+          }`}
+          onClick={() => handleCategoryClick("Bebidas")}
+        >
           <img className="imgType" src={catFor} alt="Portada de las bebidas" />
-          <button className="btn-bebidas">Bebidas</button>
-        </Link>
+          <p className="btn-bebidas">Bebidas</p>
+        </button>
       </div>
     </section>
   );
