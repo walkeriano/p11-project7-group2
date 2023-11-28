@@ -2,19 +2,15 @@ import HeaderLogin from "../../components/HeaderLogin/HeaderLogin";
 import "./ProfilePage.css";
 import iconstexture from "../../assets/img/icons-texture.png";
 import AddRecipeForm from "../../components/FormAddRecipe/AddRecipeForm";
-
 import UserCard from "../../components/UserCard/UserCard";
 import Footer from "../../components/Footer/Footer";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 
-
-
 export default function ProfilePage() {
   const [verMisRecetas, setVerMisRecetas] = useState(true);
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")));
   const navigate = useNavigate();
-
 
   const togglePerfil = (newState) => {
     setVerMisRecetas(newState);
@@ -39,7 +35,7 @@ export default function ProfilePage() {
         </div>
       </div>
       {verMisRecetas ? <AddRecipeForm /> : <div>miau</div>}
-    <Footer/>
+      <Footer />
     </section>
   );
 }

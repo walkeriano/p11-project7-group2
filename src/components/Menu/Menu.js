@@ -85,13 +85,13 @@ export default function Menu() {
           </button>
         </div>
       ) : (
-        <section className="cont-menu">
+        <div className="cont-menu">
           {user?.name != null || undefined ? (
             <div className="menu-user">
-              <Link to="/" className="link-menu">
+              <Link to="/" className="link-menu-user">
                 <img src={home} alt="Botón de home" />
               </Link>
-              <button onClick={() => setStateMenu(true)} className="link-menu">
+              <button onClick={() => setStateMenu(true)} className="link-menu-user">
                 <img src={search} alt="Botón de Search" />
               </button>
               <Link to="/profile-page" className="perfil-menu-user">
@@ -112,7 +112,7 @@ export default function Menu() {
               </Link>
             </div>
           )}
-        </section>
+        </div>
       )}
     </>
   );
