@@ -21,8 +21,6 @@ export default function AddRecipeForm() {
   const [categoria, setCategoria] = useState("");
   const [instrucciones, setInstrucciones] = useState("");
 
-
-
   const submitFormRecipe = async (e) => {
     e.preventDefault();
     let newRecipe = {
@@ -168,33 +166,35 @@ export default function AddRecipeForm() {
         </div>
       </section>
       <section className="ingredients-container">
-        <p className="title-form">Añade los ingredientes</p>
+        <p className="title-form">Definir Ingredientes</p>
         <AddAndRemoveIngredients
           elements={elements}
           setElements={setElements}
         />
       </section>
-      <p className="title-form">Instrucción para la preparación</p>
       <section className="recipe-steps">
-        <div className="recipe-photo">
-          <img src={recipePhoto} alt="add a recipe photo" />
-        </div>
-        <div className="textarea-container">
-          <textarea
-            placeholder="Describe la preparación, paso por paso..."
-            name=""
-            id=""
-            cols="50"
-            rows="10"
-            value={instrucciones}
-            onChange={(e) => {
-              setInstrucciones(e.target.value);
-            }}
-          ></textarea>
+        <p className="title-form">Instrucciones de preparación</p>
+        <div className="cont-preparation-steps">
+          <div className="recipe-photo">
+            <img src={recipePhoto} alt="add a recipe photo" />
+          </div>
+          <div className="textarea-container">
+            <textarea
+              placeholder="Describe los pasos de la preparación..."
+              name="instrucciones"
+              id="instrucciones"
+              cols="50"
+              rows="10"
+              value={instrucciones}
+              onChange={(e) => {
+                setInstrucciones(e.target.value);
+              }}
+            ></textarea>
+          </div>
         </div>
       </section>
-      <p className="title-form">Escoge el valor que corresponda</p>
-      <section className="set-difficulty-portion-time">
+      <section className="container-difficulty-portion-time">
+        <p className="title-form">Escoge el valor que corresponda</p>
         <SetDifficulty
           inputValue={inputValue}
           setInputValue={setInputValue}
