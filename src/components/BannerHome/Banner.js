@@ -5,6 +5,7 @@ import instagram from "../../assets/img/instagram.svg";
 import banner from "../../assets/img/banner.jpg";
 import "./Banner.css";
 import Menu from "../Menu/Menu";
+import { Link } from 'react-router-dom';
 
 export default function Logotipo() {
   return (
@@ -20,7 +21,9 @@ export default function Logotipo() {
           comparte<span>y disfruta</span>
         </p>
         <div className="socialNetworks">
-          <button className="button">Iniciar Sesión</button>
+          <Link to="/acces-sesion">
+            <button className="button">Iniciar Sesión</button>
+          </Link>
           <aside>
             <img className="socialApp" src={facebook} alt="Logotipo Facebook" />
             <img className="socialApp" src={tiktok} alt="Logotipo Tik Tok" />

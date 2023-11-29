@@ -18,9 +18,7 @@ export default function Footer() {
           </aside>
           </div>
           <div className='infoLocal'>
-                <p className='infoFooter'><span>Horario:</span> Abierto todos los días de 11h a 23:30h</p>
-                <p className='infoFooter'><span>Direción:</span> Av. del Bogatell, 82, 08005 Barcelona, España</p>            
-                <p className='infoFooter'><span>Teléfono:</span> +34 666 66 66 66</p>
+                
                 <p className='infoFooter'><span>Email:</span> info@chefyourself.com</p>
           </div>
           <p className='copyright'>Copyright © 2023 FactoriaF5</p>

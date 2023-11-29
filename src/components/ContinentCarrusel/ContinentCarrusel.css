@@ -1,0 +1,28 @@
+.carrusel-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    overflow-x: scroll;
+ 
+}
+
+.carrusel-wrapper {
+    display: flex;
+    width: 300%;
+   
+}
+
+.categoria {
+    border-radius: 8px;
+   
+}
+
+
+.imagen-carrusel {
+    border-radius: 30px;
+    width: 483px;
+    height: 279px;
+    margin-right: 40px;
+  
+}

@@ -30,6 +30,12 @@ export default function Menu() {
     }
   };
 
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      searchRecipes();
+    }
+  };
+
   return (
     <>
       {stateMenu ? (
@@ -49,6 +55,7 @@ export default function Menu() {
                     setSearchResults([]);
                   }
                 }}
+                onKeyPress={handleKeyPress}
               />
               <button onClick={searchRecipes}>
                 <img src={searchIcon} alt="icon-search" />
