@@ -974,6 +974,21 @@
         "dsadsa"
       ],
       "instrucciones": ""
+    },
+    {
+      "id": 33,
+      "nombre": "",
+      "descripcion": "",
+      "categoria": "Platos",
+      "dificultad": 10,
+      "tiempo": "23:45",
+      "porciones": 10,
+      "ingredientes": [
+        "sshshsdhs",
+        "shdshsdhsdh",
+        "dshdshsdhsds"
+      ],
+      "instrucciones": ""
     }
   ],
   "users": [
