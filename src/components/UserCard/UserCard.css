@@ -1,100 +1,127 @@
 .cont-usercard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 450px;
-    z-index: 1;
-  }
-  
-  .rectanguloblanco {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    background: #ffffff;
-    border-radius: 55px;
-    border: 5px solid #d9d9d9;
-    width: 80%;
-    height: 270px;
-  }
-  
-  .img-perfil-page {
-    border-radius: 50%;
-    border: 3px solid transparent;
-    width: 250px;
-    height: 250px;
-  }
-  
-  .info-perfil-page {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: -40px;
-  }
-  
-  .datos-perfil-page {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .datos-perfil-page h4 {
-    color: #f8772f;
-    font-size: 2.1rem;
-  }
-  
-  .datos-perfil-page p {
-    color: #767676;
-    text-align: left;
-    font-size: 1.5rem;
-  }
-  
-  .botones-perfil-page {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 50px;
-    margin-bottom: -35px;
-  }
-  
-  .boton-perfil-naranja {
-    background: #f8772f;
-    border-radius: 70px;
-    padding: 15px 25px;
-    position: relative;
-    border: none;
-    font-size: 1.5rem;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  .boton-perfil-naranja img{
-      width:32px;
-      
-  }
-  
-  .boton-perfil-gris {
-    background: #d9d9d9;
-    border-radius: 70px;
-    padding: 15px 25px;
-    position: relative;
-    border: none;
-    font-size: 1.5rem;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  .boton-perfil-gris img{
-      width:32px;
-      
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  z-index: 1;
+}
+
+.rectanguloblanco {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 55px;
+  border: 5px solid #d9d9d9;
+  width: 65%;
+  max-width: 800px;
+  height: 240px;
+}
+
+.img-perfil-page {
+  border-radius: 50%;
+  border: 3px solid transparent;
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  outline: 3px solid #d9d9d9;
+  margin-top: -50px;
+}
+
+.info-perfil-page {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.datos-perfil-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.datos-perfil-page h4 {
+  color: #f8772f;
+  font-size: 2.0rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.datos-perfil-page p {
+  color: #767676;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.datos-perfil-page button{
+  font-size:0.9rem;
+  padding: 2px 7px;
+  border-radius: 50px;
+  margin-top: 25px;
+  border: 2px solid #acacac;
+  background-color: transparent;
+  color: #acacac;
+  cursor: pointer;
+  transition: .2s all ease;
+}
+
+.datos-perfil-page button:hover{
+  background-color:#f8772f;
+  border: 2px solid #f8772f;
+  color:white;
+  scale: 1.1;
+}
+
+.botones-perfil-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+  margin-bottom: -35px;
+}
+
+.boton-perfil-naranja {
+  background: #f8772f;
+  border-radius: 70px;
+  padding: 15px 25px;
+  position: relative;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+}
+
+.boton-perfil-naranja:hover{
+  animation: shakeAnimation 0.5s ease-in-out;
+}
+
+.boton-perfil-naranja img {
+  width: 32px;
+}
+
+.boton-perfil-gris {
+  background: #acacac;
+  border-radius: 70px;
+  padding: 15px 25px;
+  position: relative;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.boton-perfil-gris img {
+  width: 32px;
+}

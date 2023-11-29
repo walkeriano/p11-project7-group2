@@ -58,7 +58,7 @@ export default function CreateAccount() {
   };
 
   return (
-    <section className="body-sesion">
+    <form className="body-sesion" onSubmit={submitForm}>
       <section className="create-account">
         <div className="login-photo">
           <div
@@ -144,6 +144,7 @@ export default function CreateAccount() {
           </label>
         </div>
       </section>
+
       <button
         onClick={submitForm}
         className="submit-btn"
@@ -152,6 +153,6 @@ export default function CreateAccount() {
       >
         Registrar
       </button>
-    </section>
+    </form>
   );
 }

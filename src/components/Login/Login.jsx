@@ -52,9 +52,9 @@ export default function Login() {
       </label>
       <label htmlFor="password">
         <input
-          placeholder="Correo"
+          placeholder="Contraseña"
           className="inp-credential"
-          name="email"
+          name="password"
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}

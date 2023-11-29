@@ -9,13 +9,10 @@ import { useNavigate } from "react-router";
 import Carrusel from "../../components/ContinentCarrusel/ContinentCarrusel";
 
 
-
-
 export default function ProfilePage() {
   const [verMisRecetas, setVerMisRecetas] = useState(true);
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")));
   const navigate = useNavigate();
-
 
   const togglePerfil = (newState) => {
     setVerMisRecetas(newState);
@@ -27,7 +24,7 @@ export default function ProfilePage() {
       navigate("/acces-sesion");
     }
   }, []);
-
+  
   return (
     <section className="profilepage">
       <HeaderLogin />
@@ -40,8 +37,7 @@ export default function ProfilePage() {
         </div>
       </div>
       {verMisRecetas ? <AddRecipeForm /> : <div>miau</div>}
-      
-    <Footer/>
+      <Footer />
     </section>
   );
 }

@@ -1,5 +1,6 @@
 {
   "recetas": [
+    
     {
       "id": 1,
       "nombre": "Lasaña de Carne",
@@ -842,6 +843,164 @@
           "password": "1234567"
         }
       ]
+    },
+    {
+      "id": 23,
+      "nombre": "Mojito de Fresa sin alcohol",
+      "imagen": " https://recetamojito.info/img/receta-de-mojito-de-fresa-210.jpg",
+      "categoria": "Bebidas",
+      "dificultad": "2/10",
+      "tiempo": 10,
+      "duracion": "minutos",
+      "porciones": 2,
+      "ingredientes": [
+        "1 taza de fresas frescas, cortadas",
+        "1/4 taza de hojas de menta",
+        "2 cucharadas de azúcar",
+        "Jugo de 2 limones",
+        "Agua con gas"
+      ],
+      "instrucciones": [
+        "En un vaso, mezcla las fresas, las hojas de menta y el azúcar.",
+        "Agrega el jugo de limón y el ron blanco. Remueve bien.",
+        "Llena el vaso con hielo y completa con agua con gas.",
+        "Revuelve suavemente y decora con una rodaja de limón."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "nombre": "Smoothie Energizante",
+      "imagen": "https://www.sportlife.es/uploads/s1/75/75/66/3/5dadc00c0ce694cd298b45fd-receta-de-smoothie-de-arandanos.jpeg",
+      "categoria": "Bebidas",
+      "dificultad": "1/10",
+      "tiempo": 5,
+      "duracion": "minutos",
+      "porciones": 1,
+      "ingredientes": [
+        "1 plátano maduro",
+        "1/2 taza de bayas mixtas (fresas, arándanos, moras)",
+        "1/2 taza de yogur griego",
+        "1 cucharada de miel",
+        "1/2 taza de leche de almendra"
+      ],
+      "instrucciones": [
+        "Coloca todos los ingredientes en una licuadora.",
+        "Mezcla hasta obtener una consistencia suave.",
+        "Sirve en un vaso alto y disfruta de esta explosión de energía."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "nombre": "Piña Colada Sin Alcohol",
+      "imagen": "https://i0.wp.com/osojimix.com/wp-content/uploads/2021/11/Pin%CC%83a-colada-Pa%CC%81gina.jpg?w=500&ssl=1",
+      "categoria": "Bebidas",
+      "dificultad": "3/10",
+      "tiempo": 8,
+      "duracion": "minutos",
+      "porciones": 2,
+      "ingredientes": [
+        "1 taza de piña fresca, picada",
+        "1 taza de leche de coco",
+        "1 taza de jugo de piña",
+        "2 tazas de hielo",
+        "Rodajas de piña para decorar"
+      ],
+      "instrucciones": [
+        "En una licuadora, combina la piña, la leche de coco y el jugo de piña.",
+        "Agrega el hielo y mezcla hasta obtener una consistencia cremosa.",
+        "Vierte en vasos y decora con rodajas de piña."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "nombre": "Limonada de Menta",
+      "imagen": "https://www.laprensa.hn/binrepository/533x400/0c0/0d0/none/11004/PWHR/limonada.9_LP938489_MG66416653.jpg",
+      "categoria": "Bebidas",
+      "dificultad": "1/10",
+      "tiempo": 5,
+      "duracion": "minutos",
+      "porciones": 4,
+      "ingredientes": [
+        "4 limones, exprimidos",
+        "1/4 taza de azúcar",
+        "Hojas de menta fresca",
+        "1 litro de agua",
+        "Hielo"
+      ],
+      "instrucciones": [
+        "Mezcla el jugo de limón y el azúcar en una jarra hasta que el azúcar se disuelva.",
+        "Agrega las hojas de menta y mezcla.",
+        "Añade el agua y revuelve bien.",
+        "Sirve sobre hielo y decora con rodajas de limón y hojas de menta."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "nombre": "Té Helado de Durazno",
+      "imagen": "https://mundosjumbo.cl/wp-content/uploads/sites/3/2018/01/iStock-530186688-1.jpg",
+      "categoria": "Bebidas",
+      "dificultad": "2/10",
+      "tiempo": 15,
+      "duracion": "minutos",
+      "porciones": 6,
+      "ingredientes": [
+        "6 bolsitas de té negro",
+        "4 duraznos maduros, en rodajas",
+        "1/2 taza de azúcar",
+        "Jugo de 2 limones",
+        "Hielo"
+      ],
+      "instrucciones": [
+        "Prepara el té negro según las instrucciones del paquete y endulza con azúcar.",
+        "Deja enfriar y añade el jugo de limón.",
+        "Agrega las rodajas de durazno y refrigera por al menos 1 hora.",
+        "Sirve sobre hielo y decora con una rodaja de limón."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
+      ]
     }
   ],
   "users": [
@@ -875,118 +1034,30 @@
     },
     {
       "id": 5,
-      "name": "gary",
-      "email": "gary@gmail.com",
-      "password": "1234567"
-    },
-    {
       "name": "jorge",
-      "email": "jorge",
-      "password": "12321",
-      "id": 6
-    },
-    {
-      "id": 7,
-      "name": "andres",
-      "email": "andres",
-      "password": "13123"
-    },
-    {
-      "id": 8,
-      "name": "andres",
-      "email": "andres",
-      "password": "1312321"
-    },
-    {
-      "id": 9,
-      "name": null,
-      "email": null,
-      "password": null
-    },
-    {
-      "id": 10,
-      "name": "jorge",
-      "email": "jorge",
-      "password": "12312"
-    },
-    {
-      "id": 11,
-      "name": "andres",
-      "email": "adsa",
-      "password": "dsadsa"
-    },
-    {
-      "id": 12,
-      "name": "gary",
-      "email": "gary@m.com",
-      "password": "123321"
-    },
-    {
-      "id": 13,
-      "name": "alexander",
-      "email": "alexander@m.com",
+      "email": "jorge.lara.la@gmail.com",
       "password": "123456"
     },
     {
-      "id": 14,
-      "name": "jorge",
-      "email": "jorge",
-      "password": "123123"
-    },
-    {
-      "id": 15,
-      "name": "akex",
-      "email": "awk@gmail.com",
-      "password": "1231"
-    },
-    {
-      "username": "alex",
-      "password": "user",
-      "id": 16
-    },
-    {
-      "email": "ads",
-      "password": "dsad",
-      "id": 17
-    },
-    {
-      "email": "testuser4@gmail.com",
-      "password": "1234567",
-      "id": 18
-    },
-    {
-      "email": "testuser4@gmail.com",
-      "password": "1234567",
-      "id": 19
-    },
-    {
-      "email": "testuser4@gmail.com",
-      "password": "1234567",
-      "id": 20
-    },
-    {
-      "email": "testuser4@gmail.com",
-      "password": "1234567",
-      "id": 21
-    },
-    {
-      "email": "testuser@gmail.com",
-      "password": "1234567",
-      "id": 22
-    },
-    {
-      "email": "gary@gmail.com",
-      "password": "1234567",
-      "id": 23
-    },
-    {
-      "id": 24,
+      "id": 6,
       "name": "jorge",
       "email": "jorge.lara.la@gmail.com",
-      "password": "Goglegogle17"
+      "password": "123456"
+    },
+    {
+      "id": 7,
+      "name": "jorge",
+      "email": "jorgelaramedina2@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 8,
+      "name": "jorge",
+      "email": "jorgelaramedina2@gmail.com",
+      "password": "123456"
     }
   ],
-  "continentes" : [
+  "continentes": [
     {
       "id": "A",
       "nombre": "Asiática",

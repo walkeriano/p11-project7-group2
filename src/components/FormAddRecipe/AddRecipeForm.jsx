@@ -1,72 +1,212 @@
 import "./AddRecipeForm.css";
-import recipePhoto from "../../assets/img/recipePhoto.png"
-import AddAndRemoveIngredients from "../AddAndRemoveIngredients/AddAndRemoveIngredients"
+import recipePhoto from "../../assets/img/recipePhoto.png";
+import AddAndRemoveIngredients from "../AddAndRemoveIngredients/AddAndRemoveIngredients";
+import SetDifficulty from "../SetValorInputs/SetValorInputs";
+import { useState } from "react";
+import axios from "axios";
+import Swal from "sweetalert2";
 
 export default function AddRecipeForm() {
-    return (
-        <section className="recipe-form">
-            <div className="recipe-container">
-                <p className="title-form">Selecciona el tipo de receta que quieres crear</p>
-                <div className="recipe-categories">
-                    <input type="radio" name="categorie" id="platos" /><label className="platos" htmlFor="platos">Platos</label>
-                    <input type="radio" name="categorie" id="entrantes" /><label className="entrantes" htmlFor="entrantes">Entrantes</label>
-                    <input type="radio" name="categorie" id="postres" /><label className="postres" htmlFor="postres">Postres</label>
-                    <input type="radio" name="categorie" id="bebidas" /><label className="bebidas" htmlFor="bebidas">Bebidas</label>
-                </div>
-                <section>
-                    <p className="title-form">Ingresa los siguientes datos</p>
-                    <div className="recipe-photo-name-container">
-                        <div className="recipe-photo">
-                            <img src={recipePhoto} alt="add a recipe photo" />
-                        </div>
-                        <div className="recipe-name-container">
-                            <input type="text" id="recipe-name" placeholder="Nombre de la receta" /><label htmlFor="recipe-name"></label>
-                            <textarea placeholder=" Agrega una descripcion " name="" id="" cols="50" rows="10"></textarea>
-                        </div>
-                    </div>
-                    <p className="title-form">Añade los ingredientes</p>
-                    <AddAndRemoveIngredients />
-                    <p className="title-form">Instrucción para la preparación</p>
-                    <section className="recipe-steps">
-                        <textarea placeholder="Describe la preparación, paso por paso..." name="" id="" cols="50" rows="10"></textarea>
-                    </section>
-                    <p className="title-form">Escoge el valor que corresponda</p>
-                    <section className="set-difficulty-portion-time">
-                        <div className="set-difficulty">
-                            <label htmlFor="difficulty">
-                                <input type="number" id="difficulty" name="difficulty" min="1" max="10" defaultValue="1" /> <span>/ 10</span>
-                            </label>
-                            <p className="p-set-style">DIFICULTAD</p>
-                            <div className="plus-minus-btn">
-                                <span>+</span>
-                                <span>-</span>
-                            </div>
-                        </div>
-                        <div className="set-portion">
-                            <label htmlFor="portion">
-                                <input type="number" id="portion" name="portion" min="1" max="10" defaultValue="1" /> <span>/ 10</span>
-                            </label>
-                            <p className="p-set-style">PORCIONES</p>
-                            <div className="plus-minus-btn">
-                                <span>+</span>
-                                <span>-</span>
-                            </div>
-                        </div>
-                        <div className="set-time">
-                            <label htmlFor="time">
-                                <input type="time" id="time" name="time" min="0" max="12" step="60" />
-                            </label>
-                            <p className="p-set-style">TIEMPO</p>
-                            <div className="plus-minus-btn">
-                                <span>+</span>
-                                <span>-</span>
-                            </div>
-                        </div>
-                        
-                    </section>
+  // campo de ingredientes
+  const [elements, setElements] = useState([]);
 
-                </section>
-            </div>
-        </section>
-    );
+  // campo de dificultad, tiempo, porciones
+  const [inputValue, setInputValue] = useState(1);
+  const [portionValue, setPortionValue] = useState(1);
+  const [timeValue, setTimeValue] = useState("00:00");
+
+  // otros campos
+  const [nombre, setNombre] = useState("");
+  const [descripcion, setDescripcion] = useState("");
+  const [categoria, setCategoria] = useState("");
+  const [instrucciones, setInstrucciones] = useState("");
+
+  const submitFormRecipe = async (e) => {
+    e.preventDefault();
+    let newRecipe = {
+      id: null,
+      nombre: nombre,
+      descripcion: descripcion,
+      categoria: categoria,
+      dificultad: inputValue,
+      tiempo: timeValue,
+      porciones: portionValue,
+      ingredientes: elements,
+      instrucciones: instrucciones,
+    };
+
+    try {
+      if (
+        nombre === null ||
+        descripcion === null ||
+        elements === null ||
+        instrucciones === null ||
+        timeValue === null ||
+        inputValue === null ||
+        portionValue === null
+      ) {
+        Swal.fire({
+          title: "Completar Todos los Campos",
+          text: "Inténtalo de nuevo",
+          icon: "error",
+        });
+        return;
+      }
+      const response = await axios.post(
+        "http://localhost:5000/recetas",
+        newRecipe
+      );
+      setNombre(null);
+      setDescripcion(null);
+      setElements([]);
+      setInstrucciones(null);
+      setTimeValue(null);
+      setInputValue(null);
+      setPortionValue(null);
+
+      Swal.fire({
+        title: "En hora buena!",
+        text: "Tu Receta Fue Creada",
+        icon: "success",
+      });
+    } catch (err) {
+      Swal.fire({
+        title: "Algo anda mal",
+        text: "Inténtalo de nuevo",
+        icon: "error",
+      });
+    }
+  };
+
+  const handleCategoriaChange = (event) => {
+    setCategoria(event.target.value);
+  };
+
+  return (
+    <form className="recipe-form" onSubmit={(e) => submitFormRecipe(e)}>
+      <section className="recipe-container">
+        <p className="title-form">Seleccionar categoría</p>
+        <div className="recipe-categories">
+          <input
+            type="radio"
+            name="categoria"
+            id="platos"
+            value="Platos"
+            checked={categoria === "Platos"}
+            onChange={handleCategoriaChange}
+          />
+          <label className="platos" htmlFor="platos">
+            Platos
+          </label>
+          <input
+            type="radio"
+            name="categoria"
+            id="entrantes"
+            value="Entrantes"
+            checked={categoria === "Entrantes"}
+            onChange={handleCategoriaChange}
+          />
+          <label className="entrantes" htmlFor="entrantes">
+            Entrantes
+          </label>
+          <input
+            type="radio"
+            name="categoria"
+            id="postres"
+            value="Postres"
+            checked={categoria === "Postres"}
+            onChange={handleCategoriaChange}
+          />
+          <label className="postres" htmlFor="postres">
+            Postres
+          </label>
+          <input
+            type="radio"
+            name="categoria"
+            id="bebidas"
+            value="Bebidas"
+            checked={categoria === "Bebidas"}
+            onChange={handleCategoriaChange}
+          />
+          <label className="bebidas" htmlFor="bebidas">
+            Bebidas
+          </label>
+        </div>
+      </section>
+      <section className="recipe-photo-name-container">
+        <p className="title-form">Ingresa los siguientes datos</p>
+        <div className="cont-recipe-info">
+          <div className="cont-recipe-photo">
+            <input className="recipe-photo" type="file" hidden />
+            <img src={recipePhoto} alt="add a recipe photo" />
+          </div>
+          <div className="recipe-name-container">
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Nombre de la receta"
+              value={nombre}
+              onChange={(e) => {
+                setNombre(e.target.value);
+              }}
+            />
+            <textarea
+              placeholder="Agrega una descripcion"
+              name="descripcion"
+              id="descripcion"
+              cols="50"
+              rows="10"
+              value={descripcion}
+              onChange={(e) => {
+                setDescripcion(e.target.value);
+              }}
+            ></textarea>
+          </div>
+        </div>
+      </section>
+      <section className="ingredients-container">
+        <p className="title-form">Definir Ingredientes</p>
+        <AddAndRemoveIngredients
+          elements={elements}
+          setElements={setElements}
+        />
+      </section>
+      <section className="recipe-steps">
+        <p className="title-form">Instrucciones de preparación</p>
+        <div className="cont-preparation-steps">
+          <div className="recipe-photo">
+            <img src={recipePhoto} alt="add a recipe photo" />
+          </div>
+          <div className="textarea-container">
+            <textarea
+              placeholder="Describe los pasos de la preparación..."
+              name="instrucciones"
+              id="instrucciones"
+              cols="50"
+              rows="10"
+              value={instrucciones}
+              onChange={(e) => {
+                setInstrucciones(e.target.value);
+              }}
+            ></textarea>
+          </div>
+        </div>
+      </section>
+      <section className="container-difficulty-portion-time">
+        <p className="title-form">Escoge el valor que corresponda</p>
+        <SetDifficulty
+          inputValue={inputValue}
+          setInputValue={setInputValue}
+          portionValue={portionValue}
+          setPortionValue={setPortionValue}
+          timeValue={timeValue}
+          setTimeValue={setTimeValue}
+        />
+      </section>
+      <button className="create-recipe-submit-btn" name="submit" type="submit">
+        ¡CREAR RECETA!
+      </button>
+    </form>
+  );
 }
