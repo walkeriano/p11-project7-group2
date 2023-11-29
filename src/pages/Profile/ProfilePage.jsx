@@ -2,11 +2,12 @@ import HeaderLogin from "../../components/HeaderLogin/HeaderLogin";
 import "./ProfilePage.css";
 import iconstexture from "../../assets/img/icons-texture.png";
 import AddRecipeForm from "../../components/FormAddRecipe/AddRecipeForm";
-
 import UserCard from "../../components/UserCard/UserCard";
 import Footer from "../../components/Footer/Footer";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
+import Carrusel from "../../components/ContinentCarrusel/ContinentCarrusel";
+
 
 
 
@@ -39,6 +40,7 @@ export default function ProfilePage() {
         </div>
       </div>
       {verMisRecetas ? <AddRecipeForm /> : <div>miau</div>}
+      
     <Footer/>
     </section>
   );

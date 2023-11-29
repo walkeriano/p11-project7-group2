@@ -985,5 +985,52 @@
       "email": "jorge.lara.la@gmail.com",
       "password": "Goglegogle17"
     }
+  ],
+  "continentes" : [
+    {
+      "id": "A",
+      "nombre": "Asiática",
+      "imagen": "https://www.justspices.es/media/opti_image/webp/magefan_blog/comida-asiatica.webp"
+    },
+    {
+      "id": "B",
+      "nombre": "Italiana",
+      "imagen": "https://www.hogarmania.com/archivos/201806/cocina-italiana-848x477x80xX.jpg"
+    },
+    {
+      "id": "C",
+      "nombre": "Mexicana",
+      "imagen": "https://corporativa.ahorramas.com/wp-content/uploads/2023/04/AM_Blog-ComidaMexicana_BLOG-1024x576.png"
+    },
+    {
+      "id": "D",
+      "nombre": "Europea",
+      "imagen": "https://www.recetasnestle.com.ec/sites/default/files/styles/crop_article_banner_desktop_nes/public/2022-11/comida-mediterranea-ensalada-griega.jpg.webp?itok=w3nOdsjA"
+    },
+    {
+      "id": "E",
+      "nombre": "India",
+      "imagen": "https://www.recetasnestlecam.com/sites/default/files/inline-images/comida-india-tipica.jpg_1.jpg"
+    },
+    {
+      "id": "F",
+      "nombre": "Latina",
+      "imagen": "https://static.eldiario.es/clip/bd1eaca6-397c-40c1-a25e-487165522a12_16-9-discover-aspect-ratio_default_0.webp"
+    },
+    {
+      "id": "G",
+      "nombre": "Catalana",
+      "imagen": "https://www.edreams.es/blog/wp-content/uploads/sites/5/2019/11/sopa-de-galets_comida-tipica-catalana-navidad-1024x683.jpg.webp"
+    },
+    {
+      "id": "H",
+      "nombre": "Africana",
+      "imagen": "https://uploads.exoticca.com/es_ES/destination/country/etiopia-gastronomy.png"
+    },
+    {
+      "id": "I",
+      "nombre": "Americana",
+      "imagen": "https://www.idgastronomic.com/wp-content/uploads/2023/01/la-verdadera-comida-americana.jpg"
+    }
   ]
 }
