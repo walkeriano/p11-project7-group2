@@ -1,6 +1,6 @@
 import React from "react";
 
-const SetDifficulty = ({
+const SetValorInputs = ({
   inputValue,
   setInputValue,
   portionValue,
@@ -106,4 +106,4 @@ const SetDifficulty = ({
   );
 };
 
-export default SetDifficulty;
+export default SetValorInputs;
