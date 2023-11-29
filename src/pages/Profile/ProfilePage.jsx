@@ -6,8 +6,13 @@ import UserCard from "../../components/UserCard/UserCard";
 import Footer from "../../components/Footer/Footer";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
+<<<<<<< HEAD
 import { useFetch } from "../../ConstructorFetch";
 import { Link } from "react-router-dom";
+=======
+import Carrusel from "../../components/ContinentCarrusel/ContinentCarrusel";
+
+>>>>>>> e3d473cc31a8a159ff164a6ed17afddf91e4ce22
 
 export default function ProfilePage() {
   const [verMisRecetas, setVerMisRecetas] = useState(true);
@@ -38,6 +43,7 @@ export default function ProfilePage() {
     );
     setRecetasDelUsuario(recetasDelUsuarioFiltradas);
   }, [user, data, navigate, hasError]);
+
 
   return (
     <section className="profilepage">

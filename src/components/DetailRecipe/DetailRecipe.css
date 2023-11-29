@@ -7,15 +7,15 @@
 }
 
 .cont-detail-recipe {
-  width: 85%;
+  width: 70%;
   height: 70vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .cont-img-receta {
-  width: 50%;
+  width: 55%;
   height: 100%;
 }
 

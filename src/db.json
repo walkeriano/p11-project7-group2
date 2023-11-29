@@ -844,150 +844,161 @@
     },
     {
       "id": 23,
-      "nombre": "dsadsa",
-      "descripcion": "dsadsadsa",
-      "instrucciones": "dsadsadsadsa"
+      "nombre": "Mojito de Fresa sin alcohol",
+      "imagen": " https://recetamojito.info/img/receta-de-mojito-de-fresa-210.jpg",
+      "categoria": "Bebidas",
+      "dificultad": "2/10",
+      "tiempo": 10,
+      "duracion": "minutos",
+      "porciones": 2,
+      "ingredientes": [
+        "1 taza de fresas frescas, cortadas",
+        "1/4 taza de hojas de menta",
+        "2 cucharadas de azúcar",
+        "Jugo de 2 limones",
+        "Agua con gas"
+      ],
+      "instrucciones": [
+        "En un vaso, mezcla las fresas, las hojas de menta y el azúcar.",
+        "Agrega el jugo de limón y el ron blanco. Remueve bien.",
+        "Llena el vaso con hielo y completa con agua con gas.",
+        "Revuelve suavemente y decora con una rodaja de limón."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
+      ]
     },
     {
       "id": 24,
-      "nombre": "dsadas",
-      "descripcion": "dsadsadas",
-      "categoria": "",
-      "dificultad": "",
-      "tiempo": "",
-      "duracion": "",
-      "porciones": "",
-      "ingredientes": [],
-      "instrucciones": "dsadsadas"
+      "nombre": "Smoothie Energizante",
+      "imagen": "https://www.sportlife.es/uploads/s1/75/75/66/3/5dadc00c0ce694cd298b45fd-receta-de-smoothie-de-arandanos.jpeg",
+      "categoria": "Bebidas",
+      "dificultad": "1/10",
+      "tiempo": 5,
+      "duracion": "minutos",
+      "porciones": 1,
+      "ingredientes": [
+        "1 plátano maduro",
+        "1/2 taza de bayas mixtas (fresas, arándanos, moras)",
+        "1/2 taza de yogur griego",
+        "1 cucharada de miel",
+        "1/2 taza de leche de almendra"
+      ],
+      "instrucciones": [
+        "Coloca todos los ingredientes en una licuadora.",
+        "Mezcla hasta obtener una consistencia suave.",
+        "Sirve en un vaso alto y disfruta de esta explosión de energía."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
+      ]
     },
     {
       "id": 25,
-      "nombre": "dsadsa",
-      "descripcion": "dasdas",
-      "categoria": "",
-      "dificultad": "",
-      "tiempo": "",
-      "duracion": "",
-      "porciones": "",
+      "nombre": "Piña Colada Sin Alcohol",
+      "imagen": "https://i0.wp.com/osojimix.com/wp-content/uploads/2021/11/Pin%CC%83a-colada-Pa%CC%81gina.jpg?w=500&ssl=1",
+      "categoria": "Bebidas",
+      "dificultad": "3/10",
+      "tiempo": 8,
+      "duracion": "minutos",
+      "porciones": 2,
       "ingredientes": [
-        "dsadasdas",
-        "dsadsa",
-        "dsadsa"
+        "1 taza de piña fresca, picada",
+        "1 taza de leche de coco",
+        "1 taza de jugo de piña",
+        "2 tazas de hielo",
+        "Rodajas de piña para decorar"
       ],
-      "instrucciones": "dsadas"
+      "instrucciones": [
+        "En una licuadora, combina la piña, la leche de coco y el jugo de piña.",
+        "Agrega el hielo y mezcla hasta obtener una consistencia cremosa.",
+        "Vierte en vasos y decora con rodajas de piña."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
+      ]
     },
     {
       "id": 26,
-      "nombre": "dsadas",
-      "descripcion": "dsadasdasd",
-      "categoria": "",
-      "dificultad": "",
-      "tiempo": "",
-      "duracion": "",
-      "porciones": "",
+      "nombre": "Limonada de Menta",
+      "imagen": "https://www.laprensa.hn/binrepository/533x400/0c0/0d0/none/11004/PWHR/limonada.9_LP938489_MG66416653.jpg",
+      "categoria": "Bebidas",
+      "dificultad": "1/10",
+      "tiempo": 5,
+      "duracion": "minutos",
+      "porciones": 4,
       "ingredientes": [
-        "dsadsa",
-        "dsadsa"
+        "4 limones, exprimidos",
+        "1/4 taza de azúcar",
+        "Hojas de menta fresca",
+        "1 litro de agua",
+        "Hielo"
       ],
-      "instrucciones": "dsadasda"
+      "instrucciones": [
+        "Mezcla el jugo de limón y el azúcar en una jarra hasta que el azúcar se disuelva.",
+        "Agrega las hojas de menta y mezcla.",
+        "Añade el agua y revuelve bien.",
+        "Sirve sobre hielo y decora con rodajas de limón y hojas de menta."
+      ],
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
+      ]
     },
     {
       "id": 27,
-      "nombre": "dsadsa",
-      "descripcion": "dsadas",
-      "categoria": "",
-      "dificultad": "",
-      "tiempo": "",
-      "duracion": "",
-      "porciones": "",
+      "nombre": "Té Helado de Durazno",
+      "imagen": "https://mundosjumbo.cl/wp-content/uploads/sites/3/2018/01/iStock-530186688-1.jpg",
+      "categoria": "Bebidas",
+      "dificultad": "2/10",
+      "tiempo": 15,
+      "duracion": "minutos",
+      "porciones": 6,
       "ingredientes": [
-        "dsadas",
-        "dasdas"
+        "6 bolsitas de té negro",
+        "4 duraznos maduros, en rodajas",
+        "1/2 taza de azúcar",
+        "Jugo de 2 limones",
+        "Hielo"
       ],
-      "instrucciones": "dsadsa"
-    },
-    {
-      "id": 28,
-      "nombre": "dsadsa",
-      "descripcion": "dsadas",
-      "categoria": "",
-      "dificultad": "",
-      "tiempo": "",
-      "duracion": "",
-      "porciones": "",
-      "ingredientes": [
-        "dsadas",
-        "dasdas"
+      "instrucciones": [
+        "Prepara el té negro según las instrucciones del paquete y endulza con azúcar.",
+        "Deja enfriar y añade el jugo de limón.",
+        "Agrega las rodajas de durazno y refrigera por al menos 1 hora.",
+        "Sirve sobre hielo y decora con una rodaja de limón."
       ],
-      "instrucciones": "dsadsa"
-    },
-    {
-      "id": 29,
-      "nombre": "dsadsa",
-      "descripcion": "dsadsa",
-      "categoria": "",
-      "dificultad": 4,
-      "tiempo": "20:17",
-      "porciones": 3,
-      "ingredientes": [
-        "dsadsa"
-      ],
-      "instrucciones": "dsadsadas"
-    },
-    {
-      "id": 30,
-      "nombre": "dasdsa",
-      "descripcion": "dsadas",
-      "categoria": "Platos",
-      "dificultad": 3,
-      "tiempo": "01:15",
-      "porciones": 3,
-      "ingredientes": [
-        "dsadsa"
-      ],
-      "instrucciones": "dsadasdasdsa"
-    },
-    {
-      "id": 31,
-      "nombre": "dsadsa",
-      "descripcion": "dsadas",
-      "categoria": "Entrantes",
-      "dificultad": 3,
-      "tiempo": "00:30",
-      "porciones": 3,
-      "ingredientes": [
-        "dsadsa"
-      ],
-      "instrucciones": "dsadsadsadas"
-    },
-    {
-      "id": 32,
-      "nombre": "",
-      "descripcion": "",
-      "categoria": "",
-      "dificultad": 1,
-      "tiempo": "00:00",
-      "porciones": 1,
-      "ingredientes": [
-        "dsadsa",
-        "dsadsa"
-      ],
-      "instrucciones": ""
-    },
-    {
-      "id": 33,
-      "nombre": "",
-      "descripcion": "",
-      "categoria": "Platos",
-      "dificultad": 10,
-      "tiempo": "23:45",
-      "porciones": 10,
-      "ingredientes": [
-        "sshshsdhs",
-        "shdshsdhsdh",
-        "dshdshsdhsds"
-      ],
-      "instrucciones": ""
+      "userData": [
+        {
+          "id": 1,
+          "name": "testuser",
+          "email": "testuser@gmail.com",
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
+          "password": "1234567"
+        }
+      ]
     }
   ],
   "users": [
@@ -1018,6 +1029,77 @@
       "email": "testuser4@gmail.com",
       "profile": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp",
       "password": "1234567"
+    },
+    {
+      "id": 5,
+      "name": "jorge",
+      "email": "jorge.lara.la@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 6,
+      "name": "jorge",
+      "email": "jorge.lara.la@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 7,
+      "name": "jorge",
+      "email": "jorgelaramedina2@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 8,
+      "name": "jorge",
+      "email": "jorgelaramedina2@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "continentes": [
+    {
+      "id": "A",
+      "nombre": "Asiática",
+      "imagen": "https://www.justspices.es/media/opti_image/webp/magefan_blog/comida-asiatica.webp"
+    },
+    {
+      "id": "B",
+      "nombre": "Italiana",
+      "imagen": "https://www.hogarmania.com/archivos/201806/cocina-italiana-848x477x80xX.jpg"
+    },
+    {
+      "id": "C",
+      "nombre": "Mexicana",
+      "imagen": "https://corporativa.ahorramas.com/wp-content/uploads/2023/04/AM_Blog-ComidaMexicana_BLOG-1024x576.png"
+    },
+    {
+      "id": "D",
+      "nombre": "Europea",
+      "imagen": "https://www.recetasnestle.com.ec/sites/default/files/styles/crop_article_banner_desktop_nes/public/2022-11/comida-mediterranea-ensalada-griega.jpg.webp?itok=w3nOdsjA"
+    },
+    {
+      "id": "E",
+      "nombre": "India",
+      "imagen": "https://www.recetasnestlecam.com/sites/default/files/inline-images/comida-india-tipica.jpg_1.jpg"
+    },
+    {
+      "id": "F",
+      "nombre": "Latina",
+      "imagen": "https://static.eldiario.es/clip/bd1eaca6-397c-40c1-a25e-487165522a12_16-9-discover-aspect-ratio_default_0.webp"
+    },
+    {
+      "id": "G",
+      "nombre": "Catalana",
+      "imagen": "https://www.edreams.es/blog/wp-content/uploads/sites/5/2019/11/sopa-de-galets_comida-tipica-catalana-navidad-1024x683.jpg.webp"
+    },
+    {
+      "id": "H",
+      "nombre": "Africana",
+      "imagen": "https://uploads.exoticca.com/es_ES/destination/country/etiopia-gastronomy.png"
+    },
+    {
+      "id": "I",
+      "nombre": "Americana",
+      "imagen": "https://www.idgastronomic.com/wp-content/uploads/2023/01/la-verdadera-comida-americana.jpg"
     }
   ]
 }

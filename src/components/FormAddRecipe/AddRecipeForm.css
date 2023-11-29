@@ -181,7 +181,8 @@
 }
 
 .recipe-name-container textarea:focus,
-.recipe-name-container input:focus {
+.recipe-name-container input:focus,
+.textarea-container textarea:focus {
     border: 3px solid #F6722B;
     outline: none;
 }

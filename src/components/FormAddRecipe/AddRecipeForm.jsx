@@ -1,7 +1,7 @@
 import "./AddRecipeForm.css";
 import recipePhoto from "../../assets/img/recipePhoto.png";
 import AddAndRemoveIngredients from "../AddAndRemoveIngredients/AddAndRemoveIngredients";
-import SetDifficulty from "../SetValorInputs/SetValorInputs";
+import SetValorInputs from "../SetValorInputs/SetValorInputs";
 import { useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
@@ -152,7 +152,7 @@ export default function AddRecipeForm() {
               }}
             />
             <textarea
-              placeholder="Agrega una descripcion"
+              placeholder="Descripcion de la receta"
               name="descripcion"
               id="descripcion"
               cols="50"
@@ -195,7 +195,7 @@ export default function AddRecipeForm() {
       </section>
       <section className="container-difficulty-portion-time">
         <p className="title-form">Escoge el valor que corresponda</p>
-        <SetDifficulty
+        <SetValorInputs
           inputValue={inputValue}
           setInputValue={setInputValue}
           portionValue={portionValue}
