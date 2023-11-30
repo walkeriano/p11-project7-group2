@@ -18,15 +18,15 @@ export default function DetailRecipe() {
     <section className="cont-info-general">
       <div className="cont-detail-recipe">
         <section className="cont-img-receta">
-          <img src={data.imagen} alt="imagen-receta" />
+          <img src={data?.imagen} alt="imagen-receta" />
         </section>
         <section className="cont-info-receta">
-          <p className="cat-rec">{data.categoria}</p>
-          <h3 className="title-rec">{data.nombre}</h3>
-          <p className="des-rec">{data.descripcion}</p>
+          <p className="cat-rec">{data?.categoria}</p>
+          <h3 className="title-rec">{data?.nombre}</h3>
+          <p className="des-rec">{data?.descripcion}</p>
           <div className="ingredients">
             <h4>Ingredientes:</h4>
-            {data.ingredientes.map((ingrediente, receta) => (
+            {data?.ingredientes.map((ingrediente, receta) => (
               <li key={receta}>{ingrediente}</li>
             ))}
           </div>
@@ -34,20 +34,20 @@ export default function DetailRecipe() {
       </div>
       <div className="cont-stadistics">
         <article>
-          <h5>{data.dificultad}</h5>
+          <h5>{data?.dificultad}</h5>
           <p>Dificultad</p>
         </article>
         <article>
           <div className="info-porciones">
             <span>+</span>
-            <h5>{data.porciones}</h5>
+            <h5>{data?.porciones}</h5>
           </div>
           <p>Porciones</p>
         </article>
         <article>
           <div className="info-tiempo">
-            <h5>{data.tiempo}</h5>
-            <span>{data.duracion}</span>
+            <h5>{data?.tiempo}</h5>
+            <span>{data?.duracion}</span>
           </div>
           <p>Tiempo</p>
         </article>
@@ -57,11 +57,11 @@ export default function DetailRecipe() {
         <div className="info-preparation">
           <div className="cont-info-preparation">
             <h4>Preparación</h4>
-            {data.instrucciones.map((instruccion, receta) => (
-              <li key={receta}>{instruccion}</li>
-            ))}
+            
+              <li>{data?.instrucciones}</li>
+            
           </div>
-          <img src={data.imagenPreparacion} alt="receta-imagen" />
+          <img src={data?.imagenPreparacion} alt="receta-imagen" />
         </div>
         <span className="degrad-two"></span>
         <img src={texture} className="bg-texture" alt="" />

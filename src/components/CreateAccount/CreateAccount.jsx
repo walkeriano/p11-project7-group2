@@ -5,60 +5,80 @@ import axios from "axios";
 import { useNavigate } from "react-router";
 
 export default function CreateAccount() {
-  const [perfilphoto, setPerfilphoto] = useState(null);
-  const [imageSelected, setImageSelected] = useState(false);
-
   const [profile, setProfile] = useState({
     id: null,
     name: "",
     email: "",
     password: "",
+    profile: "",
   });
+
+  const [imageSelected, setImageSelected] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [imageUrl, setImageUrl] = useState(null);
+
+  const handleImageChange = async (e) => {
+    const file = e.target.files[0];
+    setSelectedImage(file);
+    const url = await uploadImage(file);
+    setImageUrl(url);
+    setImageSelected(true);
+    setProfile((prevState) => {
+      return { ...prevState, profile: url };
+    });
+  };
+
+  const uploadImage = async (image) => {
+    const formData = new FormData();
+    formData.append("image", image);
+    const response = await fetch(
+      "https://api.imgbb.com/1/upload?key=4dfb67292154f020cee361189a69a258",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+    const data = await response.json();
+    return data.data.url;
+  };
 
   const navigate = useNavigate();
 
-  const submitForm = async () => {
+  const submitForm = async (e) => {
+    e.preventDefault();
     try {
       if (
         !profile.name ||
         !profile.email ||
         !profile.password ||
-        !perfilphoto
+        !profile.profile
       ) {
-        console.log("Todos los campos deben estar completos");
+        console.log("error al enviar");
         return;
       }
       const response = await axios.post("http://localhost:5000/users", profile);
+      console.log(response, profile);
+      let userLocalStorage = {
+        name: response.data.name,
+        profile: response.data.profile,
+        email: response.data.email,
+      };
+      localStorage.setItem("user", JSON.stringify(userLocalStorage));
       setProfile({
         id: null,
         name: "",
         email: "",
         password: "",
+        profile: "",
       });
-      setPerfilphoto(null);
       navigate("/profile-page");
     } catch (err) {
-      console.log("error");
-    }
-  };
-
-  const handleimage = (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        setPerfilphoto(reader.result);
-        setImageSelected(true);
-      };
-      reader.readAsDataURL(file);
-    } else {
-      setPerfilphoto(null);
-      setImageSelected(false);
+      console.log("error", err);
     }
   };
 
   return (
-    <form className="body-sesion" onSubmit={submitForm}>
+    <form className="body-sesion" onSubmit={(e) => submitForm(e)}>
       <section className="create-account">
         <div className="login-photo">
           <div
@@ -68,14 +88,14 @@ export default function CreateAccount() {
             <input
               className="input-image"
               hidden
-              onChange={handleimage}
+              onChange={(e) => handleImageChange(e)}
               name="perfilphoto"
               id="profile"
               type="file"
               accept="image/png"
             />
-            {perfilphoto ? (
-              <img className="image-on" src={perfilphoto} alt="perfil photo" />
+            {imageUrl ? (
+              <img className="image-on" src={imageUrl} alt="perfil photo" />
             ) : (
               <img className="image-of" src={photoIcon} alt="photo icon" />
             )}

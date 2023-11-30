@@ -124,6 +124,7 @@
 .cont-recipe-photo {
     width: 40%;
     height: 100%;
+    cursor: pointer;
 }
 
 .recipe-name-container {
@@ -139,6 +140,7 @@
 .recipe-photo {
     width: 50%;
     height: 100%;
+    cursor: pointer;
 }
 
 .recipe-photo img{
@@ -319,7 +321,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     transition: .3s all ease;
 }
 
-.p-set-style{
+.p-set-style{                     
     color:#F6722B;
     letter-spacing: 1px;
     text-transform: uppercase;
