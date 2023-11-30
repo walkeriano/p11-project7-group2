@@ -1,21 +1,35 @@
+.cont-carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
 .carrusel-container {
     display: flex;
     align-items: center;
     width: 80%;
     margin: auto;
-    overflow-x: scroll;
- 
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior:smooth;
+    
 }
 
 .carrusel-wrapper {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
     display: flex;
     width: 300%;
-   
+    
 }
 
 .categoria {
     border-radius: 8px;
-   
+
 }
 
 
@@ -24,5 +38,54 @@
     width: 483px;
     height: 279px;
     margin-right: 40px;
+   
+}
+
+.continentes h2 {
+    bottom: 5%;
+    padding: 0 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.carrusel-wrapper span{
+    padding: 4px 16px;
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+    backdrop-filter:blur(10px);
+    background-color: rgba(0, 0, 0, 0.518);
+    color:white;
+}
+
+.btns {
+    position: absolute;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+.arrowButton1,
+.arrowButton2 {
+  padding: 10px;
+  margin: 5px;
+  background-color: #c4c4c4;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 30px;
   
 }
+
+.arrowButton1:hover,
+.arrowButton2:hover {
+  background-color: #F8772F; 
+}
+
