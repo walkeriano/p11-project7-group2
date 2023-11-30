@@ -57,9 +57,15 @@ export default function DetailRecipe() {
         <div className="info-preparation">
           <div className="cont-info-preparation">
             <h4>Preparación</h4>
-            
+            {Array.isArray(data?.instrucciones) ? (
+              <ul>
+                {data.instrucciones.map((instruccion, index) => (
+                  <li key={index}>{instruccion}</li>
+                ))}
+              </ul>
+            ) : (
               <li>{data?.instrucciones}</li>
-            
+            )}
           </div>
           <img src={data?.imagenPreparacion} alt="receta-imagen" />
         </div>
