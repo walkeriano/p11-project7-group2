@@ -999,6 +999,28 @@
           "password": "1234567"
         }
       ]
+    },
+    {
+      "id": 28,
+      "nombre": "",
+      "descripcion": "",
+      "categoria": "",
+      "dificultad": 1,
+      "tiempo": "00:00",
+      "porciones": 1,
+      "ingredientes": [],
+      "instrucciones": ""
+    },
+    {
+      "id": 29,
+      "nombre": "",
+      "descripcion": "",
+      "categoria": "",
+      "dificultad": 1,
+      "tiempo": "00:00",
+      "porciones": 1,
+      "ingredientes": [],
+      "instrucciones": ""
     }
   ],
   "users": [

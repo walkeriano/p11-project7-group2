@@ -37,7 +37,7 @@ const AddAndRemoveIngredients = ({ elements, setElements }) => {
         {elements?.map((element, index) => (
           <li key={index}>
             {element}
-            <button className="remove-btn" onClick={() => removeElement(index)}>
+            <button className="remove-btn" type="button" onClick={() => removeElement(index)}>
               <img src={x} alt="X Icon" />
             </button>
           </li>
