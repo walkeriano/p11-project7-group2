@@ -13,7 +13,6 @@ export default function ListRecipes({ selectedCategory }) {
   const [recipeCount, setRecipeCount] = useState(0);
 
   useEffect(() => {
-    // Actualiza la cantidad de recetas cuando cambia la categoría o se obtienen nuevos datos
     setRecipeCount(data ? data.length : 0);
   }, [selectedCategory, data]);
 

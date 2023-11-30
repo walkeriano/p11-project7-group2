@@ -11,7 +11,7 @@ export default function ListCategories({ onCategoryClick }) {
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
-    onCategoryClick(category); // Llamar a la función proporcionada por Home
+    onCategoryClick(category);
   };
 
   return (
