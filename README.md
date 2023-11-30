@@ -88,8 +88,10 @@ Nuestro proyecto se utiliza como cualquier red social. Crea tu perfil, comparte 
 tiene para ofrecer.
 
 # Créditos
-Agradecemos a todos los chefs aficionados y entusiastas culinarios que hacen de Chef Yourself una comunidad, con el lenguaje en común que nos une y rompe cualquier barrera, la comida.
-además de los formadores de FACTORÍA F5 que nos acompañaron y guiaron con su conocimiento.
+Agradecemos a todos los chefs aficionados y entusiastas culinarios que hacen de Chef Yourself una comunidad, con un lenguaje en común que nos une y rompe cualquier barrera, la comida.
+además de los formadores de FACTORÍA F5 que nos acompañaron y guiaron con su conocimiento durante todo el proceso
+# GABRIELA PIÑEIRO  <3
+# JAVI FORMADOR   <3
 
 # Licencia
 FACTORÍA F5 all rights reserved
