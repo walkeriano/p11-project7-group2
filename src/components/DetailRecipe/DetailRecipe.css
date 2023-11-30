@@ -17,6 +17,7 @@
 .cont-img-receta {
   width: 55%;
   height: 100%;
+  position: relative;
 }
 
 .cont-img-receta img {
@@ -24,6 +25,34 @@
   height: 100%;
   object-fit: cover;
   border-radius: 30px;
+}
+
+.cont-detail-receta-user {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: white;
+  height: 35px;
+  width: 100px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.cont-detail-receta-user img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cont-detail-receta-user p {
+  width: 50%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .cont-info-receta {
@@ -150,7 +179,6 @@
 .cont-preparation {
   width: 100%;
   position: relative;
-  margin-bottom: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,19 +248,38 @@
 }
 
 .degrad {
-    position: absolute;
-    width: 100%;
-    height: 80px;
-    top: 0px;
-    background:linear-gradient(white, rgba(255, 255, 255, 0));
-    z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  top: 0px;
+  background: linear-gradient(white, rgba(255, 255, 255, 0));
+  z-index: 1;
 }
 
 .degrad-two {
-    position: absolute;
-    width: 100%;
-    height: 80px;
-    bottom: 0px;
-    background:linear-gradient(rgba(255, 255, 255, 0), white);
-    z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  bottom: 0px;
+  background: linear-gradient(rgba(255, 255, 255, 0), white);
+  z-index: 1;
+}
+
+.btn-up-window {
+  border: 2px solid #f8772f;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-up-window img {
+  height: 50%;
+  transform: rotate(-90deg);
+}
+
+.btn-up-window:hover {
+  transform: scale(1.1);
 }

@@ -10,7 +10,7 @@ export default function Home() {
 
 
   return (
-    <section> 
+    <section className='section-general-app'> 
       <Banner />    
       <ContinentCarrusel/>
       <ListCategories onCategoryClick={setSelectedCategory} />

@@ -92,3 +92,21 @@ span{
     z-index: 1;
     padding: 0px 5%;
 }
+
+@media (max-width: 700px){
+    .bodyheader{
+        justify-content:space-around;
+        align-items: center;
+        border: 1px solid red;
+    }
+
+    .socialNetworks{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+
+
+}

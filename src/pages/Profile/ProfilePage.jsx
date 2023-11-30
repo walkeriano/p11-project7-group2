@@ -9,8 +9,6 @@ import { useNavigate } from "react-router";
 import { useFetch } from "../../ConstructorFetch";
 import { Link } from "react-router-dom";
 
-
-
 export default function ProfilePage() {
   const [verMisRecetas, setVerMisRecetas] = useState(true);
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")));
@@ -41,7 +39,6 @@ export default function ProfilePage() {
     setRecetasDelUsuario(recetasDelUsuarioFiltradas);
   }, [user, data, navigate, hasError]);
 
-
   return (
     <section className="profilepage">
       <HeaderLogin />
@@ -57,25 +54,39 @@ export default function ProfilePage() {
         <AddRecipeForm />
       ) : (
         <div className="card-recipe">
-          {recetasDelUsuario?.map((receta) => (
-            <Link className="card" key={receta.id} to={`/detalles-recetas/${receta.id}`}>
-              <div className="card-info">
-                <p className="tittle-card">{receta.nombre}</p>
-                <section className="info-extra">
-                  <div className="card-info-user">
-                    <img className="card-perfil-user" src={receta.userData[0]?.profile} alt={`img-${receta.userData[0]?.name}`} />
-                    <p>{receta.userData[0]?.name}</p>
-                  </div>
-                  <p className="cat-card">{receta.categoria}</p>
-                </section>
-              </div>
-              <img
-                className="bg-recipe-card"
-                src={receta.imagen}
-                alt="img-receta"
-              />
-            </Link>
-          ))}
+          {recetasDelUsuario && recetasDelUsuario.length > 0 ? (
+            recetasDelUsuario.map((receta) => (
+              <Link
+                className="card"
+                key={receta.id}
+                to={`/detalles-recetas/${receta.id}`}
+              >
+                <div className="card-info">
+                  <p className="tittle-card">{receta.nombre}</p>
+                  <section className="info-extra">
+                    <div className="card-info-user">
+                      <img
+                        className="card-perfil-user"
+                        src={receta.userData[0]?.profile}
+                        alt={`img-${receta.userData[0]?.name}`}
+                      />
+                      <p>{receta.userData[0]?.name}</p>
+                    </div>
+                    <p className="cat-card">{receta.categoria}</p>
+                  </section>
+                </div>
+                <img
+                  className="bg-recipe-card"
+                  src={receta.imagen}
+                  alt="img-receta"
+                />
+              </Link>
+            ))
+          ) : (
+            <div className="cont-anuncion-card-vacio">
+              <p>No hay recetas disponibles.<br/>¡Crea una nueva receta!</p>
+            </div>
+          )}
         </div>
       )}
       <Footer />

@@ -1,8 +1,9 @@
 import "./DetailRecipe.css";
-import React from "react";
+import React, { useRef } from "react";
 import { useParams } from "react-router-dom";
 import { useFetch } from "../../ConstructorFetch";
 import texture from "../../assets/img/icons-texture.png";
+import iconArrow from "../../assets/img/icon-arrow-slider.svg";
 
 export default function DetailRecipe() {
   const { id } = useParams();
@@ -10,14 +11,24 @@ export default function DetailRecipe() {
   const url = `recetas/${id}`;
   const { data } = useFetch(url);
 
+  const containerRef = useRef(null);
+
   if (!data) {
     return <p>Cargando...</p>;
   }
 
+  const scrollToTop = () => {
+    containerRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <section className="cont-info-general">
+    <section ref={containerRef} className="cont-info-general">
       <div className="cont-detail-recipe">
         <section className="cont-img-receta">
+          <div className="cont-detail-receta-user">
+            <img src={data?.userData[0].profile} alt="" />
+            <p>{data?.userData[0].name}</p>
+          </div>
           <img src={data?.imagen} alt="imagen-receta" />
         </section>
         <section className="cont-info-receta">
@@ -72,6 +83,9 @@ export default function DetailRecipe() {
         <span className="degrad-two"></span>
         <img src={texture} className="bg-texture" alt="" />
       </div>
+      <button onClick={scrollToTop} className="btn-up-window">
+        <img src={iconArrow} alt="icon" />
+      </button>
     </section>
   );
 }

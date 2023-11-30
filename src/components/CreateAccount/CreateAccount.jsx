@@ -3,6 +3,9 @@ import photoIcon from "../../assets/img/photoIcon.png";
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router";
+import Swal from "sweetalert2";
+
+
 
 export default function CreateAccount() {
   const [profile, setProfile] = useState({
@@ -53,7 +56,11 @@ export default function CreateAccount() {
         !profile.password ||
         !profile.profile
       ) {
-        console.log("error al enviar");
+        Swal.fire({
+          title: "Completa todos los campos",
+          text: "Inténtalo de nuevo",
+          icon: "error"
+        });
         return;
       }
       const response = await axios.post("http://localhost:5000/users", profile);
@@ -70,6 +77,11 @@ export default function CreateAccount() {
         email: "",
         password: "",
         profile: "",
+      });
+      Swal.fire({
+        title: "Bienvenido!",
+        text: "Registro completado",
+        icon: "success"
       });
       navigate("/profile-page");
     } catch (err) {

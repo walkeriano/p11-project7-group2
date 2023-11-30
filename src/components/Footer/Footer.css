@@ -1,75 +1,49 @@
 .backgroundFooter{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 5%;
-    
-}
-
-.footerPage{
+    margin-top: 150px;
     width: 100%;
     height:300px;
     background-image: url('../../assets/img/patron.svg');
     background-color: #E8E8E8;
-    margin-top: 80px;
 }
 
-.fila1{
-    width: 100%;
+
+.fila-footer{
+    width: 85%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 1%;
-    
 }
 
-.footerFondo{
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-    
+.fila-footer aside{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
 }
+
 
 .logotipoFooter{
-    width: 10%;
-    margin-bottom: 2%;
-    margin-top: 2%;
-    
+    width: 16%;
+    max-width: 200px;
 }
 
 .socialAppFooter{
-    width: 20%;
-    margin: 0 0.8rem;
-    
+    width: 20%; 
 }
 
 .infoLocal{
-    font-family: 'Nunito', sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-    
-}
-
-.infoFooter{
-    display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3%;
-    color: #4E4E4E;
-    
 }
-
-.infoFooter span {
-    color:#4E4E4E;
-}
-
 
 
 
@@ -77,10 +51,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1 rem;
+    font-size: 1.1rem;
     font-weight: bold;
     color: #4E4E4E;
+    letter-spacing: 1px;
+    border-bottom:2px solid #4E4E4E;
     
 }
 

@@ -5,58 +5,67 @@
     flex-direction: column;
     position: relative;
     width: 100%;
+    margin-top: 90px;
 }
 
 .carrusel-container {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     width: 80%;
     margin: auto;
     overflow-x: hidden;
     overflow-y: hidden;
-    scroll-behavior:smooth;
-    
+    scroll-behavior:smooth;  
 }
+
+.cont-title-carrusel{
+    width: 80%;
+    font-weight: bold;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    color: #4E4E4E;
+    margin-bottom: 30px;
+}
+
+
 
 .carrusel-wrapper {
     position: relative;
-    margin-top: 40px;
-    margin-bottom: 40px;
     display: flex;
-    width: 300%;
-    
 }
 
 .categoria {
     border-radius: 8px;
-
 }
 
 
 .imagen-carrusel {
     border-radius: 30px;
-    width: 483px;
-    height: 279px;
+    width: 350px;
+    height: 200px;
     margin-right: 40px;
-   
+    object-fit: cover;
+    cursor: pointer;
 }
 
-.continentes h2 {
-    bottom: 5%;
+
+.continentes h4 {
+    bottom: 20px;
     padding: 0 20px;
     position: absolute;
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
-.carrusel-wrapper span{
+.continentes span{
     padding: 4px 16px;
     border-radius: 50px;
     width: 100%;
-    height: auto;
     backdrop-filter:blur(10px);
     background-color: rgba(0, 0, 0, 0.518);
     color:white;
@@ -64,28 +73,31 @@
 
 .btns {
     position: absolute;
-    width: 85%;
+    width: 88%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    margin-top: 50px;
     
 }
 .arrowButton1,
 .arrowButton2 {
-  padding: 10px;
-  margin: 5px;
-  background-color: #c4c4c4;
-  color: white;
   border: none;
-  border-radius: 40px;
   cursor: pointer;
-  font-size: 30px;
-  
+  background-color: transparent;
+}
+
+.arrowButton1 img{
+    transform: rotate(180deg);
+    width:20px;
+}
+
+.arrowButton2 img{
+    width:20px;
 }
 
 .arrowButton1:hover,
 .arrowButton2:hover {
-  background-color: #F8772F; 
+  transform: scale(1.1);
 }
 

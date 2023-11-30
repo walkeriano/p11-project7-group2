@@ -2,7 +2,7 @@
   "recetas": [
     {
       "id": 1,
-      "nombre": "Lasaña de Carne",
+      "nombre": "Lasagña a la bolognesa con Carne",
       "imagen": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp",
       "categoria": "Platos",
       "dificultad": "0/10",
@@ -21,8 +21,7 @@
         "2 cucharaditas de azúcar",
         "1 cucharadita de orégano seco",
         "1 cucharadita de albahaca seca",
-        "Sal y pimienta al gusto",
-        "12 láminas de lasaña precocida"
+        "Sal y pimienta al gusto"
       ],
       "instrucciones": [
         "Precalienta el horno a 180°C.",
@@ -37,8 +36,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -74,7 +72,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -107,8 +105,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -146,8 +143,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -186,8 +182,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -220,8 +215,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -257,8 +251,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -293,8 +286,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -332,8 +324,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -375,8 +366,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -417,8 +407,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -455,8 +444,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -497,8 +485,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -531,8 +518,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -570,8 +556,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -610,8 +595,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -648,8 +632,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -685,8 +668,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -722,8 +704,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -760,8 +741,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -800,8 +780,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -837,8 +816,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -849,8 +827,9 @@
       "categoria": "Bebidas",
       "dificultad": "2/10",
       "tiempo": 10,
-      "duracion": "minutos",
+      "duracion": "min",
       "porciones": 2,
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "1 taza de fresas frescas, cortadas",
         "1/4 taza de hojas de menta",
@@ -869,8 +848,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -881,8 +859,9 @@
       "categoria": "Bebidas",
       "dificultad": "1/10",
       "tiempo": 5,
-      "duracion": "minutos",
+      "duracion": "min",
       "porciones": 1,
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "1 plátano maduro",
         "1/2 taza de bayas mixtas (fresas, arándanos, moras)",
@@ -900,8 +879,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -912,8 +890,9 @@
       "categoria": "Bebidas",
       "dificultad": "3/10",
       "tiempo": 8,
-      "duracion": "minutos",
+      "duracion": "min",
       "porciones": 2,
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "1 taza de piña fresca, picada",
         "1 taza de leche de coco",
@@ -931,8 +910,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -943,8 +921,9 @@
       "categoria": "Bebidas",
       "dificultad": "1/10",
       "tiempo": 5,
-      "duracion": "minutos",
+      "duracion": "min",
       "porciones": 4,
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "4 limones, exprimidos",
         "1/4 taza de azúcar",
@@ -963,8 +942,7 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
@@ -975,8 +953,9 @@
       "categoria": "Bebidas",
       "dificultad": "2/10",
       "tiempo": 15,
-      "duracion": "minutos",
+      "duracion": "min",
       "porciones": 6,
+      "imagenPreparacion": "https://media.gq.com.mx/photos/5e74fae5bb3b8d000829a104/16:9/w_1920,c_limit/GettyImages-966407886.jpg",
       "ingredientes": [
         "6 bolsitas de té negro",
         "4 duraznos maduros, en rodajas",
@@ -995,189 +974,30 @@
           "id": 1,
           "name": "testuser",
           "email": "testuser@gmail.com",
-          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png",
-          "password": "1234567"
+          "profile": "https://vivolabs.es/wp-content/uploads/2022/03/perfil-hombre-vivo.png"
         }
       ]
     },
     {
       "id": 28,
-      "nombre": "dsadsa",
-      "descripcion": "dsadsa",
-      "categoria": "",
+      "nombre": "dsadsadsadsa",
+      "descripcion": "dsadsadsadas",
+      "categoria": "Postres",
       "dificultad": 2,
       "tiempo": "00:15",
       "porciones": 2,
       "ingredientes": [
-        "dsad"
+        "dsadsa",
+        "dsadasda",
+        "dsadsads"
       ],
-      "instrucciones": "dsadsa"
-    },
-    {
-      "id": 29,
-      "nombre": "dsadsa",
-      "descripcion": "dasdas",
-      "categoria": "",
-      "dificultad": 2,
-      "tiempo": "00:15",
-      "porciones": 2,
-      "ingredientes": [
-        "dsadsa"
-      ],
-      "instrucciones": "dsadsa",
-      "imagen": {}
-    },
-    {
-      "id": 30,
-      "nombre": "dsadsa",
-      "descripcion": "dsad",
-      "categoria": "Platos",
-      "dificultad": 2,
-      "tiempo": "00:15",
-      "porciones": 2,
-      "ingredientes": [],
-      "instrucciones": "dsadsa",
-      "imagen": "https://i.ibb.co/d5Q8knx/bg-aros-movil-two.png"
-    },
-    {
-      "id": 31,
-      "nombre": "dsadas",
-      "descripcion": "dsadsadas",
-      "categoria": "Entrantes",
-      "dificultad": 2,
-      "tiempo": "00:15",
-      "porciones": 2,
-      "ingredientes": [],
-      "instrucciones": "dsadas",
-      "imagen": "https://i.ibb.co/d5Q8knx/bg-aros-movil-two.png"
-    },
-    {
-      "id": 32,
-      "nombre": "dsadas",
-      "descripcion": "dsadas",
-      "categoria": "Platos",
-      "dificultad": 2,
-      "tiempo": "00:15",
-      "porciones": 2,
-      "ingredientes": [],
-      "instrucciones": "dsadsadsa",
-      "imagen": "https://i.ibb.co/d5Q8knx/bg-aros-movil-two.png",
-      "imagenPreparacion": "https://i.ibb.co/yhCcJxc/edit-profile-alex.png"
-    },
-    {
-      "id": 33,
-      "nombre": "dsadsa",
-      "descripcion": "dsadas",
-      "categoria": "Platos",
-      "dificultad": 2,
-      "tiempo": "00:15",
-      "porciones": 2,
-      "ingredientes": [
-        "dsadsa"
-      ],
-      "instrucciones": "dsadas",
-      "imagen": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
-      "imagenPreparacion": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png"
-    },
-    {
-      "id": 34,
-      "nombre": "dsadas",
-      "descripcion": "dsadas",
-      "categoria": "Platos",
-      "dificultad": 2,
-      "tiempo": "00:15",
-      "porciones": 2,
-      "ingredientes": [
-        "dsadas"
-      ],
-      "instrucciones": "dsadasd",
-      "imagen": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
-      "imagenPreparacion": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png"
-    },
-    {
-      "id": 35,
-      "nombre": "dadsa",
-      "descripcion": "dsadas",
-      "categoria": "Platos",
-      "dificultad": 3,
-      "tiempo": "00:30",
-      "porciones": 3,
-      "ingredientes": [
-        "adsadas"
-      ],
-      "instrucciones": "dadsadas",
-      "imagen": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
-      "imagenPreparacion": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
-      "userData": [
-        {
-          "name": "alexander walker",
-          "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
-          "email": "awalkerbarreda@gmail.com"
-        }
-      ]
-    },
-    {
-      "id": 36,
-      "nombre": "dsadsa",
-      "descripcion": "dsadasdas",
-      "categoria": "Platos",
-      "dificultad": 2,
-      "tiempo": "00:15",
-      "porciones": 2,
-      "ingredientes": [
-        "sdad"
-      ],
-      "instrucciones": "dsadas",
-      "imagen": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
-      "imagenPreparacion": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
-      "userData": [
-        {
-          "name": "alexander walker",
-          "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
-          "email": "awalkerbarreda@gmail.com"
-        }
-      ]
-    },
-    {
-      "id": 37,
-      "nombre": "dsadsa",
-      "descripcion": "dasdasdas",
-      "categoria": "Platos",
-      "dificultad": 2,
-      "tiempo": "00:15",
-      "porciones": 2,
-      "ingredientes": [
-        "dsadsa"
-      ],
-      "instrucciones": "dsadas",
-      "imagen": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
-      "imagenPreparacion": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
-      "userData": [
-        {
-          "name": "alexander walker",
-          "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
-          "email": "awalkerbarreda@gmail.com"
-        }
-      ]
-    },
-    {
-      "id": 38,
-      "nombre": "dsadsadsa",
-      "descripcion": "dsadsadasdas",
-      "categoria": "Platos",
-      "dificultad": 2,
-      "tiempo": "00:15",
-      "porciones": 2,
-      "ingredientes": [
-        "dsadsadas"
-      ],
-      "instrucciones": "adsadsadas",
-      "imagen": "https://i.ibb.co/B2c5Z8M/ensalada-pepino-maiz-zanahoria-lechuga-taza-blanca.jpg",
-      "imagenPreparacion": "https://i.ibb.co/QpjCkz5/edit-portada.jpg",
+      "instrucciones": "dsadsadadsa",
+      "imagen": "https://i.ibb.co/HBN2ygF/recetaimg.png",
+      "imagenPreparacion": "https://i.ibb.co/HBN2ygF/recetaimg.png",
       "userData": [
         {
           "name": "jorge andres",
-          "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
+          "profile": "https://i.ibb.co/HBN2ygF/recetaimg.png",
           "email": "jorgeandres@gmail.com"
         }
       ]
@@ -1193,118 +1013,17 @@
     },
     {
       "id": 2,
-      "name": "testuser2",
-      "email": "testuser2@gmail.com",
-      "profile": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp",
-      "password": "1234567"
+      "name": "alexander walker",
+      "email": "awalkerbarreda@gmail.com",
+      "password": "12312312",
+      "profile": "https://i.ibb.co/88PKgWj/edit-profile-alex.png"
     },
     {
       "id": 3,
-      "name": "nuevo usuario",
-      "email": "testuser3@gmail.com",
-      "profile": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp",
-      "password": "1234567"
-    },
-    {
-      "id": 4,
-      "name": "nuevo usuario4",
-      "email": "testuser4@gmail.com",
-      "profile": "https://cdn.bolivia.com/gastronomia/2012/10/26/lasana-boliviana-3495.webp",
-      "password": "1234567"
-    },
-    {
-      "id": 5,
-      "name": "jorge",
-      "email": "jorge.lara.la@gmail.com",
-      "password": "123456"
-    },
-    {
-      "id": 6,
-      "name": "jorge",
-      "email": "jorge.lara.la@gmail.com",
-      "password": "123456"
-    },
-    {
-      "id": 7,
-      "name": "jorge",
-      "email": "jorgelaramedina2@gmail.com",
-      "password": "123456"
-    },
-    {
-      "id": 8,
-      "name": "jorge",
-      "email": "jorgelaramedina2@gmail.com",
-      "password": "123456"
-    },
-    {
-      "id": 9,
-      "name": "alexander",
-      "email": "mirko@gmail.com",
-      "password": "12313213",
-      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
-    },
-    {
-      "id": 10,
-      "name": "alexander walker",
-      "email": "mirko@gmail.com",
-      "password": "1312312312",
-      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
-    },
-    {
-      "id": 11,
-      "name": "alexander walker",
-      "email": "mirko@gmail.com",
-      "password": "1312312312",
-      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
-    },
-    {
-      "id": 12,
-      "name": "alexander walker",
-      "email": "mirko@gmail.com",
-      "password": "1312312312",
-      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
-    },
-    {
-      "id": 13,
-      "name": "alexander walker",
-      "email": "mirko@gmail.com",
-      "password": "1312312312",
-      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
-    },
-    {
-      "id": 14,
-      "name": "alexander walker",
-      "email": "mirko@gmail.com",
-      "password": "1312312312",
-      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
-    },
-    {
-      "id": 15,
-      "name": "alexander walker",
-      "email": "mirko@gmail.com",
-      "password": "1312312312",
-      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
-    },
-    {
-      "id": 16,
-      "name": "alexander walker",
-      "email": "mirko@gmail.com",
-      "password": "1312312312",
-      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
-    },
-    {
-      "id": 17,
-      "name": "alexander walker",
-      "email": "awalkerbarreda@gmail.com",
-      "password": "1321321312312",
-      "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png"
-    },
-    {
-      "id": 18,
       "name": "jorge andres",
       "email": "jorgeandres@gmail.com",
       "password": "1234567",
-      "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png"
+      "profile": "https://i.ibb.co/HBN2ygF/recetaimg.png"
     }
   ],
   "continentes": [

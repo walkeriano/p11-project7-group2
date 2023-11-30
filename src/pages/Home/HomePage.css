@@ -3,3 +3,10 @@
     position: relative;
     z-index: 1;
 }
+
+.section-general-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -49,3 +49,19 @@
     z-index: 0;
 }
 
+
+.cont-anuncion-card-vacio{
+    border: 2px solid #a3a3a3;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.cont-anuncion-card-vacio p{
+    text-align: center;
+    line-height: 1.4;
+    color: #8b8b8b;
+}
