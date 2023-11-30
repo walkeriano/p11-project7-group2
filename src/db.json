@@ -1002,25 +1002,185 @@
     },
     {
       "id": 28,
-      "nombre": "",
-      "descripcion": "",
+      "nombre": "dsadsa",
+      "descripcion": "dsadsa",
       "categoria": "",
-      "dificultad": 1,
-      "tiempo": "00:00",
-      "porciones": 1,
-      "ingredientes": [],
-      "instrucciones": ""
+      "dificultad": 2,
+      "tiempo": "00:15",
+      "porciones": 2,
+      "ingredientes": [
+        "dsad"
+      ],
+      "instrucciones": "dsadsa"
     },
     {
       "id": 29,
-      "nombre": "",
-      "descripcion": "",
+      "nombre": "dsadsa",
+      "descripcion": "dasdas",
       "categoria": "",
-      "dificultad": 1,
-      "tiempo": "00:00",
-      "porciones": 1,
+      "dificultad": 2,
+      "tiempo": "00:15",
+      "porciones": 2,
+      "ingredientes": [
+        "dsadsa"
+      ],
+      "instrucciones": "dsadsa",
+      "imagen": {}
+    },
+    {
+      "id": 30,
+      "nombre": "dsadsa",
+      "descripcion": "dsad",
+      "categoria": "Platos",
+      "dificultad": 2,
+      "tiempo": "00:15",
+      "porciones": 2,
       "ingredientes": [],
-      "instrucciones": ""
+      "instrucciones": "dsadsa",
+      "imagen": "https://i.ibb.co/d5Q8knx/bg-aros-movil-two.png"
+    },
+    {
+      "id": 31,
+      "nombre": "dsadas",
+      "descripcion": "dsadsadas",
+      "categoria": "Entrantes",
+      "dificultad": 2,
+      "tiempo": "00:15",
+      "porciones": 2,
+      "ingredientes": [],
+      "instrucciones": "dsadas",
+      "imagen": "https://i.ibb.co/d5Q8knx/bg-aros-movil-two.png"
+    },
+    {
+      "id": 32,
+      "nombre": "dsadas",
+      "descripcion": "dsadas",
+      "categoria": "Platos",
+      "dificultad": 2,
+      "tiempo": "00:15",
+      "porciones": 2,
+      "ingredientes": [],
+      "instrucciones": "dsadsadsa",
+      "imagen": "https://i.ibb.co/d5Q8knx/bg-aros-movil-two.png",
+      "imagenPreparacion": "https://i.ibb.co/yhCcJxc/edit-profile-alex.png"
+    },
+    {
+      "id": 33,
+      "nombre": "dsadsa",
+      "descripcion": "dsadas",
+      "categoria": "Platos",
+      "dificultad": 2,
+      "tiempo": "00:15",
+      "porciones": 2,
+      "ingredientes": [
+        "dsadsa"
+      ],
+      "instrucciones": "dsadas",
+      "imagen": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
+      "imagenPreparacion": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png"
+    },
+    {
+      "id": 34,
+      "nombre": "dsadas",
+      "descripcion": "dsadas",
+      "categoria": "Platos",
+      "dificultad": 2,
+      "tiempo": "00:15",
+      "porciones": 2,
+      "ingredientes": [
+        "dsadas"
+      ],
+      "instrucciones": "dsadasd",
+      "imagen": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
+      "imagenPreparacion": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png"
+    },
+    {
+      "id": 35,
+      "nombre": "dadsa",
+      "descripcion": "dsadas",
+      "categoria": "Platos",
+      "dificultad": 3,
+      "tiempo": "00:30",
+      "porciones": 3,
+      "ingredientes": [
+        "adsadas"
+      ],
+      "instrucciones": "dadsadas",
+      "imagen": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
+      "imagenPreparacion": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
+      "userData": [
+        {
+          "name": "alexander walker",
+          "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
+          "email": "awalkerbarreda@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "nombre": "dsadsa",
+      "descripcion": "dsadasdas",
+      "categoria": "Platos",
+      "dificultad": 2,
+      "tiempo": "00:15",
+      "porciones": 2,
+      "ingredientes": [
+        "sdad"
+      ],
+      "instrucciones": "dsadas",
+      "imagen": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
+      "imagenPreparacion": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
+      "userData": [
+        {
+          "name": "alexander walker",
+          "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
+          "email": "awalkerbarreda@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "nombre": "dsadsa",
+      "descripcion": "dasdasdas",
+      "categoria": "Platos",
+      "dificultad": 2,
+      "tiempo": "00:15",
+      "porciones": 2,
+      "ingredientes": [
+        "dsadsa"
+      ],
+      "instrucciones": "dsadas",
+      "imagen": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
+      "imagenPreparacion": "https://i.ibb.co/TKVLMHN/bg-aros-movil-two.png",
+      "userData": [
+        {
+          "name": "alexander walker",
+          "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
+          "email": "awalkerbarreda@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "nombre": "dsadsadsa",
+      "descripcion": "dsadsadasdas",
+      "categoria": "Platos",
+      "dificultad": 2,
+      "tiempo": "00:15",
+      "porciones": 2,
+      "ingredientes": [
+        "dsadsadas"
+      ],
+      "instrucciones": "adsadsadas",
+      "imagen": "https://i.ibb.co/B2c5Z8M/ensalada-pepino-maiz-zanahoria-lechuga-taza-blanca.jpg",
+      "imagenPreparacion": "https://i.ibb.co/QpjCkz5/edit-portada.jpg",
+      "userData": [
+        {
+          "name": "jorge andres",
+          "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png",
+          "email": "jorgeandres@gmail.com"
+        }
+      ]
     }
   ],
   "users": [
@@ -1075,6 +1235,76 @@
       "name": "jorge",
       "email": "jorgelaramedina2@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": 9,
+      "name": "alexander",
+      "email": "mirko@gmail.com",
+      "password": "12313213",
+      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
+    },
+    {
+      "id": 10,
+      "name": "alexander walker",
+      "email": "mirko@gmail.com",
+      "password": "1312312312",
+      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
+    },
+    {
+      "id": 11,
+      "name": "alexander walker",
+      "email": "mirko@gmail.com",
+      "password": "1312312312",
+      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
+    },
+    {
+      "id": 12,
+      "name": "alexander walker",
+      "email": "mirko@gmail.com",
+      "password": "1312312312",
+      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
+    },
+    {
+      "id": 13,
+      "name": "alexander walker",
+      "email": "mirko@gmail.com",
+      "password": "1312312312",
+      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
+    },
+    {
+      "id": 14,
+      "name": "alexander walker",
+      "email": "mirko@gmail.com",
+      "password": "1312312312",
+      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
+    },
+    {
+      "id": 15,
+      "name": "alexander walker",
+      "email": "mirko@gmail.com",
+      "password": "1312312312",
+      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
+    },
+    {
+      "id": 16,
+      "name": "alexander walker",
+      "email": "mirko@gmail.com",
+      "password": "1312312312",
+      "profile": "https://i.ibb.co/TBW6dTF/bg-aros-movil.png"
+    },
+    {
+      "id": 17,
+      "name": "alexander walker",
+      "email": "awalkerbarreda@gmail.com",
+      "password": "1321321312312",
+      "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png"
+    },
+    {
+      "id": 18,
+      "name": "jorge andres",
+      "email": "jorgeandres@gmail.com",
+      "password": "1234567",
+      "profile": "https://i.ibb.co/72FyYfD/edit-profile-alex.png"
     }
   ],
   "continentes": [
